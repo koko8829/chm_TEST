@@ -1,0 +1,326 @@
+<!DOCTYPE	html PUBLIC	'-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>  
+<html	xmlns='http://www.w3.org/1999/xhtml'> 
+<head> 
+<meta	http-equiv='Content-Type' content='text/html; charset=utf-8'/> 
+<title>GraphicsPath_Method_arcTo</title> 
+<style type='text/css'> </style>
+<link	href='../../help_Eng.css' rel='stylesheet' type='text/css' /> 
+</head> 
+ 
+<body> 
+<table width='100%' border='0' cellpadding='0' cellspacing='0' bgcolor='#FFFFFF'> 
+	<tr> 
+		<td	height='44'	colspan='2'	background='../../top_bg1.gif'> 
+			<table width='100%' border='0' cellspacing='0' cellpadding='0'  bgcolor='#ffffff'> 
+				<tr> 
+					<td><img src='../../logo1.gif' width='134' height='44' /></td> 
+					<td width='100%' bgcolor='#FFFFFF'> 
+					<td style='padding-right:6px;'><img src='../../logo4.gif' width='110' height='28' /></td> 
+				</tr> 
+			</table> 
+		</td> 
+	</tr> 
+	<tr> 
+		<td	height='28'	colspan='2' bgcolor='#eeeeee'> 
+			<table width='600' border='0' cellspacing='0' cellpadding='0'>  
+				<tr> 
+					<td	width='107'><img src='../../logo2.gif' width='107' height='28' /></td>  
+					<td	class='top_navi'>Components > Component > Graphics > Objects > GraphicsPath > Method > arcTo</td> 
+				</tr> 
+			</table> 
+		</td> 
+	</tr> 
+	<tr> 
+		<td	height='20'	colspan='2'	valign='top'> 
+			<table width='82'	border='0' cellspacing='0' cellpadding='0'> 
+				<tr> 
+					<td></td> 
+				 </tr> 
+			</table> 
+		</td> 
+	</tr> 
+ 
+	<tr	class='list'> 
+		<td	colspan='2'	valign='top'> 
+ 
+			<table width='98%' border='0' align='center' cellpadding='0' cellspacing='0' style='table-layout: fixed; word-wrap:break-word;'>  
+				<tr> 
+					<td	colspan='2' width='24'></td> 
+					<td></td> 
+				</tr> 
+				<tr><td	colspan='3' class='title'>arcTo</td></tr> 
+				<tr><td colspan='3' height='5'></td></tr> 
+				<tr><td colspan='3' height='1' bgcolor='#c5c5c6'></td></tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif' width='14' height='8' /></td> 
+					<td	class='sub_title'>Supported Environments</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2' width='24'></td> 
+					<td	>				<table border ='0' width='100%'> 
+					<tr> 
+						<td colspan='20'>[Desktop]</td>
+						<td align='right' valign='middle'><img src='../../support_legend2_2.gif' /></td> 
+					</tr>
+					<tr>
+						<td colspan='21'>Nexacro Runtime Environment (NRE)</td>
+					</tr>
+					<tr>
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td colspan='7' style='white-space:nowrap;'>Windows</td>
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td colspan='12' style='white-space:nowrap;'>macOS</td>
+					</tr>
+					<tr>
+						<td colspan='21'>Web Runtime Environment (WRE)</td>
+					</tr>
+					<tr> 
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td width='30'>Edge</td>
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td width='46'>Chrome</td>
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td width='40'>Safari</td>
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td width='45'>Firefox</td>
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td colspan='8' width='40'>Opera</td>
+					</tr> 
+					<tr>
+						<td colspan='21' height='10'></td>
+					</tr> 
+					<tr>
+						<td colspan='21' height='18'>[Mobile]</td>
+					</tr> 
+					<tr>
+						<td colspan='21'>Nexacro Runtime Environment (NRE)</td>
+					</tr>
+					<tr> 
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td colspan='7' style='white-space:nowrap;'>Android</td>
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td colspan='12' style='white-space:nowrap;'>iOS/iPadOS</td>
+					</tr> 
+					<tr>
+						<td colspan='21'>Web Runtime Environment (WRE)</td>
+					</tr>
+					<tr> 
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td colspan='7' style='white-space:nowrap;'>Android Default Web Browser</td>
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td colspan='12' style='white-space:nowrap;'>iOS/iPadOS Default Web Browser</td>
+					</tr> 
+				</table> 
+</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif' width='14' height='8' /></td> 
+					<td	class='sub_title'>Description</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'><pre class='list'>This method is used to add a path of an elliptical arc to a GraphicsPath. The arc stretches from the current position to the position delivered as arguments.</pre></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif' width='14' height='8' /></td> 
+					<td	class='sub_title'>Syntax</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'><pre class='list'>GraphicsPath.arcTo(  nX, nY, nRadiusX, nRadiusY, nRotation, bClockwise, bLarge )</pre></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif'	width='14' height='8'	/></td> 
+					<td	class='sub_title'>Parameters</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'> 
+						<table width='100%' border='1' cellpadding='7' cellspacing='0' bordercolorlight='#C6C6C6' bordercolordark='#C6C6C6' style='table-layout:fixed; word-wrap:break-word; border-collapse:collapse;'> 
+							<colgroup> 
+								<col width='20%'></col> 
+								<col width='15%'></col> 
+								<col width='50%'></col> 
+								<col width='15%'></col> 
+							</colgroup> 
+							<tr class='table_title' bgcolor='#F6F6F6' bordercolor='#c6c6c6'> 
+								<td align='center'>Parameters</td> 
+								<td align='center'>Type</td> 
+								<td colspan='2' align='center'>Description</td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>nX</td> 
+								<td>Number</td> 
+								<td colspan='2'><pre class='list'>It specifies a pixel to designate the x-coordinate of a point to add to the path.</pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>nY</td> 
+								<td>Number</td> 
+								<td colspan='2'><pre class='list'>It specifies a pixel to designate the y-coordinate of a point to add to the path.</pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>nRadiusX</td> 
+								<td>Number</td> 
+								<td colspan='2'><pre class='list'>It specifies the horizontal radius of an elliptical arc in pixel.</pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>nRadiusY</td> 
+								<td>Number</td> 
+								<td colspan='2'><pre class='list'>It specifies the vertical radius of an elliptical arc in pixel.</pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>nRotation</td> 
+								<td>Number</td> 
+								<td colspan='2'><pre class='list'>It specifies an angle at which the x-axis will rotate to draw an elliptical arc.
+
+If you specify a 180 degree, the result will be the same as a 0 degree.</pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>bClockwise</td> 
+								<td>Boolean</td> 
+								<td colspan='2'><pre class='list'>It specifies the direction of drawing elliptical arcs.
+
+For "true", the GraphicsControl will draw arcs clockwise, based on the straight line from the current position to the position represent by the values of nX and nY.
+For "false", the GraphicsControl will draw arcs counterclockwise, based on the straight line from the current position to the position represent by the values of nX and nY.
+</pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>bLarge</td> 
+								<td>Boolean</td> 
+								<td colspan='2'><pre class='list'>It chooses between the bigger arc and smaller arc.
+
+For "true", the GraphicsControl will display the bigger arc in the direction indicated by bClockwise.
+For "false", the GraphicsControl will display the smaller arc in the direction indicated by bClockwise.
+</pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td colspan='4'>Sample Call:<br><pre class='list'>var objGPath = new nexacro.GraphicsPath();
+
+objGPath.moveTo( 100,100 );
+objGPath.arcTo( 100, 50, 0, false, true, 200, 200 );</pre></td> 
+							</tr> 
+						</table> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif'	width='14' height='8'	/></td> 
+					<td	class='sub_title'>Return</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'> 
+None 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif'	width='14' height='8'	/></td> 
+					<td	class='sub_title'>Remark</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'><pre class='list'>- After the execution of arcTo(), the current position will change to the position represented by nX and nY.
+
+- The path may not be displayed properly if you do not specify the beginning point of a GraphicsPath.
+
+- The path of an elliptical arc are determined through the below process.
+  1. The arc stretches from the current position to the position represented by nX and nY.
+  2. The arc has the values of nRadiusX and nRadiusY as its horizontal and vertical radiuses respectively.
+  3. The x-axis of the arc rotates at an angle indicated by nRotation.
+  4. Proceeding up to the step 3 will result in two or four elliptical arc paths.
+  5. One of them will be chosen finally, determined by the values of bClockwise and bLarge.
+</pre></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif'	width='14' height='8'	/></td> 
+					<td	class='sub_title'>See Also</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'> 
+			GraphicsPath.<a href='Components_Component_Graphics_Objects_GraphicsPath_Method_bezierCurveTo.html'>bezierCurveTo</a><br> 
+			GraphicsPath.<a href='Components_Component_Graphics_Objects_GraphicsPath_Method_lineTo.html'>lineTo</a><br> 
+			GraphicsPath.<a href='Components_Component_Graphics_Objects_GraphicsPath_Method_moveTo.html'>moveTo</a><br> 
+			GraphicsPath.<a href='Components_Component_Graphics_Objects_GraphicsPath_Method_quadraticCurveTo.html'>quadraticCurveTo</a><br> 
+			GraphicsPath.<a href='Components_Component_Graphics_Objects_GraphicsPath_Method_setPathData.html'>setPathData</a><br> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+			</table> 
+ 
+		</td> 
+	</tr> 
+	<tr	class='list'> 
+		<td colspan='2'	valign='top'> 
+			<table width='98%' border='0' align='center' cellpadding='0' cellspacing='0' style='table-layout:fixed; border-collapse:collapse; border-spacing:0; word-wrap:break-word;'>  
+				<tr><td	height='1' bgcolor='#c5c5c6'></td></tr> 
+			</table> 
+		</td> 
+	</tr> 
+	<tr	class='list'> 
+		<td	width='75' height='35' align='right'></td> 
+		<td> 
+			<table width='180' border='0'	align='right'	cellpadding='0'	cellspacing='0'> 
+				<tr> 
+					<td	width='15'><img	src='../../bottom_update.gif'	width='15' height='9'	/></td> 
+					<td	width='185'	class='bottom_update'>LAST UPDATED Jan. 2024	</td> 
+				</tr> 
+			</table> 
+		</td> 
+	</tr> 
+</table> 
+</body> 
+</html> 

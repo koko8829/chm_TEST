@@ -1,0 +1,169 @@
+<!DOCTYPE	html PUBLIC	'-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>  
+<html	xmlns='http://www.w3.org/1999/xhtml'> 
+<head> 
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" /> 
+<meta	http-equiv='Content-Type' content='text/html; charset=utf-8'/> 
+<title>XPush</title> 
+<style type='text/css'> 
+</style> 
+<link	href='../../help_Eng.css' rel='stylesheet' type='text/css' /> 
+</head> 
+ 
+<body> 
+<table width='100%' border='0' cellpadding='0' cellspacing='0' bgcolor='#FFFFFF'> 
+	<tr> 
+		<td	height='44'	colspan='2'	background='../../top_bg1.gif'> 
+			<table width='100%' border='0' cellspacing='0' cellpadding='0'  bgcolor='#ffffff'> 
+				<tr> 
+					<td><img src='../../logo1.gif' width='134' height='44' /></td> 
+					<td width='100%' bgcolor='#FFFFFF'> </td>
+					<td style='padding-right:6px;'><img src='../../logo4.gif' width='110' height='28' /></td> 
+				</tr> 
+			</table> 
+		</td> 
+	</tr> 
+	<tr> 
+		<td	height='28'	colspan='2' bgcolor='#eeeeee'> 
+			<table width='500' border='0' cellspacing='0' cellpadding='0'>  
+				<tr> 
+					<td	width='107'><img src='../../logo2.gif' width='107' height='28' /></td>  
+					<td	class='top_navi'> </td> 
+				</tr> 
+			</table> 
+		</td> 
+	</tr> 
+	<tr> 
+		<td	height='20'	colspan='2'	valign='top'> 
+			<table width='82'	border='0' cellspacing='0' cellpadding='0'> 
+				<tr> 
+					<td></td> 
+				 </tr> 
+			</table> 
+		</td> 
+	</tr> 
+ 
+	<tr	class='list'> 
+		<td	colspan='2'	valign='top'> 
+ 
+			<table width='98%' border='0' align='center' cellpadding='0' cellspacing='0' style='table-layout: fixed; word-wrap:break-word;'>  
+				<tr> 
+					<td	colspan='2' width='24'></td> 
+					<td></td> 
+				</tr> 
+				<tr><td	colspan='3' class='title'>XPush</td></tr> 
+				<tr><td colspan='3' height='5'></td></tr> 
+				<tr><td colspan='3' height='1' bgcolor='#c5c5c6'></td></tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif' width='14' height='8' /></td> 
+					<td	class='sub_title'>onsuccess Event Action</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'><pre class=list><table width='90%' border='1' cellpadding='7' cellspacing='0' bordercolor='#c6c6c6' bordercolorlight='#C6C6C6' bordercolordark='#C6C6C6' style='table-layout:fixed; border-collapse:collapse; word-wrap:break-word; width='80%';'>	<tr class='table_title' bgcolor='#F6F6F6'>
+		<td align='center' width='26.666666666666668%'>Action</td>
+		<td align='center' width='6.666666666666667%'>Value</td>
+		<td align='center' width='66.66666666666666%'>Description</td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>nexacro.XPushAction.AUTH</pre></td>
+		<td align='Center'><pre style='margin: 0;'>0</pre></td>
+		<td align='Left'><pre style='margin: 0;'>When the X-PUSH server has been connected successfully by the connect() method.</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>nexacro.XPushAction.BYEC</pre></td>
+		<td align='Center'><pre style='margin: 0;'>1</pre></td>
+		<td align='Left'><pre style='margin: 0;'>When the X-PUSH server has been disconnected successfully by the disconnect() method.</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>nexacro.XPushAction.ADDF</pre></td>
+		<td align='Center'><pre style='margin: 0;'>2</pre></td>
+		<td align='Left'><pre style='margin: 0;'>When a topic has been registered successfully by the subscribe() method.</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>nexacro.XPushAction.DELF</pre></td>
+		<td align='Center'><pre style='margin: 0;'>3</pre></td>
+		<td align='Left'><pre style='margin: 0;'>When a topic has been removed successfully by the unsubscribe() method.</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>nexacro.XPushAction.REQD</pre></td>
+		<td align='Center'><pre style='margin: 0;'>4</pre></td>
+		<td align='Left'><pre style='margin: 0;'>When an unreceived reliable messages has been requested successfully by the requestMessage() method.</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>nexacro.XPushAction.RECT</pre></td>
+		<td align='Center'><pre style='margin: 0;'>5</pre></td>
+		<td align='Left'><pre style='margin: 0;'>When an unreceived reliable messages has been responded successfully by the sendResponse() method.</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>nexacro.XPushAction.RGST</pre></td>
+		<td align='Center'><pre style='margin: 0;'>6</pre></td>
+		<td align='Left'><pre style='margin: 0;'>When a device token has been successfully registered in an X-PUSH server by the registerDevice() method.</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>nexacro.XPushAction.UNRG</pre></td>
+		<td align='Center'><pre style='margin: 0;'>7</pre></td>
+		<td align='Left'><pre style='margin: 0;'>When a device token has been successfully unregistered from an X-PUSH server by the unregisterDevice() method.</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>nexacro.XPushAction.ADUI</pre></td>
+		<td align='Center'><pre style='margin: 0;'>8</pre></td>
+		<td align='Left'><pre style='margin: 0;'>When a topic of reliable message has been registered successfully by the registerTopic() method.</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>nexacro.XPushAction.UNUI</pre></td>
+		<td align='Center'><pre style='margin: 0;'>9</pre></td>
+		<td align='Left'><pre style='margin: 0;'>When a topic of reliable message has been unregistered successfully by the unregisterTopic() method.</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>nexacro.XPushAction.MSGC</pre></td>
+		<td align='Center'><pre style='margin: 0;'>10</pre></td>
+		<td align='Left'><pre style='margin: 0;'>When unreceived the number of reliable messages has been successfully requested by the requestMessageCount() method.</pre></td>
+	</tr>
+</table></pre></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+			</table> 
+ 
+		</td> 
+	</tr> 
+	<tr	class='list'> 
+	<td colspan='2'	valign='top'> 
+	<table width='98%' border='0' align='center' cellpadding='0' cellspacing='0' style='table-layout: fixed; word-wrap:break-word;'>  
+		<tr><td	height='1' bgcolor='#c5c5c6'></td></tr> 
+	</table> 
+	</td> 
+	</tr> 
+	<tr	class='list'> 
+		<td	width='75' height='35' align='right'></td> 
+		<td> 
+			<table width='180' border='0'	align='right'	cellpadding='0'	cellspacing='0'> 
+				<tr> 
+					<td	width='15'><img	src='../../bottom_update.gif'	width='15' height='9'	/></td> 
+					<td	width='185'	class='bottom_update'>LAST UPDATED Jan. 2024	</td> 
+				</tr> 
+			</table> 
+		</td> 
+	</tr> 
+</table> 
+</body> 
+</html> 

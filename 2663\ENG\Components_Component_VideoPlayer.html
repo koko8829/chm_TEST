@@ -1,0 +1,778 @@
+<!DOCTYPE	html PUBLIC	'-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>  
+<html	xmlns='http://www.w3.org/1999/xhtml'> 
+<head> 
+<meta	http-equiv='Content-Type' content='text/html; charset=utf-8'/> 
+<title>VideoPlayer</title> 
+<style type='text/css'> 
+</style> 
+<link	href='../../help_Eng.css' rel='stylesheet' type='text/css' /> 
+</head> 
+ 
+<body> 
+<table width='100%' border='0' cellpadding='0' cellspacing='0' bgcolor='#FFFFFF'> 
+	<tr> 
+		<td	height='44'	colspan='2'	background='../../top_bg1.gif'> 
+			<table width='100%' border='0' cellspacing='0' cellpadding='0'  bgcolor='#ffffff'> 
+				<tr> 
+					<td><img src='../../logo1.gif' width='134' height='44' /></td> 
+					<td width='100%' bgcolor='#FFFFFF'> 
+					<td style='padding-right:6px;'><img src='../../logo4.gif' width='110' height='28' /></td> 
+				</tr> 
+			</table> 
+		</td> 
+	</tr> 
+	<tr> 
+		<td	height='28'	colspan='2' bgcolor='#eeeeee'> 
+			<table width='500' border='0' cellspacing='0' cellpadding='0'>  
+				<tr> 
+					<td	width='107'><img src='../../logo2.gif' width='107' height='28' /></td>  
+					<td	class='top_navi'>Components > Component > VideoPlayer</td> 
+				</tr> 
+			</table> 
+		</td> 
+	</tr> 
+	<tr> 
+		<td	height='20'	colspan='2'	valign='top'> 
+			<table width='82'	border='0' cellspacing='0' cellpadding='0'> 
+				<tr> 
+					<td></td> 
+				 </tr> 
+			</table> 
+		</td> 
+	</tr> 
+	<tr	class='list'> 
+		<td	colspan='2'	valign='top'> 
+<table width='98%' border='0' align='center' cellpadding='0' cellspacing='0' style='table-layout: fixed; border-collapse:collapse; word-wrap:break-word;'>  
+				<tr> 
+					<td	colspan='2' width='24'></td> 
+					<td></td> 
+				</tr> 
+				<tr><td	colspan='3' class='title'>VideoPlayer</td></tr> 
+				<tr><td colspan='3' height='5'></td></tr> 
+				<tr><td colspan='3' height='1' bgcolor='#c5c5c6'></td></tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif' width='14' height='8' /></td> 
+					<td	class='sub_title'>Supported Environments</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2' width='24'></td> 
+					<td	>				<table border ='0' width='100%'> 
+					<tr> 
+						<td colspan='20'>[Desktop]</td>
+						<td align='right' valign='middle'><img src='../../support_legend2_2.gif' /></td> 
+					</tr>
+					<tr>
+						<td colspan='21'>Nexacro Runtime Environment (NRE)</td>
+					</tr>
+					<tr>
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td colspan='7' style='white-space:nowrap;'>Windows</td>
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td colspan='12' style='white-space:nowrap;'>macOS</td>
+					</tr>
+					<tr>
+						<td colspan='21'>Web Runtime Environment (WRE)</td>
+					</tr>
+					<tr> 
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td width='30'>Edge</td>
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td width='46'>Chrome</td>
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td width='40'>Safari</td>
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td width='45'>Firefox</td>
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td colspan='8' width='40'>Opera</td>
+					</tr> 
+					<tr>
+						<td colspan='21' height='10'></td>
+					</tr> 
+					<tr>
+						<td colspan='21' height='18'>[Mobile]</td>
+					</tr> 
+					<tr>
+						<td colspan='21'>Nexacro Runtime Environment (NRE)</td>
+					</tr>
+					<tr> 
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td colspan='7' style='white-space:nowrap;'>Android</td>
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td colspan='12' style='white-space:nowrap;'>iOS/iPadOS</td>
+					</tr> 
+					<tr>
+						<td colspan='21'>Web Runtime Environment (WRE)</td>
+					</tr>
+					<tr> 
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td colspan='7' style='white-space:nowrap;'>Android Default Web Browser</td>
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td colspan='12' style='white-space:nowrap;'>iOS/iPadOS Default Web Browser</td>
+					</tr> 
+				</table> 
+</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif' width='14' height='8' /></td> 
+					<td	class='sub_title'>Description</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'><pre class=list>This is a wrapper component that can play a video file or stream.</pre></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif' width='14' height='8' /></td> 
+					<td	class='sub_title'>Remark</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'><pre class=list>- This component can play an audio file or stream.</pre></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif' width='14' height='8' /></td> 
+					<td	class='sub_title'>Constructor</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'><pre class='list'>VideoPlayer.init( strName, vLeft, vTop , vWidth, vHeight [, vRight, vBottom, [vMinWidth, [vMaxWidth, [vMinHeight, [vMaxHeight]]]]] )</pre> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'> 
+						<table width='100%' border='1' cellpadding='7' cellspacing='0' bordercolorlight='#C6C6C6' bordercolordark='#C6C6C6' style='table-layout: fixed; border-collapse:collapse; word-wrap:break-word;'> 
+							<tr class='table_title' bgcolor='#F6F6F6' bordercolor='#c6c6c6'> 
+								<td width='20%' align='center'>Parameters</td> 
+								<td width='15%' align='center'>Type</td> 
+								<td width='65%' align='center'>Description</td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>strName</td> 
+								<td>String</td> 
+								<td><pre>It sets the ID of a VideoPlayer in the form of a string.</pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>vLeft</td> 
+								<td>String, Number</td> 
+								<td><pre>It specifies the value of the left property of a VideoPlayer in pixel or percent (%).
+
+* When you include a base component in the argument:
+If you use a pixel as an unit, this parameter will be determined based on the right property of the base component.
+If you use a percentage (%) as an unit, this parameter will be determined based on the width property of the base component.</pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>vTop</td> 
+								<td>String, Number</td> 
+								<td><pre>It specifies the value of the top property of a VideoPlayer in pixel or percent (%).
+
+* When you include a base component in the argument:
+If you use a pixel as an unit, this parameter will be determined based on the bottom property of the base component.
+If you use a percentage (%) as an unit, this parameter will be determined based on the height property of the base component.</pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>vWidth</td> 
+								<td>String, Number</td> 
+								<td><pre>It specifies the value of the width property of a VideoPlayer in pixel or percent (%).
+
+* When you include a base component in the argument:
+If you use a pixel as an unit, this parameter will be specified in pixel while the base component will be ignored.
+If you use a percentage (%) as an unit, this parameter will be determined based on the width property of the base component.</pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>vHeight</td> 
+								<td>String, Number</td> 
+								<td><pre>It specifies the value of the height property of a VideoPlayer in pixel or percent (%).
+
+* When you include a base component in the argument:
+If you use a pixel as an unit, this parameter will be specified in pixel while the base component will be ignored.
+If you use a percentage (%) as an unit, this parameter will be determined based on the height property of the base component.</pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>vRight</td> 
+								<td>String, Number</td> 
+								<td><pre>It specifies the value of the right property of a VideoPlayer in pixel or percent (%).
+
+This parameter will be ignored if both the vLeft and vWidth parameters are all specified.
+
+* When you include a base component in the argument:
+If you use a pixel as an unit, this parameter will be determined based on the left property of the base component.
+If you use a percentage (%) as an unit, this parameter will be determined based on the width property of the base component.</pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>vBottom</td> 
+								<td>String, Number</td> 
+								<td><pre>It specifies the value of the bottom property of a VideoPlayer in pixel or percent (%).
+
+This parameter will be ignored if both the vTop and vHeight parameters are all specified.
+
+* When you include a base component in the argument:
+If you use a pixel as an unit, this parameter will be determined based on the top property of the base component.
+If you use a percentage (%) as an unit, this parameter will be determined based on the height property of the base component.</pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>vMinWidth</td> 
+								<td>String, Number</td> 
+								<td><pre>It specifies a VideoPlayer's minimum width that can be displayed in the Form.</pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>vMaxWidth</td> 
+								<td>String, Number</td> 
+								<td><pre>It specifies a VideoPlayer's maximum width that can be displayed in the Form.
+
+If this value is smaller than vMinWidth, it will be replaced by the value of vMinWidth.</pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>vMinHeight</td> 
+								<td>String, Number</td> 
+								<td><pre>It specifies a VideoPlayer's minimum height that can be displayed in the Form.</pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>vMaxHeight</td> 
+								<td>String, Number</td> 
+								<td><pre>It specifies a VideoPlayer's maximum height that can be displayed in the Form.
+
+If this value is smaller than vMinHeight, it will be replaced by the value of vMinHeight.</pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td colspan='3'>Sample Call:<br><pre class='list'>var objComp = new VideoPlayer();
+
+objComp.init( "VideoPlayer00", 30, 120, 196, 46 );
+objComp.init( "VideoPlayer00", 30, 120, 196, 46, null, null );
+objComp.init( "VideoPlayer00", null, null, 300, "400px", "80%", 300 );
+objComp.init( "VideoPlayer00", 0, 0, 200, 100, null, null, 300, 500, 200, 500 );
+objComp.init( "VideoPlayer00", "VideoPlayer22:10", 300, null, null, "VideoPlayer33:10", "20%", 300, 500, 200, 500 );</pre></td> 
+							</tr> 
+						</table> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'>
+						<table width='100%' border='1' cellpadding='7' cellspacing='0' bordercolorlight=#C6C6C6 bordercolordark='#C6C6C6' style='table-layout: fixed; word-wrap:break-word; border-collapse:collapse; margin-top:0; margin-bottom:0;'> 
+							<tr class='list' bgcolor='#F6F6F6' bordercolor='#c6c6c6'> 
+								<td> 
+									<pre class='list'><font color='#008000'>// Create Object</font>  
+var objVideoPlayer = new VideoPlayer();  
+objVideoPlayer.init("VideoPlayer", 30, 120, 196, 46, null, null);
+objVideoPlayer.init("VideoPlayer", null, null, 300, "400px", "80%", 300);
+or
+var objVideoPlayer = new VideoPlayer("VideoPlayer", 30, 120, 196, 46, null, null);
+var objVideoPlayer = new VideoPlayer("VideoPlayer", null, null, 300, "400px", "80%", 300);
+ 
+<font color='#008000'>// Add Object to Parent Form</font>  
+this.addChild("VideoPlayer", objVideoPlayer); 
+ 
+<font color='#008000'>// Insert Object to Parent Form</font>  
+this.insertChild(1, "VideoPlayer", objVideoPlayer); 
+ 
+<font color='#008000'>// Remove Object form Parent Form</font>  
+this.removeChild("VideoPlayer"); 
+ 
+<font color='#008000'>// Show Object</font>  
+objVideoPlayer.show(); 
+ 
+<font color='#008000'>// Destroy Object</font>  
+objVideoPlayer.destroy(); 
+objVideoPlayer = null;</pre> 
+								</td> 
+							</tr> 
+						</table> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif'	width='14' height='8'	/></td> 
+					<td	class='sub_title'>Property</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'> 
+						<table width='100%' border='1' cellpadding='7' cellspacing='0' bordercolorlight='#C6C6C6' bordercolordark='#C6C6C6' style='table-layout: fixed; border-collapse:collapse; word-wrap:break-word;' > 
+							<colgroup> 
+								<col width='10%'></col> 
+								<col width='20%'></col> 
+								<col width='70%'></col> 
+							</colgroup> 
+							<tr class='table_title' bgcolor='#F6F6F6' bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2' align='center'>Name</td> 
+								<td width='70%' align='center'>Description</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Property_accessibilityaction.html'>accessibilityaction</a></td> 
+								<td width='70%'>This property sets the action information to be included as the audio output target of the screen reader according to the accessibilitydescreadtype property when moving the selection box to the VideoPlayer.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Property_accessibilitydesclevel.html'>accessibilitydesclevel</a></td> 
+								<td width='70%'>This property is used to determine whether to print accessibility features of the children when a selection box moves to a VideoPlayer.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Property_accessibilitydescription.html'>accessibilitydescription</a></td> 
+								<td width='70%'>This property sets the description information to be included as the audio output target of the screen reader according to the accessibilitydescreadtype property when moving the selection box to the VideoPlayer.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Property_accessibilityenable.html'>accessibilityenable</a></td> 
+								<td width='70%'>This property is used to determine whether to print the values of accessibility-related properties when a selection box moves to a VideoPlayer. </td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Property_accessibilitylabel.html'>accessibilitylabel</a></td> 
+								<td width='70%'>This property sets the label information to be included as the audio output target of the screen reader according to the accessibilitydescreadtype property when moving the selection box to the VideoPlayer.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Property_accessibilityrole.html'>accessibilityrole</a></td> 
+								<td width='70%'>This property sets the role information read by the screen reader when the selection box is moved to the VideoPlayer.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Property_aspectratio.html'>aspectratio</a></td> 
+								<td width='70%'>This read-only property holds a aspect ration of a video file loaded onto a VideoPlayer component.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Property_autoplay.html'>autoplay</a></td> 
+								<td width='70%'>This property is used to determine whether to play a loaded file automatically in a VideoPlayer.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Property_bottom.html'>bottom</a></td> 
+								<td width='70%'>This property is used to set the bottom coordinate value for displaying the VideoPlayer.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Property_cssclass.html'>cssclass</a></td> 
+								<td width='70%'>This property is used to set the style of a VideoPlayer by using a class defined in the relevant XCSS file.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Property_currenttime.html'>currenttime</a></td> 
+								<td width='70%'>This property is used to set the playback position of a video file in a VideoPlayer.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Property_duration.html'>duration</a></td> 
+								<td width='70%'>This read-only property holds the total duration of a video file loaded onto a VideoPlayer.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Property_enable.html'>enable</a></td> 
+								<td width='70%'>This property is used to determine whether to enable a VideoPlayer.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Property_enableevent.html'>enableevent</a></td> 
+								<td width='70%'>This property is used to determine whether to trigger events in a VideoPlayer.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Property_flexgrow.html'>flexgrow</a></td> 
+								<td width='70%'>This property is used to resize the component by dividing the main axis (the horizontal axis, if the type property value is "horizontal" and the vertical axis if the type property value is "vertical") margin within the layout container by the specified ratio.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Property_flexshrink.html'>flexshrink</a></td> 
+								<td width='70%'>This property is used to readjust the size of the components by the ratio specified so that they do not exceed the container area when they are placed on the main axis (the horizontal axis, if the type property value is "horizontal" and the vertical axis if the type property value is "vertical") within the layout container.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Property_height.html'>height</a></td> 
+								<td width='70%'>This property is used to set the height for displaying the VideoPlayer.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Property_id.html'>id</a></td> 
+								<td width='70%'>This property is used to set the identification of a VideoPlayer.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Property_layoutorder.html'>layoutorder</a></td> 
+								<td width='70%'>This property is used to set the order in which components are aligned on the main axis (the horizontal axis, if the type property value is "horizontal" and the vertical axis if the type property value is "vertical") within the layout container.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Property_left.html'>left</a></td> 
+								<td width='70%'>This property is used to set the left coordinate value for displaying the VideoPlayer.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Property_maxheight.html'>maxheight</a></td> 
+								<td width='70%'>This property is used to set the maximum height of a VideoPlayer for the component to be displayed on the screen. </td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Property_maxwidth.html'>maxwidth</a></td> 
+								<td width='70%'>This property is used to set the maximum width of a VideoPlayer for the component to be displayed on the screen.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Property_minheight.html'>minheight</a></td> 
+								<td width='70%'>This property is used to set the minimum height of a VideoPlayer for the component to be displayed on the screen. </td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Property_minwidth.html'>minwidth</a></td> 
+								<td width='70%'>This property is used to set the minimum width of a VideoPlayer for the component to be displayed on the screen.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Property_mute.html'>mute</a></td> 
+								<td width='70%'>This property is used to determine whether to mute a video file in a VideoPlayer.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Property_name.html'>name</a></td> 
+								<td width='70%'>This property is used to specify the name of a VideoPlayer.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Property_-nexa-border.html'>-nexa-border</a></td> 
+								<td width='70%'>This property is used to set the border of a VideoPlayer.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Property_parent.html'>parent</a></td> 
+								<td width='70%'>This read-only property holds the parent object of a VideoPlayer.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Property_positionstep.html'>positionstep</a></td> 
+								<td width='70%'>This property is used to specify the index number of a step page where a VideoPlayer is displayed if the parent object uses the step feature.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Property_repeat.html'>repeat</a></td> 
+								<td width='70%'>This property is used to determine whether to repeat a video file in a VideoPlayer component.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Property_right.html'>right</a></td> 
+								<td width='70%'>This property is used to set the right coordinate value for displaying the VideoPlayer.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Property_showcontrolbar.html'>showcontrolbar</a></td> 
+								<td width='70%'>This property is used to determine whether to display the default UI (ControlBar) in a VideoPlayer.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Property_tablecellarea.html'>tablecellarea</a></td> 
+								<td width='70%'>This property is used to set the area where the component is aligned within the virtual table cell area in the layout container.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Property_taborder.html'>taborder</a></td> 
+								<td width='70%'>This property is used to define the tab order number of a VideoPlayer. Tab order means the order of moving focus among components when the focus is moved by entering the tab key.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Property_tabstop.html'>tabstop</a></td> 
+								<td width='70%'>This property determines whether a VideoPlayer receives focus when you move the focus between components by pressing the tab key.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Property_top.html'>top</a></td> 
+								<td width='70%'>This property is used to set the top coordinate value for displaying the VideoPlayer.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Property_url.html'>url</a></td> 
+								<td width='70%'>This property is used to specify a video file to be played in a VideoPlayer component.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Property_videosize.html'>videosize</a></td> 
+								<td width='70%'>This read-only property holds the actual width and height of a video file loaded onto a VideoPlayer component, in the form of an array.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Property_visible.html'>visible</a></td> 
+								<td width='70%'>This property is used to determine whether to make a VideoPlayer visible or not.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Property_volume.html'>volume</a></td> 
+								<td width='70%'>This property is used to set the volume of a VideoPlayer.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Property_width.html'>width</a></td> 
+								<td width='70%'>This property is used to set the width for displaying the VideoPlayer.</td> 
+							</tr> 
+						</table> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif'	width='14' height='8'	/></td> 
+					<td	class='sub_title'>Method</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'> 
+						<table width='100%' border='1' cellpadding='7' cellspacing='0' bordercolorlight='#C6C6C6' bordercolordark='#C6C6C6' style='table-layout: fixed; border-collapse:collapse; word-wrap:break-word;'> 
+							<colgroup> 
+								<col width='10%'></col> 
+								<col width='20%'></col> 
+								<col width='70%'></col> 
+							</colgroup> 
+							<tr class='table_title' bgcolor='#F6F6F6' bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2' align='center'>Name</td> 
+								<td width='70%' align='center'>Description</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Method_addEvent.html'>addEvent</a></td> 
+								<td width='70%'>This method is used to declare a certain event and then add it to a VideoPlayer.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Method_addEventHandler.html'>addEventHandler</a></td> 
+								<td width='70%'>This method is used to add a handler to a certain event of a VideoPlayer. </td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Method_addEventHandlerLookup.html'>addEventHandlerLookup</a></td> 
+								<td width='70%'>This method is used to find a function and add it to a certain event of a VideoPlayer as a handler.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Method_clearEventHandler.html'>clearEventHandler</a></td> 
+								<td width='70%'>This method is used to delete all the event handlers registered in a certain event.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Method_destroy.html'>destroy</a></td> 
+								<td width='70%'>This method is used to delete a VideoPlayer that is dynamically created through a script. </td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Method_findEventHandler.html'>findEventHandler</a></td> 
+								<td width='70%'>This method finds a handler in a certain event of a VideoPlayer and returns the index of the handler.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Method_getEventHandler.html'>getEventHandler</a></td> 
+								<td width='70%'>This method returns a specific handler from a certain event of a VideoPlayer by specifying the index number of the handler.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Method_getOffsetBottom.html'>getOffsetBottom</a></td> 
+								<td width='70%'>This method is used to obtain the bottom position of a VideoPlayer in pixel, based on the parent component's top side.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Method_getOffsetHeight.html'>getOffsetHeight</a></td> 
+								<td width='70%'>This method is used to obtain the height of a VideoPlayer in pixel.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Method_getOffsetLeft.html'>getOffsetLeft</a></td> 
+								<td width='70%'>This method is used to obtain the left position of a VideoPlayer in pixel, based on the parent component's left side.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Method_getOffsetRight.html'>getOffsetRight</a></td> 
+								<td width='70%'>This method is used to obtain the right position of a VideoPlayer in pixel, based on the parent component's left side.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Method_getOffsetTop.html'>getOffsetTop</a></td> 
+								<td width='70%'>This method is used to obtain the top position of a VideoPlayer in pixel, based on the parent component's top side.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Method_getOffsetWidth.html'>getOffsetWidth</a></td> 
+								<td width='70%'>This method is used to obtain the width of a VideoPlayer in pixel.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Method_getPixelBottom.html'>getPixelBottom</a></td> 
+								<td width='70%'>This method returns the value of a VideoPlayer's bottom property in pixel.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Method_getPixelHeight.html'>getPixelHeight</a></td> 
+								<td width='70%'>This method returns the height of a VideoPlayer in pixel.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Method_getPixelLeft.html'>getPixelLeft</a></td> 
+								<td width='70%'>This method returns the value of a VideoPlayer's left property in pixel.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Method_getPixelRight.html'>getPixelRight</a></td> 
+								<td width='70%'>This method returns the value of a VideoPlayer's right property in pixel.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Method_getPixelTop.html'>getPixelTop</a></td> 
+								<td width='70%'>This method returns the value of a VideoPlayer's top property in pixel.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Method_getPixelWidth.html'>getPixelWidth</a></td> 
+								<td width='70%'>This method returns the width of a VideoPlayer in pixel.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Method_init.html'>init</a></td> 
+								<td width='70%'>This method is used to initialize a VideoPlayer after creating it in a script dynamically.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Method_insertEventHandler.html'>insertEventHandler</a></td> 
+								<td width='70%'>This method is used to add a handler to a certain event of a VideoPlayer at a specified position. </td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Method_move.html'>move</a></td> 
+								<td width='70%'>This method is used to change the position and size of a VideoPlayer.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Method_pause.html'>pause</a></td> 
+								<td width='70%'>This method is used to pause a video file played by a VideoPlayer component.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Method_play.html'>play</a></td> 
+								<td width='70%'>The method to play the video file loaded in the VideoPlayer.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Method_removeEvent.html'>removeEvent</a></td> 
+								<td width='70%'>This method is used to remove a certain event that is declared in a VideoPlayer.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Method_removeEventHandler.html'>removeEventHandler</a></td> 
+								<td width='70%'>This method is used to remove a handler in a certain event of a VideoPlayer.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Method_removeEventHandlerLookup.html'>removeEventHandlerLookup</a></td> 
+								<td width='70%'>This method is used to find a handler in a certain event of a VideoPlayer and remove it.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Method_resize.html'>resize</a></td> 
+								<td width='70%'>This method is used to change the size of a VideoPlayer.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Method_rewind.html'>rewind</a></td> 
+								<td width='70%'>This method is used to bring the playback position of a video file to the beginning. The file is the one loaded onto a VideoPlayer component.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Method_setEventHandler.html'>setEventHandler</a></td> 
+								<td width='70%'>This method is used to change the first handler in a certain event of a VideoPlayer.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Method_setEventHandlerLookup.html'>setEventHandlerLookup</a></td> 
+								<td width='70%'>This method finds a function and uses it to replace the first handler in a certain event of a VideoPlayer.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Method_setOffsetBottom.html'>setOffsetBottom</a></td> 
+								<td width='70%'>This method is used to specify the bottom position of a VideoPlayer in pixel, based on the parent component's top position.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Method_setOffsetHeight.html'>setOffsetHeight</a></td> 
+								<td width='70%'>This method is used to specify the height of a VideoPlayer in pixel.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Method_setOffsetLeft.html'>setOffsetLeft</a></td> 
+								<td width='70%'>This method is used to specify the left position of a VideoPlayer in pixel, based on the parent component's left position.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Method_setOffsetRight.html'>setOffsetRight</a></td> 
+								<td width='70%'>This method is used to specify the right position of a VideoPlayer in pixel, based on the parent component's left position.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Method_setOffsetTop.html'>setOffsetTop</a></td> 
+								<td width='70%'>This method is used to specify the top position of a VideoPlayer in pixel, based on the parent component's top position.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Method_setOffsetWidth.html'>setOffsetWidth</a></td> 
+								<td width='70%'>This method is used to specify the width of a VideoPlayer in pixel.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Method_show.html'>show</a></td> 
+								<td width='70%'>This method is used to display a VideoPlayer on the screen. The VideoPlayer mentioned here refers to the one that is dynamically created through a script.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Method_stop.html'>stop</a></td> 
+								<td width='70%'>This method is used for a VideoPlayer component to stop playing a video file and move the playback position to the beginning.</td> 
+							</tr> 
+						</table> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif'	width='14' height='8'	/></td> 
+					<td	class='sub_title'>Event</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'> 
+						<table width='100%' border='1' cellpadding='7' cellspacing='0' bordercolorlight='#C6C6C6' bordercolordark='#C6C6C6' style='table-layout: fixed; border-collapse:collapse; word-wrap:break-word;'> 
+							<colgroup> 
+								<col width='10%'></col> 
+								<col width='20%'></col> 
+								<col width='70%'></col> 
+							</colgroup> 
+							<tr class='table_title' bgcolor='#F6F6F6' bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2' align='center'>Name</td> 
+								<td width='70%' align='center'>Description</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Event_oncurrenttimechanged.html'>oncurrenttimechanged</a></td> 
+								<td width='70%'>This event occurs when the playback position changes.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Event_onerror.html'>onerror</a></td> 
+								<td width='70%'>This error occurs when a VideoPlayer component fails to process a video file.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Event_onmove.html'>onmove</a></td> 
+								<td width='70%'>This event occurs when the position of a VideoPlayer changes.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Event_onplaystatuschanged.html'>onplaystatuschanged</a></td> 
+								<td width='70%'>This event occurs when the status of playing a video file changes in a VideoPlayer component.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_VideoPlayer_Event_onsize.html'>onsize</a></td> 
+								<td width='70%'>This event occurs when the size of a VideoPlayer changes.</td> 
+							</tr> 
+						</table> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+			</table> 
+ 
+		</td> 
+	</tr> 
+	<tr	class='list'> 
+		<td colspan='2'	valign='top'> 
+			<table width='98%' border='0' align='center' cellpadding='0' cellspacing='0' style='table-layout: fixed; word-wrap:break-word;'>  
+				<tr><td	height='1' bgcolor='#c5c5c6'></td></tr> 
+			</table> 
+		</td> 
+	</tr> 
+	<tr	class='list'> 
+		<td	width='75' height='35' align='right'></td> 
+		<td> 
+			<table width='180' border='0'	align='right'	cellpadding='0'	cellspacing='0'> 
+				<tr> 
+					<td	width='15'><img	src='../../bottom_update.gif'	width='15' height='9'	/></td> 
+					<td	width='185'	class='bottom_update'>LAST UPDATED Jan. 2024	</td> 
+				</tr> 
+			</table> 
+		</td> 
+	</tr> 
+</table> 
+</body> 
+</html> 

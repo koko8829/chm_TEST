@@ -1,0 +1,1387 @@
+<!DOCTYPE	html PUBLIC	'-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>  
+<html	xmlns='http://www.w3.org/1999/xhtml'> 
+<head> 
+<meta	http-equiv='Content-Type' content='text/html; charset=utf-8'/> 
+<title>ListBox</title> 
+<style type='text/css'> 
+</style> 
+<link	href='../../help_Eng.css' rel='stylesheet' type='text/css' /> 
+</head> 
+ 
+<body> 
+<table width='100%' border='0' cellpadding='0' cellspacing='0' bgcolor='#FFFFFF'> 
+	<tr> 
+		<td	height='44'	colspan='2'	background='../../top_bg1.gif'> 
+			<table width='100%' border='0' cellspacing='0' cellpadding='0'  bgcolor='#ffffff'> 
+				<tr> 
+					<td><img src='../../logo1.gif' width='134' height='44' /></td> 
+					<td width='100%' bgcolor='#FFFFFF'> 
+					<td style='padding-right:6px;'><img src='../../logo4.gif' width='110' height='28' /></td> 
+				</tr> 
+			</table> 
+		</td> 
+	</tr> 
+	<tr> 
+		<td	height='28'	colspan='2' bgcolor='#eeeeee'> 
+			<table width='500' border='0' cellspacing='0' cellpadding='0'>  
+				<tr> 
+					<td	width='107'><img src='../../logo2.gif' width='107' height='28' /></td>  
+					<td	class='top_navi'>Components > Component > ListBox</td> 
+				</tr> 
+			</table> 
+		</td> 
+	</tr> 
+	<tr> 
+		<td	height='20'	colspan='2'	valign='top'> 
+			<table width='82'	border='0' cellspacing='0' cellpadding='0'> 
+				<tr> 
+					<td></td> 
+				 </tr> 
+			</table> 
+		</td> 
+	</tr> 
+	<tr	class='list'> 
+		<td	colspan='2'	valign='top'> 
+<table width='98%' border='0' align='center' cellpadding='0' cellspacing='0' style='table-layout: fixed; border-collapse:collapse; word-wrap:break-word;'>  
+				<tr> 
+					<td	colspan='2' width='24'></td> 
+					<td></td> 
+				</tr> 
+				<tr><td	colspan='3' class='title'>ListBox</td></tr> 
+				<tr><td colspan='3' height='5'></td></tr> 
+				<tr><td colspan='3' height='1' bgcolor='#c5c5c6'></td></tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif' width='14' height='8' /></td> 
+					<td	class='sub_title'>Supported Environments</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2' width='24'></td> 
+					<td	>				<table border ='0' width='100%'> 
+					<tr> 
+						<td colspan='20'>[Desktop]</td>
+						<td align='right' valign='middle'><img src='../../support_legend2_2.gif' /></td> 
+					</tr>
+					<tr>
+						<td colspan='21'>Nexacro Runtime Environment (NRE)</td>
+					</tr>
+					<tr>
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td colspan='7' style='white-space:nowrap;'>Windows</td>
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td colspan='12' style='white-space:nowrap;'>macOS</td>
+					</tr>
+					<tr>
+						<td colspan='21'>Web Runtime Environment (WRE)</td>
+					</tr>
+					<tr> 
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td width='30'>Edge</td>
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td width='46'>Chrome</td>
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td width='40'>Safari</td>
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td width='45'>Firefox</td>
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td colspan='8' width='40'>Opera</td>
+					</tr> 
+					<tr>
+						<td colspan='21' height='10'></td>
+					</tr> 
+					<tr>
+						<td colspan='21' height='18'>[Mobile]</td>
+					</tr> 
+					<tr>
+						<td colspan='21'>Nexacro Runtime Environment (NRE)</td>
+					</tr>
+					<tr> 
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td colspan='7' style='white-space:nowrap;'>Android</td>
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td colspan='12' style='white-space:nowrap;'>iOS/iPadOS</td>
+					</tr> 
+					<tr>
+						<td colspan='21'>Web Runtime Environment (WRE)</td>
+					</tr>
+					<tr> 
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td colspan='7' style='white-space:nowrap;'>Android Default Web Browser</td>
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td colspan='12' style='white-space:nowrap;'>iOS/iPadOS Default Web Browser</td>
+					</tr> 
+				</table> 
+</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif' width='14' height='8' /></td> 
+					<td	class='sub_title'>Description</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'><pre class=list>The ListBox is a component used to select one or multiple values among several candidate values.
+
+The ListBox is also used to output multiple selected values.
+The data of the ListBox is used through the InnerBind Dataset.</pre></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif' width='14' height='8' /></td> 
+					<td	class='sub_title'>Structure</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'><pre class=list><img src='../nexacro17_14_ListBox2.png' border='0'></pre></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif'	width='14' height='8'	/></td> 
+					<td	class='sub_title'>Contents Sizing</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'><pre class='list'>The below table describes how to size a ListBox.</pre> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'> 
+						<table width='100%' border='1' cellpadding='7' cellspacing='0' bordercolorlight='#C6C6C6' bordercolordark='#C6C6C6' style='table-layout: fixed; border-collapse:collapse; word-wrap:break-word;' > 
+							<colgroup> 
+								<col width='15%'></col> 
+								<col width='85%'></col> 
+							</colgroup> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>NULL</td> 
+								<td><pre style='margin: 0;'>ListBox Component  * An hscrollbar control will appear if the width of the ListBox is smaller than the longest width among listboxitem controls. * A vscrollbar control will appear if the height of the ListBox is smaller than the total height of all listboxitem controls.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Width</td> 
+								<td><pre style='margin: 0;'>The value of the width property of the ListBox is applied.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Height</td> 
+								<td><pre style='margin: 0;'>The value of the height property of the ListBox is applied.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>NULL</td> 
+								<td><pre style='margin: 0;'>listboxitem Control</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Left</td> 
+								<td><pre style='margin: 0;'>The value of the left property is 0.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Top</td> 
+								<td><pre style='margin: 0;'>The value of the top property is calculated by factoring in the number of listboxitem controls and the height of the listboxitem control.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Width</td> 
+								<td><pre style='margin: 0;'>The width adopts the longest text among the items displayed in the listboxitem control.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Height</td> 
+								<td><pre style='margin: 0;'>The value of the itemheight property of the ListBox is applied. If itemheight is not set, the height will be calculated according to the text size.</pre></td> 
+							</tr> 
+						</table> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif'	width='14' height='8'	/></td> 
+					<td	class='sub_title'>Basic Key Action</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'> 
+						<table width='100%' border='1' cellpadding='7' cellspacing='0' bordercolorlight='#C6C6C6' bordercolordark='#C6C6C6' style='table-layout: fixed; border-collapse:collapse; word-wrap:break-word;' > 
+							<tr class='table_title' bgcolor='#F6F6F6' bordercolor='#c6c6c6'> 
+								<td width='20%' align='center'>Action</td> 
+								<td width='20%' align='center'>Key</td> 
+								<td width='60%' align='center'>Description</td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Move focus</td> 
+								<td>Tab</td> 
+								<td><pre style='margin: 0;'>The focus moves to the next component according to the tab movement order.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Move between items</td> 
+								<td>Up/Down arrow key</td> 
+								<td><pre style='margin: 0;'>Focus moves between items. 
+An item will be selected automatically if it receives focus. 
+
+If you press the up or down arrow key in the first or last item respectively, focus will move to the last or first item respectively.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Scroll ListBox</td> 
+								<td>Ctrl + arrow keys</td> 
+								<td><pre style='margin: 0;'>Scrolls to the direction of the arrow key entered when vscrollbar is enabled.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Scroll ListBox (page)</td> 
+								<td>PageUp/PageDown</td> 
+								<td><pre style='margin: 0;'>Scrolls to page units (number of items displayed on the screen) when vscrollbar is enabled.
+The item in the moved position is automatically selected.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Select multiple items</td> 
+								<td>Shift + Up/Down arrow key</td> 
+								<td><pre style='margin: 0;'>Multiple items can be selected when the multiselect property is set to "true".
+Entering an up or down arrow key with the shift key pressed selects the item at the starting point plus the above or below item consecutively.</pre></td> 
+							</tr> 
+						</table> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif'	width='14' height='8'	/></td> 
+					<td	class='sub_title'>Accessibility Key Action</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'><pre class=list>This is a key action to be applied when the accessibility function is activated.</pre></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'> 
+						<table width='100%' border='1' cellpadding='7' cellspacing='0' bordercolorlight='#C6C6C6' bordercolordark='#C6C6C6' style='table-layout: fixed; border-collapse:collapse; word-wrap:break-word;' > 
+							<tr class='table_title' bgcolor='#F6F6F6' bordercolor='#c6c6c6'> 
+								<td width='20%' align='center'>Action</td> 
+								<td width='20%' align='center'>Key</td> 
+								<td width='60%' align='center'>Description</td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Move focus</td> 
+								<td>Tab</td> 
+								<td><pre style='margin: 0;'>The focus moves to the next component according to the tab movement order.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Move selection box</td> 
+								<td>Up/Down arrow key</td> 
+								<td><pre style='margin: 0;'>A selection box moves between items. 
+The item in the moved position is not automatically selected.
+It must press the space or enter key to select the item in the moved position.
+
+If you press the up or down arrow key in the first or last item respectively, a selection box will move to the previous or next component according to the tab order respectively.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Determine selection</td> 
+								<td>Space</td> 
+								<td><pre style='margin: 0;'>Pressing the space bar determines the selection of an item and apply it to the value property.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Scroll ListBox</td> 
+								<td>Ctrl + arrow keys</td> 
+								<td><pre style='margin: 0;'>Scrolls to the direction of the arrow key entered when vscrollbar is enabled.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Scroll ListBox (page)</td> 
+								<td>PageUp/PageDown</td> 
+								<td><pre style='margin: 0;'>Scrolls to page units (number of items displayed on the screen) when vscrollbar is enabled.
+The item in the moved position is not automatically selected.
+It must press the space or enter key to select the item in the moved position.</pre></td> 
+							</tr> 
+						</table> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif' width='14' height='8' /></td> 
+					<td	class='sub_title'>Constructor</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'><pre class='list'>ListBox.init( strName, vLeft, vTop , vWidth, vHeight [, vRight, vBottom, [vMinWidth, [vMaxWidth, [vMinHeight, [vMaxHeight]]]]] )</pre> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'> 
+						<table width='100%' border='1' cellpadding='7' cellspacing='0' bordercolorlight='#C6C6C6' bordercolordark='#C6C6C6' style='table-layout: fixed; border-collapse:collapse; word-wrap:break-word;'> 
+							<tr class='table_title' bgcolor='#F6F6F6' bordercolor='#c6c6c6'> 
+								<td width='20%' align='center'>Parameters</td> 
+								<td width='15%' align='center'>Type</td> 
+								<td width='65%' align='center'>Description</td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>strName</td> 
+								<td>String</td> 
+								<td><pre>It sets the ID of a ListBox in the form of a string.</pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>vLeft</td> 
+								<td>String, Number</td> 
+								<td><pre>It specifies the value of the left property of a ListBox in pixel or percent (%).
+
+* When you include a base component in the argument:
+If you use a pixel as an unit, this parameter will be determined based on the right property of the base component.
+If you use a percentage (%) as an unit, this parameter will be determined based on the width property of the base component.</pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>vTop</td> 
+								<td>String, Number</td> 
+								<td><pre>It specifies the value of the top property of a ListBox in pixel or percent (%).
+
+* When you include a base component in the argument:
+If you use a pixel as an unit, this parameter will be determined based on the bottom property of the base component.
+If you use a percentage (%) as an unit, this parameter will be determined based on the height property of the base component.</pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>vWidth</td> 
+								<td>String, Number</td> 
+								<td><pre>It specifies the value of the width property of a ListBox in pixel or percent (%).
+
+* When you include a base component in the argument:
+If you use a pixel as an unit, this parameter will be specified in pixel while the base component will be ignored.
+If you use a percentage (%) as an unit, this parameter will be determined based on the width property of the base component.</pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>vHeight</td> 
+								<td>String, Number</td> 
+								<td><pre>It specifies the value of the height property of a ListBox in pixel or percent (%).
+
+* When you include a base component in the argument:
+If you use a pixel as an unit, this parameter will be specified in pixel while the base component will be ignored.
+If you use a percentage (%) as an unit, this parameter will be determined based on the height property of the base component.</pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>vRight</td> 
+								<td>String, Number</td> 
+								<td><pre>It specifies the value of the right property of a ListBox in pixel or percent (%).
+
+This parameter will be ignored if both the vLeft and vWidth parameters are all specified.
+
+* When you include a base component in the argument:
+If you use a pixel as an unit, this parameter will be determined based on the left property of the base component.
+If you use a percentage (%) as an unit, this parameter will be determined based on the width property of the base component.</pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>vBottom</td> 
+								<td>String, Number</td> 
+								<td><pre>It specifies the value of the bottom property of a ListBox in pixel or percent (%).
+
+This parameter will be ignored if both the vTop and vHeight parameters are all specified.
+
+* When you include a base component in the argument:
+If you use a pixel as an unit, this parameter will be determined based on the top property of the base component.
+If you use a percentage (%) as an unit, this parameter will be determined based on the height property of the base component.</pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>vMinWidth</td> 
+								<td>String, Number</td> 
+								<td><pre>It specifies a ListBox's minimum width that can be displayed in the Form.</pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>vMaxWidth</td> 
+								<td>String, Number</td> 
+								<td><pre>It specifies a ListBox's maximum width that can be displayed in the Form.
+
+If this value is smaller than vMinWidth, it will be replaced by the value of vMinWidth.</pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>vMinHeight</td> 
+								<td>String, Number</td> 
+								<td><pre>It specifies a ListBox's minimum height that can be displayed in the Form.</pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>vMaxHeight</td> 
+								<td>String, Number</td> 
+								<td><pre>It specifies a ListBox's maximum height that can be displayed in the Form.
+
+If this value is smaller than vMinHeight, it will be replaced by the value of vMinHeight.</pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td colspan='3'>Sample Call:<br><pre class='list'>var objComp = new ListBox();
+
+objComp.init( "ListBox00", 30, 120, 196, 46 );
+objComp.init( "ListBox00", 30, 120, 196, 46, null, null );
+objComp.init( "ListBox00", null, null, 300, "400px", "80%", 300 );
+objComp.init( "ListBox00", 0, 0, 200, 100, null, null, 300, 500, 200, 500 );
+objComp.init( "ListBox00", "ListBox22:10", 300, null, null, "ListBox33:10", "20%", 300, 500, 200, 500 );</pre></td> 
+							</tr> 
+						</table> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'>
+						<table width='100%' border='1' cellpadding='7' cellspacing='0' bordercolorlight=#C6C6C6 bordercolordark='#C6C6C6' style='table-layout: fixed; word-wrap:break-word; border-collapse:collapse; margin-top:0; margin-bottom:0;'> 
+							<tr class='list' bgcolor='#F6F6F6' bordercolor='#c6c6c6'> 
+								<td> 
+									<pre class='list'><font color='#008000'>// Create Object</font>  
+var objListBox = new ListBox();  
+objListBox.init("ListBox", 30, 120, 196, 46, null, null);
+objListBox.init("ListBox", null, null, 300, "400px", "80%", 300);
+or
+var objListBox = new ListBox("ListBox", 30, 120, 196, 46, null, null);
+var objListBox = new ListBox("ListBox", null, null, 300, "400px", "80%", 300);
+ 
+<font color='#008000'>// Add Object to Parent Form</font>  
+this.addChild("ListBox", objListBox); 
+ 
+<font color='#008000'>// Insert Object to Parent Form</font>  
+this.insertChild(1, "ListBox", objListBox); 
+ 
+<font color='#008000'>// Remove Object form Parent Form</font>  
+this.removeChild("ListBox"); 
+ 
+<font color='#008000'>// Show Object</font>  
+objListBox.show(); 
+ 
+<font color='#008000'>// Destroy Object</font>  
+objListBox.destroy(); 
+objListBox = null;
+</pre> 
+								</td> 
+							</tr> 
+						</table> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif'	width='14' height='8'	/></td> 
+					<td	class='sub_title'>Property</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'> 
+						<table width='100%' border='1' cellpadding='7' cellspacing='0' bordercolorlight='#C6C6C6' bordercolordark='#C6C6C6' style='table-layout: fixed; border-collapse:collapse; word-wrap:break-word;' > 
+							<colgroup> 
+								<col width='10%'></col> 
+								<col width='20%'></col> 
+								<col width='70%'></col> 
+							</colgroup> 
+							<tr class='table_title' bgcolor='#F6F6F6' bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2' align='center'>Name</td> 
+								<td width='70%' align='center'>Description</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_acceptvaluetype.html'>acceptvaluetype</a></td> 
+								<td width='70%'>This property determines how to process the case where the value property of a ListBox is set through a script with a code that is non-existent in the innerdataset.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_accessibilityaction.html'>accessibilityaction</a></td> 
+								<td width='70%'>This property sets the action information to be included as the audio output target of the screen reader according to the accessibilitydescreadtype property when moving the selection box to the ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_accessibilitydesclevel.html'>accessibilitydesclevel</a></td> 
+								<td width='70%'>This property is used to determine whether to print accessibility features of the children when a selection box moves to a ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_accessibilitydescription.html'>accessibilitydescription</a></td> 
+								<td width='70%'>This property sets the description information to be included as the audio output target of the screen reader according to the accessibilitydescreadtype property when moving the selection box to the ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_accessibilityenable.html'>accessibilityenable</a></td> 
+								<td width='70%'>This property is used to determine whether to print the values of accessibility-related properties when a selection box moves to a ListBox. </td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_accessibilitylabel.html'>accessibilitylabel</a></td> 
+								<td width='70%'>This property sets the label information to be included as the audio output target of the screen reader according to the accessibilitydescreadtype property when moving the selection box to the ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_accessibilityrole.html'>accessibilityrole</a></td> 
+								<td width='70%'>This property sets the role information read by the screen reader when the selection box is moved to the ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_background.html'>background</a></td> 
+								<td width='70%'>The attribute to set the background area of the ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_border-radius.html'>border-radius</a></td> 
+								<td width='70%'>This property is used to set the shape of the corners of a ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_bottom.html'>bottom</a></td> 
+								<td width='70%'>This property is used to set the bottom coordinate value for displaying the ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_box-shadow.html'>box-shadow</a></td> 
+								<td width='70%'>The attribute to set the shadow effect on the ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_codecolumn.html'>codecolumn</a></td> 
+								<td width='70%'>This property designates a Dataset column that is used as the code values of a ListBox's item list.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_color.html'>color</a></td> 
+								<td width='70%'>This property is used to set the color of the text displayed in a ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_cssclass.html'>cssclass</a></td> 
+								<td width='70%'>This property is used to set the style of a ListBox by using a class defined in the relevant XCSS file.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_cursor.html'>cursor</a></td> 
+								<td width='70%'>This property is used to set the type of a mouse pointer that appears when the mouse cursor is located in a ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_datacolumn.html'>datacolumn</a></td> 
+								<td width='70%'>This property designates a Dataset column that is used as the data values of a ListBox's item list.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_dragscrolltype.html'>dragscrolltype</a></td> 
+								<td width='70%'>This property is used to determine the directions of scrolling, caused by a user touching and dragging a ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_enable.html'>enable</a></td> 
+								<td width='70%'>This property is used to determine whether to enable a ListBox.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_enableevent.html'>enableevent</a></td> 
+								<td width='70%'>This property is used to determine whether to trigger events in a ListBox.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_flexgrow.html'>flexgrow</a></td> 
+								<td width='70%'>This property is used to resize the component by dividing the main axis (the horizontal axis, if the type property value is "horizontal" and the vertical axis if the type property value is "vertical") margin within the layout container by the specified ratio.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_flexshrink.html'>flexshrink</a></td> 
+								<td width='70%'>This property is used to readjust the size of the components by the ratio specified so that they do not exceed the container area when they are placed on the main axis (the horizontal axis, if the type property value is "horizontal" and the vertical axis if the type property value is "vertical") within the layout container.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_font.html'>font</a></td> 
+								<td width='70%'>This property is used to set the font used in ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_height.html'>height</a></td> 
+								<td width='70%'>This property is used to set the height for displaying the ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_hotkey.html'>hotkey</a></td> 
+								<td width='70%'>The attribute to set the hotkey to execute the basic actions of the ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_hscrollbar.html'>hscrollbar</a></td> 
+								<td width='70%'>The read-only attribute with an object of the horizontal scrollbar, a sub-control of the ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_id.html'>id</a></td> 
+								<td width='70%'>This property is used to set the identification of a ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_index.html'>index</a></td> 
+								<td width='70%'>This property holds the index number of a selected item of a ListBox. This property can also set the index of such an item.
+
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_initvalueid.html'>initvalueid</a></td> 
+								<td width='70%'>This property is used to set the ID of an InitValue to be applied to an ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_innerdataset.html'>innerdataset</a></td> 
+								<td width='70%'>This property is used to specify the ID of a dataset that defines the item list of a ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_itemheight.html'>itemheight</a></td> 
+								<td width='70%'>This property is used to set the height of a row where each item is displayed.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_layoutorder.html'>layoutorder</a></td> 
+								<td width='70%'>This property is used to set the order in which components are aligned on the main axis (the horizontal axis, if the type property value is "horizontal" and the vertical axis if the type property value is "vertical") within the layout container.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_left.html'>left</a></td> 
+								<td width='70%'>This property is used to set the left coordinate value for displaying the ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_letter-spacing.html'>letter-spacing</a></td> 
+								<td width='70%'>This property is used to set the spacing between characters (kerning) displayed in a ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_maxheight.html'>maxheight</a></td> 
+								<td width='70%'>This property is used to set the maximum height of a ListBox for the component to be displayed on the screen. </td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_maxwidth.html'>maxwidth</a></td> 
+								<td width='70%'>This property is used to set the maximum width of a ListBox for the component to be displayed on the screen.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_minheight.html'>minheight</a></td> 
+								<td width='70%'>This property is used to set the minimum height of a ListBox for the component to be displayed on the screen. </td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_minwidth.html'>minwidth</a></td> 
+								<td width='70%'>This property is used to set the minimum width of a ListBox for the component to be displayed on the screen.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_multiselect.html'>multiselect</a></td> 
+								<td width='70%'>This property is used to enable multiple selection in a LisxBox.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_name.html'>name</a></td> 
+								<td width='70%'>This property is used to specify the name of a ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_-nexa-border.html'>-nexa-border</a></td> 
+								<td width='70%'>This property is used to set the border of a ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_-nexa-edge.html'>-nexa-edge</a></td> 
+								<td width='70%'>This property is used to set the image of the edges that are displayed inside the border of a ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_-nexa-padding.html'>-nexa-padding</a></td> 
+								<td width='70%'>This property is used to set the padding, an inner margin, of a ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_-nexa-rtl-background-image.html'>-nexa-rtl-background-image</a></td> 
+								<td width='70%'>This property is used to set an image that will be displayed as the background of a ListBox. This property is applicable when the rtl property of the ListBox is set to "true".</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_-nexa-rtl-edge-image.html'>-nexa-rtl-edge-image</a></td> 
+								<td width='70%'>This property is used to set an edge image that is displayed inside the border of a ListBox. This property is applicable when the rtl property of the ListBox is set to "true".</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_opacity.html'>opacity</a></td> 
+								<td width='70%'>This property is used to set the opacity of a ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_parent.html'>parent</a></td> 
+								<td width='70%'>This read-only property holds the parent object of a ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_positionstep.html'>positionstep</a></td> 
+								<td width='70%'>This property is used to specify the index number of a step page where a ListBox is displayed if the parent object uses the step feature.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_readonly.html'>readonly</a></td> 
+								<td width='70%'>This property determines whether you are allowed to change an item in a ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_right.html'>right</a></td> 
+								<td width='70%'>This property is used to set the right coordinate value for displaying the ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_rtl.html'>rtl</a></td> 
+								<td width='70%'>This property is used to define the direction of printing internal contents or components in a ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_scrollbarbarminsize.html'>scrollbarbarminsize</a></td> 
+								<td width='70%'>This property is used to set the minimum size of the TrackBar control featured by the scrollbar of a ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_scrollbarbaroutsize.html'>scrollbarbaroutsize</a></td> 
+								<td width='70%'>This property is used to set the base size of a scrollbar where its TrackBar control will disappear if the ListBox becomes smaller than the specified size.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_scrollbardecbuttonsize.html'>scrollbardecbuttonsize</a></td> 
+								<td width='70%'>This property is used to size the decreasing button (DecButton control) of a scrollbar displayed in a ListBox component.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_scrollbarincbuttonsize.html'>scrollbarincbuttonsize</a></td> 
+								<td width='70%'>This property is used to size the increasing button (IncButton control) of a scrollbar displayed in a ListBox component.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_scrollbarsize.html'>scrollbarsize</a></td> 
+								<td width='70%'>This property is used to size the scrollbar displayed in a ListBox. </td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_scrollbartrackbarsize.html'>scrollbartrackbarsize</a></td> 
+								<td width='70%'>This property is used to size the TrackBar control of a scrollbar displayed in a ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_scrollbartype.html'>scrollbartype</a></td> 
+								<td width='70%'>This property determines how scrollbars work in a ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_scrollindicatorsize.html'>scrollindicatorsize</a></td> 
+								<td width='70%'>This property is used to set the size of the scroll indicator bars displayed in a ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_scrolltype.html'>scrolltype</a></td> 
+								<td width='70%'>This property is used to set the types of scrolling applied to a ListBox. 
+
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_selectscrollmode.html'>selectscrollmode</a></td> 
+								<td width='70%'>The attribute to set the action to be executed when drag action is made within the ListBox area.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_tablecellarea.html'>tablecellarea</a></td> 
+								<td width='70%'>This property is used to set the area where the component is aligned within the virtual table cell area in the layout container.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_taborder.html'>taborder</a></td> 
+								<td width='70%'>This property is used to define the tab order number of a ListBox. Tab order means the order of moving focus among components when the focus is moved by entering the tab key.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_tabstop.html'>tabstop</a></td> 
+								<td width='70%'>This property determines whether a ListBox receives focus when you move the focus between components by pressing the tab key.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_text.html'>text</a></td> 
+								<td width='70%'>This read-only property holds the data of a selected item in a ListBox component.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_tooltiptext.html'>tooltiptext</a></td> 
+								<td width='70%'>This property is used to specify the text of a tooltip that appears when a mouse pointer hovers over a ListBox.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_tooltiptype.html'>tooltiptype</a></td> 
+								<td width='70%'>This property is used to specify the position and type of a tooltip that appears in a ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_top.html'>top</a></td> 
+								<td width='70%'>This property is used to set the top coordinate value for displaying the ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_value.html'>value</a></td> 
+								<td width='70%'>This property holds the code of an item selected in a ListBox.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_visible.html'>visible</a></td> 
+								<td width='70%'>This property is used to determine whether to make a ListBox visible or not.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_vscrollbar.html'>vscrollbar</a></td> 
+								<td width='70%'>The read-only attribute with an object of the vertical scrollbar, a sub-control of the ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_width.html'>width</a></td> 
+								<td width='70%'>This property is used to set the width for displaying the ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Property_word-spacing.html'>word-spacing</a></td> 
+								<td width='70%'>This property is used to set the spacing between words displayed in a ListBox.</td> 
+							</tr> 
+						</table> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif'	width='14' height='8'	/></td> 
+					<td	class='sub_title'>Method</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'> 
+						<table width='100%' border='1' cellpadding='7' cellspacing='0' bordercolorlight='#C6C6C6' bordercolordark='#C6C6C6' style='table-layout: fixed; border-collapse:collapse; word-wrap:break-word;'> 
+							<colgroup> 
+								<col width='10%'></col> 
+								<col width='20%'></col> 
+								<col width='70%'></col> 
+							</colgroup> 
+							<tr class='table_title' bgcolor='#F6F6F6' bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2' align='center'>Name</td> 
+								<td width='70%' align='center'>Description</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_addEvent.html'>addEvent</a></td> 
+								<td width='70%'>This method is used to declare a certain event and then add it to a ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_addEventHandler.html'>addEventHandler</a></td> 
+								<td width='70%'>This method is used to add a handler to a certain event of a ListBox. </td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_addEventHandlerLookup.html'>addEventHandlerLookup</a></td> 
+								<td width='70%'>This method is used to find a function and add it to a certain event of a ListBox as a handler.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_bringToFront.html'>bringToFront</a></td> 
+								<td width='70%'>This method is used to cause a ListBox to be displayed at the top on the screen. This method applies to among the components under the same parent.
+
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_bringToPrev.html'>bringToPrev</a></td> 
+								<td width='70%'>This method is used to cause a ListBox to be displayed one level higher on the screen. This method applies to among the components under the same parent.
+
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_clearEventHandler.html'>clearEventHandler</a></td> 
+								<td width='70%'>This method is used to delete all the event handlers registered in a certain event.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_clearSelect.html'>clearSelect</a></td> 
+								<td width='70%'>This method is used to cancel the selection made in a ListBox entirely.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_destroy.html'>destroy</a></td> 
+								<td width='70%'>This method is used to delete a ListBox that is dynamically created through a script. </td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_findEventHandler.html'>findEventHandler</a></td> 
+								<td width='70%'>This method finds a handler in a certain event of a ListBox and returns the index of the handler.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_getCount.html'>getCount</a></td> 
+								<td width='70%'>This method is used to obtain the total number of items that are displayed in a ListBox.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_getEventHandler.html'>getEventHandler</a></td> 
+								<td width='70%'>This method returns a specific handler from a certain event of a ListBox by specifying the index number of the handler.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_getHScrollPos.html'>getHScrollPos</a></td> 
+								<td width='70%'>This method is used to return the current position of the track of a horizontal scrollbar.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_getInnerDataset.html'>getInnerDataset</a></td> 
+								<td width='70%'>This method returns the Dataset object that is specified as the value of the innerdataset property of a ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_getOffsetBottom.html'>getOffsetBottom</a></td> 
+								<td width='70%'>This method is used to obtain the bottom position of a ListBox in pixel, based on the parent component's top side.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_getOffsetHeight.html'>getOffsetHeight</a></td> 
+								<td width='70%'>This method is used to obtain the height of a ListBox in pixel.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_getOffsetLeft.html'>getOffsetLeft</a></td> 
+								<td width='70%'>This method is used to obtain the left position of a ListBox in pixel, based on the parent component's left side.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_getOffsetRight.html'>getOffsetRight</a></td> 
+								<td width='70%'>This method is used to obtain the right position of a ListBox in pixel, based on the parent component's left side.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_getOffsetTop.html'>getOffsetTop</a></td> 
+								<td width='70%'>This method is used to obtain the top position of a ListBox in pixel, based on the parent component's top side.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_getOffsetWidth.html'>getOffsetWidth</a></td> 
+								<td width='70%'>This method is used to obtain the width of a ListBox in pixel.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_getPixelBottom.html'>getPixelBottom</a></td> 
+								<td width='70%'>This method returns the value of a ListBox's bottom property in pixel.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_getPixelHeight.html'>getPixelHeight</a></td> 
+								<td width='70%'>This method returns the height of a ListBox in pixel.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_getPixelLeft.html'>getPixelLeft</a></td> 
+								<td width='70%'>This method returns the value of a ListBox's left property in pixel.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_getPixelRight.html'>getPixelRight</a></td> 
+								<td width='70%'>This method returns the value of a ListBox's right property in pixel.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_getPixelTop.html'>getPixelTop</a></td> 
+								<td width='70%'>This method returns the value of a ListBox's top property in pixel.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_getPixelWidth.html'>getPixelWidth</a></td> 
+								<td width='70%'>This method returns the width of a ListBox in pixel.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_getSelect.html'>getSelect</a></td> 
+								<td width='70%'>This method returns whether an item delivered from a ListBox as an argument is selected or unselected.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_getSelectedCount.html'>getSelectedCount</a></td> 
+								<td width='70%'>This method returns the numbers of selected items from a ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_getSelectedItems.html'>getSelectedItems</a></td> 
+								<td width='70%'>This method returns an array containing the index numbers of selected items from a ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_getVScrollPos.html'>getVScrollPos</a></td> 
+								<td width='70%'>This method returns the current position of the thumb of a vertical scrollbar that appears in a ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_init.html'>init</a></td> 
+								<td width='70%'>This method is used to initialize a ListBox after creating it in a script dynamically.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_insertEventHandler.html'>insertEventHandler</a></td> 
+								<td width='70%'>This method is used to add a handler to a certain event of a ListBox at a specified position. </td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_move.html'>move</a></td> 
+								<td width='70%'>This method is used to change the position and size of a ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_moveToNext.html'>moveToNext</a></td> 
+								<td width='70%'>This method is used to cause a ListBox to be displayed one level higher on the screen than the component delivered as an argument. In this situation, those two components must share the same parent.
+
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_moveToPrev.html'>moveToPrev</a></td> 
+								<td width='70%'>This method is used to cause a ListBox to be displayed one level lower on the screen than the component delivered as an argument. In this situation, those two components must share the same parent.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_removeEvent.html'>removeEvent</a></td> 
+								<td width='70%'>This method is used to remove a certain event that is declared in a ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_removeEventHandler.html'>removeEventHandler</a></td> 
+								<td width='70%'>This method is used to remove a handler in a certain event of a ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_removeEventHandlerLookup.html'>removeEventHandlerLookup</a></td> 
+								<td width='70%'>This method is used to find a handler in a certain event of a ListBox and remove it.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_resize.html'>resize</a></td> 
+								<td width='70%'>This method is used to change the size of a ListBox.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_scrollBy.html'>scrollBy</a></td> 
+								<td width='70%'>This method is used to move the slider of a scrollbar from the current position by a certain value delivered as an argument.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_scrollTo.html'>scrollTo</a></td> 
+								<td width='70%'>This method is used to move the slider of a scrollbar to a certain position.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_sendToBack.html'>sendToBack</a></td> 
+								<td width='70%'>This method is used to cause a ListBox to be displayed at the bottom on the screen. This method applies to among the components under the same parent.
+
+
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_sendToNext.html'>sendToNext</a></td> 
+								<td width='70%'>This method is used to cause a ListBox to be displayed one level lower on the screen. This method applies to among the components under the same parent.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_setEventHandler.html'>setEventHandler</a></td> 
+								<td width='70%'>This method is used to change the first handler in a certain event of a ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_setEventHandlerLookup.html'>setEventHandlerLookup</a></td> 
+								<td width='70%'>This method finds a function and uses it to replace the first handler in a certain event of a ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_setFocus.html'>setFocus</a></td> 
+								<td width='70%'>This method is used to give focus to a ListBox. 
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_setInnerDataset.html'>setInnerDataset</a></td> 
+								<td width='70%'>This method sets the innerdataset property of a ListBox by specifying its argument as the value of the property.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_setOffsetBottom.html'>setOffsetBottom</a></td> 
+								<td width='70%'>This method is used to specify the bottom position of a ListBox in pixel, based on the parent component's top position.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_setOffsetHeight.html'>setOffsetHeight</a></td> 
+								<td width='70%'>This method is used to specify the height of a ListBox in pixel.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_setOffsetLeft.html'>setOffsetLeft</a></td> 
+								<td width='70%'>This method is used to specify the left position of a ListBox in pixel, based on the parent component's left position.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_setOffsetRight.html'>setOffsetRight</a></td> 
+								<td width='70%'>This method is used to specify the right position of a ListBox in pixel, based on the parent component's left position.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_setOffsetTop.html'>setOffsetTop</a></td> 
+								<td width='70%'>This method is used to specify the top position of a ListBox in pixel, based on the parent component's top position.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_setOffsetWidth.html'>setOffsetWidth</a></td> 
+								<td width='70%'>This method is used to specify the width of a ListBox in pixel.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_setSelect.html'>setSelect</a></td> 
+								<td width='70%'>This method is used to select/deselect a certain item in a ListBox.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_show.html'>show</a></td> 
+								<td width='70%'>This method is used to display a ListBox on the screen. The ListBox mentioned here refers to the one that is dynamically created through a script.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Method_updateToDataset.html'>updateToDataset</a></td> 
+								<td width='70%'>This method is used to instantly apply the value of a ListBox to the bound Dataset.</td> 
+							</tr> 
+						</table> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif'	width='14' height='8'	/></td> 
+					<td	class='sub_title'>Event</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'> 
+						<table width='100%' border='1' cellpadding='7' cellspacing='0' bordercolorlight='#C6C6C6' bordercolordark='#C6C6C6' style='table-layout: fixed; border-collapse:collapse; word-wrap:break-word;'> 
+							<colgroup> 
+								<col width='10%'></col> 
+								<col width='20%'></col> 
+								<col width='70%'></col> 
+							</colgroup> 
+							<tr class='table_title' bgcolor='#F6F6F6' bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2' align='center'>Name</td> 
+								<td width='70%' align='center'>Description</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Event_canitemchange.html'>canitemchange</a></td> 
+								<td width='70%'>This event occurs when you change an item in a ListBox.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Event_oncontextmenu.html'>oncontextmenu</a></td> 
+								<td width='70%'>This event occurs when you right-click a ListBox or touch a ListBox for a certain duration.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Event_ondevicebuttonup.html'>ondevicebuttonup</a></td> 
+								<td width='70%'>The event occurring when clicking the device button from mobile.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Event_ondrag.html'>ondrag</a></td> 
+								<td width='70%'>This event occurs when you conduct a dragging action by pressing the left button of a mouse
+within a ListBox.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Event_ondragenter.html'>ondragenter</a></td> 
+								<td width='70%'>This event occurs when a mouse pointer enters a ListBox while the pointer is dragging an object.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Event_ondragleave.html'>ondragleave</a></td> 
+								<td width='70%'>This event occurs when a mouse pointer moves out of a ListBox while the pointer is dragging an object.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Event_ondragmove.html'>ondragmove</a></td> 
+								<td width='70%'>This event occurs when a mouse pointer moves while the pointer is dragging an object within a ListBox.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Event_ondrop.html'>ondrop</a></td> 
+								<td width='70%'>This event occurs when you release a mouse button within the area of a ListBox after you have pressed the button to drag an object.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Event_onhscroll.html'>onhscroll</a></td> 
+								<td width='70%'>This event occurs when you move the horizontal scrollbar of a ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Event_oninnerdatachanged.html'>oninnerdatachanged</a></td> 
+								<td width='70%'>This event occurs when there has been a change in the data of a Dataset that is bound to the innerdataset property of a ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Event_onitemchanged.html'>onitemchanged</a></td> 
+								<td width='70%'>This event occurs after a selected item in a ListBox changes.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Event_onitemclick.html'>onitemclick</a></td> 
+								<td width='70%'>This event occurs when you click an item in the list.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Event_onitemdblclick.html'>onitemdblclick</a></td> 
+								<td width='70%'>This event occurs when you double-click an item in a list.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Event_onkeydown.html'>onkeydown</a></td> 
+								<td width='70%'>This event occurs when you press a key with a ListBox focused.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Event_onkeyup.html'>onkeyup</a></td> 
+								<td width='70%'>This event occurs when you release a key with a ListBox focused.
+
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Event_onkillfocus.html'>onkillfocus</a></td> 
+								<td width='70%'>This event occurs when focus moves out of a ListBox.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Event_onlbuttondown.html'>onlbuttondown</a></td> 
+								<td width='70%'>This event occurs when you press the left button of a mouse within the area of a ListBox.
+
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Event_onlbuttonup.html'>onlbuttonup</a></td> 
+								<td width='70%'>This event occurs when you release the left button of a mouse within the area of a ListBox.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Event_onmouseenter.html'>onmouseenter</a></td> 
+								<td width='70%'>This event occurs when a mouse pointer enters a ListBox.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Event_onmouseleave.html'>onmouseleave</a></td> 
+								<td width='70%'>This event occurs when a mouse pointer moves out of a ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Event_onmousemove.html'>onmousemove</a></td> 
+								<td width='70%'>This event occurs when a mouse pointer moves within a ListBox.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Event_onmousewheel.html'>onmousewheel</a></td> 
+								<td width='70%'>This event occurs when you rotates your mouse wheel within a ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Event_onmove.html'>onmove</a></td> 
+								<td width='70%'>This event occurs when the position of a ListBox changes.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Event_onrbuttondown.html'>onrbuttondown</a></td> 
+								<td width='70%'>The event occurring when clicking with the right mouse button within the ListBox area.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Event_onrbuttonup.html'>onrbuttonup</a></td> 
+								<td width='70%'>This event occurs when you release the right button of a mouse within the area of a ListBox.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Event_onsetfocus.html'>onsetfocus</a></td> 
+								<td width='70%'>This event occurs when focus comes into a ListBox.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Event_onsize.html'>onsize</a></td> 
+								<td width='70%'>This event occurs when the size of a ListBox changes.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Event_ontouchend.html'>ontouchend</a></td> 
+								<td width='70%'>This event occurs when you touch and release the screen within the area of a ListBox.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Event_ontouchmove.html'>ontouchmove</a></td> 
+								<td width='70%'>This event occurs when a touch point is moved along the touch surface within a ListBox.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Event_ontouchstart.html'>ontouchstart</a></td> 
+								<td width='70%'>This event occurs when a touch point is placed on the touch surface within a ListBox.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_ListBox_Event_onvscroll.html'>onvscroll</a></td> 
+								<td width='70%'>This event occurs when you move the vertical scrollbar of a ListBox.</td> 
+							</tr> 
+						</table> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif'	width='14' height='8'	/></td> 
+					<td	class='sub_title'>Status</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'> 
+						<table width='100%' border='1' cellpadding='7' cellspacing='0' bordercolorlight='#C6C6C6' bordercolordark='#C6C6C6' style='table-layout: fixed; border-collapse:collapse; word-wrap:break-word;'> 
+							<colgroup> 
+								<col width='15%'></col> 
+								<col width='15%'></col> 
+								<col width='70%'></col> 
+							</colgroup> 
+							<tr class='table_title' bgcolor='#F6F6F6' bordercolor='#c6c6c6'> 
+								<td width='15%' align='center'>Name</td> 
+								<td width='15%' align='center'>Type</td> 
+								<td width='70%' align='center'>Description</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='15%'>disabled</td> 
+								<td width='15%'>status</td> 
+								<td width='70%'><pre class=list>This is the status in which a component is disabled.</pre></td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='15%'>readonly</td> 
+								<td width='15%'>status</td> 
+								<td width='70%'><pre class=list>This is the status in which a component is read-only.</pre></td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='15%'>mouseover</td> 
+								<td width='15%'>status</td> 
+								<td width='70%'><pre class=list>This is the status in which a mouse cursor hovers over a component or a certain item of the component.</pre></td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='15%'>focused</td> 
+								<td width='15%'>status</td> 
+								<td width='70%'><pre class=list>This is the status in which a component has focus.</pre></td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='15%'>enabled</td> 
+								<td width='15%'>status</td> 
+								<td width='70%'><pre class=list>This is the status in which a component is enabled.</pre></td> 
+							</tr> 
+						</table> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif'	width='14' height='8'	/></td> 
+					<td	class='sub_title'>Control</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'> 
+						<table width='100%' border='1' cellpadding='7' cellspacing='0' bordercolorlight='#C6C6C6' bordercolordark='#C6C6C6' style='table-layout: fixed; border-collapse:collapse; word-wrap:break-word;'> 
+							<colgroup> 
+								<col width='10%'></col> 
+								<col width='20%'></col> 
+								<col width='70%'></col> 
+							</colgroup> 
+							<tr class='table_title' bgcolor='#F6F6F6' bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2' align='center'>Name</td> 
+								<td width='70%' align='center'>TypeName</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'>listboxitem</td> 
+								<td width='70%'>nexacro.ListBoxItemControl</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'>vscrollbar</td> 
+								<td width='70%'>nexacro.ScrollBarControl</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'>hscrollbar</td> 
+								<td width='70%'>nexacro.ScrollBarControl</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'>hscrollindicator</td> 
+								<td width='70%'>nexacro.ScrollIndicatorControl</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'>vscrollindicator</td> 
+								<td width='70%'>nexacro.ScrollIndicatorControl</td> 
+							</tr> 
+						</table> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+			</table> 
+ 
+		</td> 
+	</tr> 
+	<tr	class='list'> 
+		<td colspan='2'	valign='top'> 
+			<table width='98%' border='0' align='center' cellpadding='0' cellspacing='0' style='table-layout: fixed; word-wrap:break-word;'>  
+				<tr><td	height='1' bgcolor='#c5c5c6'></td></tr> 
+			</table> 
+		</td> 
+	</tr> 
+	<tr	class='list'> 
+		<td	width='75' height='35' align='right'></td> 
+		<td> 
+			<table width='180' border='0'	align='right'	cellpadding='0'	cellspacing='0'> 
+				<tr> 
+					<td	width='15'><img	src='../../bottom_update.gif'	width='15' height='9'	/></td> 
+					<td	width='185'	class='bottom_update'>LAST UPDATED Jan. 2024	</td> 
+				</tr> 
+			</table> 
+		</td> 
+	</tr> 
+</table> 
+</body> 
+</html> 

@@ -1,0 +1,604 @@
+<!DOCTYPE	html PUBLIC	'-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>  
+<html	xmlns='http://www.w3.org/1999/xhtml'> 
+<head> 
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" /> 
+<meta	http-equiv='Content-Type' content='text/html; charset=utf-8'/> 
+<title>WebSocket NRE Support</title> 
+<style type='text/css'> 
+</style> 
+<link	href='../../help_Eng.css' rel='stylesheet' type='text/css' /> 
+</head> 
+ 
+<body> 
+<table width='100%' border='0' cellpadding='0' cellspacing='0' bgcolor='#FFFFFF'> 
+	<tr> 
+		<td	height='44'	colspan='2'	background='../../top_bg1.gif'> 
+			<table width='100%' border='0' cellspacing='0' cellpadding='0'  bgcolor='#ffffff'> 
+				<tr> 
+					<td><img src='../../logo1.gif' width='134' height='44' /></td> 
+					<td width='100%' bgcolor='#FFFFFF'> </td>
+					<td style='padding-right:6px;'><img src='../../logo4.gif' width='110' height='28' /></td> 
+				</tr> 
+			</table> 
+		</td> 
+	</tr> 
+	<tr> 
+		<td	height='28'	colspan='2' bgcolor='#eeeeee'> 
+			<table width='500' border='0' cellspacing='0' cellpadding='0'>  
+				<tr> 
+					<td	width='107'><img src='../../logo2.gif' width='107' height='28' /></td>  
+					<td	class='top_navi'> </td> 
+				</tr> 
+			</table> 
+		</td> 
+	</tr> 
+	<tr> 
+		<td	height='20'	colspan='2'	valign='top'> 
+			<table width='82'	border='0' cellspacing='0' cellpadding='0'> 
+				<tr> 
+					<td></td> 
+				 </tr> 
+			</table> 
+		</td> 
+	</tr> 
+ 
+	<tr	class='list'> 
+		<td	colspan='2'	valign='top'> 
+ 
+			<table width='98%' border='0' align='center' cellpadding='0' cellspacing='0' style='table-layout: fixed; word-wrap:break-word;'>  
+				<tr> 
+					<td	colspan='2' width='24'></td> 
+					<td></td> 
+				</tr> 
+				<tr><td	colspan='3' class='title'>WebSocket NRE Support</td></tr> 
+				<tr><td colspan='3' height='5'></td></tr> 
+				<tr><td colspan='3' height='1' bgcolor='#c5c5c6'></td></tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif' width='14' height='8' /></td> 
+					<td	class='sub_title'>Overview</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'><pre class=list>The WebSocket object can be usued in the NRE.
+Describes whether functions (properties, methods) are supported depending on the operating system running the app.
+
+* Please refer to the link below for whether the WebSocket object function is supported according to the browser version in the Web Runtime Environment.
+https://developer.mozilla.org/en-US/docs/Web/API/WebSocket#browser_compatibility
+
+* For detailed information on each function, please refer to the specification document below:
+https://html.spec.whatwg.org/multipage/web-sockets.html#the-websocket-interface</pre></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif' width='14' height='8' /></td> 
+					<td	class='sub_title'>Restrictions in Windows NRE</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'><pre class=list>- Only Windows 7 and later operating systems are supported.
+- When trying to communicate with the wss protocol in the Windows 7, the server to which the private certificate is applied cannot be connected.
+- The protocols(optional) parameter in Constructor is not supported.</pre></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif' width='14' height='8' /></td> 
+					<td	class='sub_title'>Restrictions in iOS/iPad NRE</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'><pre class=list>The WebSocket object cannot be used when the Update Type is specified as "Update" or "Local" when packing the app.
+According to WKWebView policy, files stored locally cannot handle WebSocket communication (an error occurs when executed).
+Whether to support the functions below is only applicable if the Update Type is set to "Server".</pre></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif' width='14' height='8' /></td> 
+					<td	class='sub_title'>Whether the feature is supported</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'><pre class=list>The meanings of the abbreviations in the table below are as follows:
+- W(Windows NRE), A(Android NRE), I(iOS/iPad NRE), M(macOS NRE), NRE(Nexacro Runtime Environment)
+<table width='90%' border='1' cellpadding='7' cellspacing='0' bordercolor='#c6c6c6' bordercolorlight='#C6C6C6' bordercolordark='#C6C6C6' style='table-layout:fixed; border-collapse:collapse; word-wrap:break-word; width='80%';'>	<tr class='table_title' bgcolor='#F6F6F6'>
+		<td align='center' width='27.27272727272727%'>Property</td>
+		<td align='center' width='27.27272727272727%'>Value: State</td>
+		<td align='center' width='4.545454545454546%'>W</td>
+		<td align='center' width='4.545454545454546%'>A</td>
+		<td align='center' width='4.545454545454546%'>I</td>
+		<td align='center' width='4.545454545454546%'>M</td>
+		<td align='center' width='27.27272727272727%'>Description</td>
+	</tr>
+
+	<tr>
+		<td align='Left' rowspan='1'><pre style='margin: 0;'>binaryType</pre></td>
+		<td align='Left'><pre style='margin: 0;'>&nbsp;</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Left'><pre style='margin: 0;'>&nbsp;</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left' rowspan='1'><pre style='margin: 0;'>bufferedAmount</pre></td>
+		<td align='Left'><pre style='margin: 0;'>&nbsp;</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Left'><pre style='margin: 0;'>&nbsp;</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left' rowspan='1'><pre style='margin: 0;'>extensions</pre></td>
+		<td align='Left'><pre style='margin: 0;'>&nbsp;</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Left'><pre style='margin: 0;'>&nbsp;</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left' rowspan='1'><pre style='margin: 0;'>protocol</pre></td>
+		<td align='Left'><pre style='margin: 0;'>&nbsp;</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Left'><pre style='margin: 0;'>&nbsp;</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left' rowspan='4'><pre style='margin: 0;'>readyState </pre></td>
+		<td align='Left'><pre style='margin: 0;'>0: CONNECTING</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Left'><pre style='margin: 0;'>&nbsp;</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>1: OPEN</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Left'><pre style='margin: 0;'>&nbsp;</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>2: CLOSING</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Left'><pre style='margin: 0;'>&nbsp;</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>3: CLOSED</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Left'><pre style='margin: 0;'>&nbsp;</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left' rowspan='1'><pre style='margin: 0;'>url</pre></td>
+		<td align='Left'><pre style='margin: 0;'>&nbsp;</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Left'><pre style='margin: 0;'>&nbsp;</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left' rowspan='1'><pre style='margin: 0;'>onopen</pre></td>
+		<td align='Left'><pre style='margin: 0;'>&nbsp;</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Left'><pre style='margin: 0;'>event listener (open)</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left' rowspan='1'><pre style='margin: 0;'>onmessage</pre></td>
+		<td align='Left'><pre style='margin: 0;'>&nbsp;</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Left'><pre style='margin: 0;'>event listener (message)</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left' rowspan='1'><pre style='margin: 0;'>onerror</pre></td>
+		<td align='Left'><pre style='margin: 0;'>&nbsp;</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Left'><pre style='margin: 0;'>event listener (error)</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left' rowspan='1'><pre style='margin: 0;'>onclose</pre></td>
+		<td align='Left'><pre style='margin: 0;'>&nbsp;</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Left'><pre style='margin: 0;'>event listener (close)</pre></td>
+	</tr>
+</table>
+<table width='90%' border='1' cellpadding='7' cellspacing='0' bordercolor='#c6c6c6' bordercolorlight='#C6C6C6' bordercolordark='#C6C6C6' style='table-layout:fixed; border-collapse:collapse; word-wrap:break-word; width='80%';'>	<tr class='table_title' bgcolor='#F6F6F6'>
+		<td align='center' width='27.27272727272727%'>Method</td>
+		<td align='center' width='27.27272727272727%'>Parameter</td>
+		<td align='center' width='4.545454545454546%'>W</td>
+		<td align='center' width='4.545454545454546%'>A</td>
+		<td align='center' width='4.545454545454546%'>I</td>
+		<td align='center' width='4.545454545454546%'>M</td>
+		<td align='center' width='27.27272727272727%'>Description</td>
+	</tr>
+
+	<tr>
+		<td align='Left' rowspan='2'><pre style='margin: 0;'>close</pre></td>
+		<td align='Left'><pre style='margin: 0;'>code(optional)</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Left'><pre style='margin: 0;'>&nbsp;</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>reason(optional)</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Left'><pre style='margin: 0;'>&nbsp;</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left' rowspan='1'><pre style='margin: 0;'>send</pre></td>
+		<td align='Left'><pre style='margin: 0;'>msg</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Left'><pre style='margin: 0;'>&nbsp;</pre></td>
+	</tr>
+</table>
+
+- Unlike WRE, it provides attribute information within the event object.
+  When checking information, you can check the attribute value in the form of e.type.
+<table width='90%' border='1' cellpadding='7' cellspacing='0' bordercolor='#c6c6c6' bordercolorlight='#C6C6C6' bordercolordark='#C6C6C6' style='table-layout:fixed; border-collapse:collapse; word-wrap:break-word; width='80%';'>	<tr class='table_title' bgcolor='#F6F6F6'>
+		<td align='center' width='27.27272727272727%'>Event</td>
+		<td align='center' width='27.27272727272727%'>Event Info</td>
+		<td align='center' width='4.545454545454546%'>W</td>
+		<td align='center' width='4.545454545454546%'>A</td>
+		<td align='center' width='4.545454545454546%'>I</td>
+		<td align='center' width='4.545454545454546%'>M</td>
+		<td align='center' width='27.27272727272727%'>Description</td>
+	</tr>
+
+	<tr>
+		<td align='Left' rowspan='1'><pre style='margin: 0;'>open</pre></td>
+		<td align='Left'><pre style='margin: 0;'>type: "open"</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Left'><pre style='margin: 0;'>&nbsp;</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left' rowspan='2'><pre style='margin: 0;'>message</pre></td>
+		<td align='Left'><pre style='margin: 0;'>type: "message'</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Left'><pre style='margin: 0;'>&nbsp;</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>data: Received message</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Left'><pre style='margin: 0;'>&nbsp;</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left' rowspan='1'><pre style='margin: 0;'>error</pre></td>
+		<td align='Left'><pre style='margin: 0;'>type: "error"</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Left'><pre style='margin: 0;'>&nbsp;</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left' rowspan='3'><pre style='margin: 0;'>close</pre></td>
+		<td align='Left'><pre style='margin: 0;'>type: "close"</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Left'><pre style='margin: 0;'>&nbsp;</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>code: Status Code</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Left'><pre style='margin: 0;'>Please refer to the table below for Status Code.</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>reason: Close message</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Left'><pre style='margin: 0;'>&nbsp;</pre></td>
+	</tr>
+</table>
+
+- 900, 901, 902, 920 are codes supported only in NRE.
+  For other code information, see https://developer.mozilla.org/en-US/docs/Web/API/CloseEvent
+  If the support status is indicated as "N/A", it is either a reserved code or a code supported only by a specific operating system.
+<table width='90%' border='1' cellpadding='7' cellspacing='0' bordercolor='#c6c6c6' bordercolorlight='#C6C6C6' bordercolordark='#C6C6C6' style='table-layout:fixed; border-collapse:collapse; word-wrap:break-word; width='80%';'>	<tr class='table_title' bgcolor='#F6F6F6'>
+		<td align='center' width='17%'>Status Code</td>
+		<td align='center' width='8%'>W</td>
+		<td align='center' width='8%'>A</td>
+		<td align='center' width='8%'>I</td>
+		<td align='center' width='8%'>M</td>
+		<td align='center' width='51%'>Description</td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>900</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>N/A</pre></td>
+		<td align='Center'><pre style='margin: 0;'>N/A</pre></td>
+		<td align='Center'><pre style='margin: 0;'>N/A</pre></td>
+		<td align='Left'><pre style='margin: 0;'>WebSocket Server Connect Failed</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>901</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>N/A</pre></td>
+		<td align='Center'><pre style='margin: 0;'>N/A</pre></td>
+		<td align='Center'><pre style='margin: 0;'>N/A</pre></td>
+		<td align='Left'><pre style='margin: 0;'>WebSocket Failure to receive message</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>902</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>N/A</pre></td>
+		<td align='Center'><pre style='margin: 0;'>N/A</pre></td>
+		<td align='Center'><pre style='margin: 0;'>N/A</pre></td>
+		<td align='Left'><pre style='margin: 0;'>WebSocket Failed to send message</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>920</pre></td>
+		<td align='Center'><pre style='margin: 0;'>N/A</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>N/A</pre></td>
+		<td align='Center'><pre style='margin: 0;'>N/A</pre></td>
+		<td align='Left'><pre style='margin: 0;'>Neo Visionaries Package Error Reason</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>1000</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Left'><pre style='margin: 0;'>&nbsp;</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>1001</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Left'><pre style='margin: 0;'>&nbsp;</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>1002</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Left'><pre style='margin: 0;'>&nbsp;</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>1003</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Left'><pre style='margin: 0;'>&nbsp;</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>1004</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Center'><pre style='margin: 0;'>N/A</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>N/A</pre></td>
+		<td align='Left'><pre style='margin: 0;'>&nbsp;</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>1005</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Left'><pre style='margin: 0;'>&nbsp;</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>1006</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Left'><pre style='margin: 0;'>&nbsp;</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>1007</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Left'><pre style='margin: 0;'>&nbsp;</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>1008</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Left'><pre style='margin: 0;'>&nbsp;</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>1009</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Left'><pre style='margin: 0;'>&nbsp;</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>1010</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Left'><pre style='margin: 0;'>&nbsp;</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>1011</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Left'><pre style='margin: 0;'>&nbsp;</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>1012</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Left'><pre style='margin: 0;'>&nbsp;</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>1013</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Left'><pre style='margin: 0;'>&nbsp;</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>1014</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Left'><pre style='margin: 0;'>&nbsp;</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>1015</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Left'><pre style='margin: 0;'>&nbsp;</pre></td>
+	</tr>
+</table></pre></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+			</table> 
+ 
+		</td> 
+	</tr> 
+	<tr	class='list'> 
+	<td colspan='2'	valign='top'> 
+	<table width='98%' border='0' align='center' cellpadding='0' cellspacing='0' style='table-layout: fixed; word-wrap:break-word;'>  
+		<tr><td	height='1' bgcolor='#c5c5c6'></td></tr> 
+	</table> 
+	</td> 
+	</tr> 
+	<tr	class='list'> 
+		<td	width='75' height='35' align='right'></td> 
+		<td> 
+			<table width='180' border='0'	align='right'	cellpadding='0'	cellspacing='0'> 
+				<tr> 
+					<td	width='15'><img	src='../../bottom_update.gif'	width='15' height='9'	/></td> 
+					<td	width='185'	class='bottom_update'>LAST UPDATED Jan. 2024	</td> 
+				</tr> 
+			</table> 
+		</td> 
+	</tr> 
+</table> 
+</body> 
+</html> 

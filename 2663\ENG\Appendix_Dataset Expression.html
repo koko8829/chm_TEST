@@ -1,0 +1,137 @@
+<!DOCTYPE	html PUBLIC	'-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>  
+<html	xmlns='http://www.w3.org/1999/xhtml'> 
+<head> 
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" /> 
+<meta	http-equiv='Content-Type' content='text/html; charset=utf-8'/> 
+<title>Dataset Expression</title> 
+<style type='text/css'> 
+</style> 
+<link	href='../../help_Eng.css' rel='stylesheet' type='text/css' /> 
+</head> 
+ 
+<body> 
+<table width='100%' border='0' cellpadding='0' cellspacing='0' bgcolor='#FFFFFF'> 
+	<tr> 
+		<td	height='44'	colspan='2'	background='../../top_bg1.gif'> 
+			<table width='100%' border='0' cellspacing='0' cellpadding='0'  bgcolor='#ffffff'> 
+				<tr> 
+					<td><img src='../../logo1.gif' width='134' height='44' /></td> 
+					<td width='100%' bgcolor='#FFFFFF'> </td>
+					<td style='padding-right:6px;'><img src='../../logo4.gif' width='110' height='28' /></td> 
+				</tr> 
+			</table> 
+		</td> 
+	</tr> 
+	<tr> 
+		<td	height='28'	colspan='2' bgcolor='#eeeeee'> 
+			<table width='500' border='0' cellspacing='0' cellpadding='0'>  
+				<tr> 
+					<td	width='107'><img src='../../logo2.gif' width='107' height='28' /></td>  
+					<td	class='top_navi'> </td> 
+				</tr> 
+			</table> 
+		</td> 
+	</tr> 
+	<tr> 
+		<td	height='20'	colspan='2'	valign='top'> 
+			<table width='82'	border='0' cellspacing='0' cellpadding='0'> 
+				<tr> 
+					<td></td> 
+				 </tr> 
+			</table> 
+		</td> 
+	</tr> 
+ 
+	<tr	class='list'> 
+		<td	colspan='2'	valign='top'> 
+ 
+			<table width='98%' border='0' align='center' cellpadding='0' cellspacing='0' style='table-layout: fixed; word-wrap:break-word;'>  
+				<tr> 
+					<td	colspan='2' width='24'></td> 
+					<td></td> 
+				</tr> 
+				<tr><td	colspan='3' class='title'>Dataset Expression</td></tr> 
+				<tr><td colspan='3' height='5'></td></tr> 
+				<tr><td colspan='3' height='1' bgcolor='#c5c5c6'></td></tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif' width='14' height='8' /></td> 
+					<td	class='sub_title'>Overview</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'><pre class=list>A Dataset expression script is used to program an action designed only for a specific row of a Grid-bound Dataset.
+
+A Dataset expression script is usually defined by some properties of a Grid component or Grid cell when those properties can set an expression, which is defined with the prefix “expr:”.
+The expression script can be used as an argument for some methods of a Dataset including getCaseSum(), filter() and findRowExpr().
+
+Using an expression, you can define an action designed only for a specific row of a Grid-bound Dataset. Then, you can display or use the result of conducting the expression.
+A Dataset expression script is written according to the syntax rule of the Nexacro Form script.</pre></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif' width='14' height='8' /></td> 
+					<td	class='sub_title'>Additional Expression & Objects</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'><pre class=list><div>When writing a Dataset expression, you are provided with the below properties and reserved words to deal with a Dataset component and Dataset column.</div><div><br></div><div><b>1. Additional Global Properties</b></div><div><b><br></b></div><div>&nbsp;1.1. Object property</div><div><br></div><div>&nbsp; 1.1.1 dataset property</div><div><br></div><div>&nbsp; &nbsp; &nbsp; &nbsp;This property is used to designate the Dataset bound to a component that holds an expression.</div><div><span style="white-space: pre;">	</span>&nbsp; &nbsp;</div><div>&nbsp; &nbsp; &nbsp; &nbsp;ex)</div><div>&nbsp; &nbsp; &nbsp; &nbsp;&lt;Cell text=”expr:dataset.rowcount”/&gt;&nbsp; &nbsp; &nbsp; &nbsp;// “dataset” indicates the bound Dataset</div><div>&nbsp; &nbsp; &nbsp; &nbsp;&lt;Cell text=”expr:dataset.parent.func1()”/&gt; // this executes the func1 function defined in the parent Form that includes the Dataset</div><div><br></div><div>&nbsp; 1.1.2 comp property</div><div><br></div><div>&nbsp; &nbsp; &nbsp; &nbsp;This property is used to designate the component itself that holds an expression.</div><div><br></div><div>&nbsp; &nbsp; &nbsp; &nbsp;ex)</div><div>&nbsp; &nbsp; &nbsp; &nbsp;&lt;Cell text=”expr:comp.parent.func1()”/&gt;&nbsp; &nbsp; // this executes the func1 function defined in the parent Form that includes the component</div><div><br></div><div>&nbsp;1.2. Dataset Row Iterator Properties&nbsp;</div><div><br></div><div>&nbsp; 1.2.1 currow property</div><div><br></div><div>&nbsp; &nbsp; &nbsp; &nbsp;This property indicates the index of the Dataset row that executes the current expression.</div><div>&nbsp; &nbsp; &nbsp; &nbsp;</div><div>&nbsp; &nbsp; &nbsp; &nbsp;ex)&nbsp;</div><div>&nbsp; &nbsp; &nbsp; &nbsp;&lt;Cell text=”expr:dataset.getColumn(--currow, 'Column0') - Column0”/&gt;&nbsp; // this calculates the difference between the previous and current rows</div><div><br></div><div>&nbsp; 1.2.2 this property</div><div><br></div><div>&nbsp; &nbsp; &nbsp; &nbsp;This property is used to designate the object that holds an expression.</div><div><br></div><div>&nbsp; &nbsp; &nbsp; &nbsp;ex)</div><div><span style="white-space: pre;">	</span>&nbsp; &nbsp;&lt;Band id="head" tooltiptext=”expr:this.col”&gt; // “this” indicate the band object</div><div>&nbsp; &nbsp; &nbsp; &nbsp;&lt;Cell text=”expr:this.col”/&gt;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// “this” indicate the cell object</div><div><br></div><div><b>2. Column Identifier Reference</b></div><div><b><br></b></div><div>&nbsp; &nbsp; You can use a Dataset column ID directly in an expression to obtain the column value of the row that executes the expression.</div><div>&nbsp; &nbsp; However, the ID will be converted to a primitive value to conduct the basic arithmetic operations or comparison operation.</div></pre></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif' width='14' height='8' /></td> 
+					<td	class='sub_title'>Execution Context</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'><pre class=list>As a Dataset expression is executed based on a Form context, it can use all the properties and functions that are available in a Form.
+
+While a Dataset expression works like an eval script, a variable declared in a Dataset expression does not affect a Form context because the Form script and expression script are contextually separated.
+However, a variable declared in a Form context can be read or used in a Dataset expression script. Moreover, a Form context will be affected if the value of such a variable changes in a Dataset expression script.</pre></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+			</table> 
+ 
+		</td> 
+	</tr> 
+	<tr	class='list'> 
+	<td colspan='2'	valign='top'> 
+	<table width='98%' border='0' align='center' cellpadding='0' cellspacing='0' style='table-layout: fixed; word-wrap:break-word;'>  
+		<tr><td	height='1' bgcolor='#c5c5c6'></td></tr> 
+	</table> 
+	</td> 
+	</tr> 
+	<tr	class='list'> 
+		<td	width='75' height='35' align='right'></td> 
+		<td> 
+			<table width='180' border='0'	align='right'	cellpadding='0'	cellspacing='0'> 
+				<tr> 
+					<td	width='15'><img	src='../../bottom_update.gif'	width='15' height='9'	/></td> 
+					<td	width='185'	class='bottom_update'>LAST UPDATED Jan. 2024	</td> 
+				</tr> 
+			</table> 
+		</td> 
+	</tr> 
+</table> 
+</body> 
+</html> 

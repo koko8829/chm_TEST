@@ -1,0 +1,531 @@
+<!DOCTYPE	html PUBLIC	'-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>  
+<html	xmlns='http://www.w3.org/1999/xhtml'> 
+<head> 
+<meta	http-equiv='Content-Type' content='text/html; charset=utf-8'/> 
+<title>Date</title> 
+<style type='text/css'> 
+</style> 
+<link	href='../../help_Eng.css' rel='stylesheet' type='text/css' /> 
+</head> 
+ 
+<body> 
+<table width='100%' border='0' cellpadding='0' cellspacing='0' bgcolor='#FFFFFF'> 
+	<tr> 
+		<td	height='44'	colspan='2'	background='../../top_bg1.gif'> 
+			<table width='100%' border='0' cellspacing='0' cellpadding='0'  bgcolor='#ffffff'> 
+				<tr> 
+					<td><img src='../../logo1.gif' width='134' height='44' /></td> 
+					<td width='100%' bgcolor='#FFFFFF'> 
+					<td style='padding-right:6px;'><img src='../../logo4.gif' width='110' height='28' /></td> 
+				</tr> 
+			</table> 
+		</td> 
+	</tr> 
+	<tr> 
+		<td	height='28'	colspan='2' bgcolor='#eeeeee'> 
+			<table width='500' border='0' cellspacing='0' cellpadding='0'>  
+				<tr> 
+					<td	width='107'><img src='../../logo2.gif' width='107' height='28' /></td>  
+					<td	class='top_navi'>Script > Nexacro Objects > Date</td> 
+				</tr> 
+			</table> 
+		</td> 
+	</tr> 
+	<tr> 
+		<td	height='20'	colspan='2'	valign='top'> 
+			<table width='82'	border='0' cellspacing='0' cellpadding='0'> 
+				<tr> 
+					<td></td> 
+				 </tr> 
+			</table> 
+		</td> 
+	</tr> 
+	<tr	class='list'> 
+		<td	colspan='2'	valign='top'> 
+<table width='98%' border='0' align='center' cellpadding='0' cellspacing='0' style='table-layout: fixed; border-collapse:collapse; word-wrap:break-word;'>  
+				<tr> 
+					<td	colspan='2' width='24'></td> 
+					<td></td> 
+				</tr> 
+				<tr><td	colspan='3' class='title'>Date</td></tr> 
+				<tr><td colspan='3' height='5'></td></tr> 
+				<tr><td colspan='3' height='1' bgcolor='#c5c5c6'></td></tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif' width='14' height='8' /></td> 
+					<td	class='sub_title'>Supported Environments</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2' width='24'></td> 
+					<td	>				<table border ='0' width='100%'> 
+					<tr> 
+						<td colspan='20'>[Desktop]</td>
+						<td align='right' valign='middle'><img src='../../support_legend2_2.gif' /></td> 
+					</tr>
+					<tr>
+						<td colspan='21'>Nexacro Runtime Environment (NRE)</td>
+					</tr>
+					<tr>
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td colspan='7' style='white-space:nowrap;'>Windows</td>
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td colspan='12' style='white-space:nowrap;'>macOS</td>
+					</tr>
+					<tr>
+						<td colspan='21'>Web Runtime Environment (WRE)</td>
+					</tr>
+					<tr> 
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td width='30'>Edge</td>
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td width='46'>Chrome</td>
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td width='40'>Safari</td>
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td width='45'>Firefox</td>
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td colspan='8' width='40'>Opera</td>
+					</tr> 
+					<tr>
+						<td colspan='21' height='10'></td>
+					</tr> 
+					<tr>
+						<td colspan='21' height='18'>[Mobile]</td>
+					</tr> 
+					<tr>
+						<td colspan='21'>Nexacro Runtime Environment (NRE)</td>
+					</tr>
+					<tr> 
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td colspan='7' style='white-space:nowrap;'>Android</td>
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td colspan='12' style='white-space:nowrap;'>iOS/iPadOS</td>
+					</tr> 
+					<tr>
+						<td colspan='21'>Web Runtime Environment (WRE)</td>
+					</tr>
+					<tr> 
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td colspan='7' style='white-space:nowrap;'>Android Default Web Browser</td>
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td colspan='12' style='white-space:nowrap;'>iOS/iPadOS Default Web Browser</td>
+					</tr> 
+				</table> 
+</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif' width='14' height='8' /></td> 
+					<td	class='sub_title'>Description</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'><pre class=list>This object is used to work with dates and times.</pre></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif' width='14' height='8' /></td> 
+					<td	class='sub_title'>Remark</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'><pre class=list>- The following methods are provided by Nexacro on top of the methods subordinate to the Script object: toLocaleDateString(), toLocaleString() and toLocaleTimeString ().
+
+- As this object is provided by Nexacro, you must specify the class "nexacro" when you write a code to create this object.
+
+- If you do not set the time when creating a Date object, the hour, minute and second will be all set at 0.
+
+- With the datatyperule set to "2.0", you must set "undefined" as a parameter to create a Date object that has an invalid value.
+</pre></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif' width='14' height='8' /></td> 
+					<td	class='sub_title'>Constructor</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'><pre class='list'>new nexacro.Date( [nYear [, nMonth [, nDay [, nHours [, nMinutes [, nSeconds [,nMillisecond]]]]]]] )</pre> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'> 
+						<table width='100%' border='1' cellpadding='7' cellspacing='0' bordercolorlight='#C6C6C6' bordercolordark='#C6C6C6' style='table-layout: fixed; border-collapse:collapse; word-wrap:break-word;'> 
+							<tr class='table_title' bgcolor='#F6F6F6' bordercolor='#c6c6c6'> 
+								<td width='20%' align='center'>Parameters</td> 
+								<td width='15%' align='center'>Type</td> 
+								<td width='65%' align='center'>Description</td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>nYear</td> 
+								<td>Number</td> 
+								<td><pre>It is a four-digit value representing the year.
+
+If you specify a value ranging from 0 to 99, the value will be added to 1900.</pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>nMonth</td> 
+								<td>Number</td> 
+								<td><pre>This is a code value representing a month. The value ranges from 0 (January) to 11 (December). </pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>nDay</td> 
+								<td>Number</td> 
+								<td><pre>This is a code value representing a day. The value ranges from 1 to 31. </pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>nHours</td> 
+								<td>Number</td> 
+								<td><pre>This is a code value representing an hour. 
+
+The value ranges from 0 (midnight) to 23 (11p.m.).</pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>nMinutes</td> 
+								<td>Number</td> 
+								<td><pre>This is a code value representing a minute. The value ranges from 0 to 59. </pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>nSeconds</td> 
+								<td>Number</td> 
+								<td><pre>This is a code value representing a second. The value ranges from 0 to 59. </pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>nMillisecond</td> 
+								<td>Number</td> 
+								<td><pre>This is a code value representing a millisecond. The value ranges from 0 to 999. </pre></td> 
+							</tr> 
+						</table> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'>
+						<table width='100%' border='1' cellpadding='7' cellspacing='0' bordercolorlight=#C6C6C6 bordercolordark='#C6C6C6' style='table-layout: fixed; word-wrap:break-word; border-collapse:collapse; margin-top:0; margin-bottom:0;'> 
+							<tr class='list' bgcolor='#F6F6F6' bordercolor='#c6c6c6'> 
+								<td> 
+									<pre class='list'>// Create Object (Valid Value)
+var objDate1 = new nexacro.Date();
+var objDate2 = new nexacro.Date( 2000,1,1 );
+var objDate3 = new nexacro.Date( 2000,1,1,9,0,0,0 );
+
+// Create Object (Invalid Value)
+var objDate4 = new nexacro.Date( undefined );</pre> 
+								</td> 
+							</tr> 
+						</table> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif'	width='14' height='8'	/></td> 
+					<td	class='sub_title'>Method</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'> 
+						<table width='100%' border='1' cellpadding='7' cellspacing='0' bordercolorlight='#C6C6C6' bordercolordark='#C6C6C6' style='table-layout: fixed; border-collapse:collapse; word-wrap:break-word;'> 
+							<colgroup> 
+								<col width='10%'></col> 
+								<col width='20%'></col> 
+								<col width='70%'></col> 
+							</colgroup> 
+							<tr class='table_title' bgcolor='#F6F6F6' bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2' align='center'>Name</td> 
+								<td width='70%' align='center'>Description</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_addDate.html'>addDate</a></td> 
+								<td width='70%'>This method is used to add as many days as specified to the value of a Date object.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_addHours.html'>addHours</a></td> 
+								<td width='70%'>This method is used to add as many hours as specified to the value of a Date object.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_addMilliseconds.html'>addMilliseconds</a></td> 
+								<td width='70%'>This method is used to add as many milliseconds as specified to the value of a Date object.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_addMinutes.html'>addMinutes</a></td> 
+								<td width='70%'>This method is used to add as many minutes as specified to the value of a Date object.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_addMonth.html'>addMonth</a></td> 
+								<td width='70%'>This method is used to add as many months as specified to the value of a Date object.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_addSeconds.html'>addSeconds</a></td> 
+								<td width='70%'>This method is used to add as many seconds as specified to the value of a Date object.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_addYear.html'>addYear</a></td> 
+								<td width='70%'>This method is used to add as many years as specified to the value of a Date object.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_getDate.html'>getDate</a></td> 
+								<td width='70%'>This method is used to return the day drawn from the value of a Date object.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_getDay.html'>getDay</a></td> 
+								<td width='70%'>This method is used to return the weekday drawn from the value of a Date object.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_getFullYear.html'>getFullYear</a></td> 
+								<td width='70%'>This method is used to return the year drawn from the value of a Date object. The year will be returned in 4-digit format.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_getHours.html'>getHours</a></td> 
+								<td width='70%'>This method is used to return the hour drawn from the value of a Date object.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_getMilliseconds.html'>getMilliseconds</a></td> 
+								<td width='70%'>This method is used to return the millisecond drawn from the value of a Date object.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_getMinutes.html'>getMinutes</a></td> 
+								<td width='70%'>This method is used to return the minute drawn from the value of a Date object.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_getMonth.html'>getMonth</a></td> 
+								<td width='70%'>This method is used to return the month drawn from the value of a Date object.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_getSeconds.html'>getSeconds</a></td> 
+								<td width='70%'>This method is used to return the second drawn from the value of a Date object. </td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_getTime.html'>getTime</a></td> 
+								<td width='70%'>This method is used to return the value of a Date object in the form of a millisecond.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_getTimezoneOffset.html'>getTimezoneOffset</a></td> 
+								<td width='70%'>This method is used to return the difference between Universal Time Coordinated (UTC) and the value of a Date object. The returned value is expressed in minute.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_getUTCDate.html'>getUTCDate</a></td> 
+								<td width='70%'>This method is used to return the day drawn from the value of a Date object. The calculation is conducted based on Universal Time Coordinated (UTC).</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_getUTCDay.html'>getUTCDay</a></td> 
+								<td width='70%'>This method is used to return the weekday drawn from the value of a Date object. The calculation is conducted based on Universal Time Coordinated (UTC).</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_getUTCFullYear.html'>getUTCFullYear</a></td> 
+								<td width='70%'>This method is used to return the year drawn from the value of a Date object. The year will be returned in 4-digit format. The calculation is conducted based on Universal Time Coordinated (UTC).</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_getUTCHours.html'>getUTCHours</a></td> 
+								<td width='70%'>This method is used to return the hour drawn from the value of a Date object. The calculation is conducted based on Universal Time Coordinated (UTC).</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_getUTCMilliseconds.html'>getUTCMilliseconds</a></td> 
+								<td width='70%'>This method is used to return the millisecond drawn from the value of a Date object. The calculation is conducted based on Universal Time Coordinated (UTC).</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_getUTCMinutes.html'>getUTCMinutes</a></td> 
+								<td width='70%'>This method is used to return the minute drawn from the value of a Date object. The calculation is conducted based on Universal Time Coordinated (UTC).
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_getUTCMonth.html'>getUTCMonth</a></td> 
+								<td width='70%'>This method is used to return the month drawn from the value of a Date object. The calculation is conducted based on Universal Time Coordinated (UTC).</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_getUTCSeconds.html'>getUTCSeconds</a></td> 
+								<td width='70%'>This method is used to return the second drawn from the value of a Date object. The calculation is conducted based on Universal Time Coordinated (UTC).</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_getYear.html'>getYear</a></td> 
+								<td width='70%'>This method is used to return the year drawn from the value of a Date object.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_parse.html'>parse</a></td> 
+								<td width='70%'>The method to return the time between midnight of January 1, 1970 to the relevant date in milliseconds by analyzing the string including the date.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_setDate.html'>setDate</a></td> 
+								<td width='70%'>This method is used to change the day stored in the value of a Date object.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_setFullYear.html'>setFullYear</a></td> 
+								<td width='70%'>This method is used to change the year or entire date stored in the value of a Date object.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_setHours.html'>setHours</a></td> 
+								<td width='70%'>This method is used to change the hour or entire date stored in the value of a Date object.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_setMilliseconds.html'>setMilliseconds</a></td> 
+								<td width='70%'>This method is used to change the millisecond stored in the value of a Date object.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_setMinutes.html'>setMinutes</a></td> 
+								<td width='70%'>This method is used to change the minute stored in the value of a Date object.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_setMonth.html'>setMonth</a></td> 
+								<td width='70%'>This method is used to change the month in the value of a Date object.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_setSeconds.html'>setSeconds</a></td> 
+								<td width='70%'>This method is used to change the second stored in the value of a Date object.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_setTime.html'>setTime</a></td> 
+								<td width='70%'>This method is used to set the date and time values of a Date object in the form of a millisecond.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_setUTCDate.html'>setUTCDate</a></td> 
+								<td width='70%'>This method is used to change the day stored in the value of a Date object. The calculation is conducted based on Universal Time Coordinated (UTC).</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_setUTCFullYear.html'>setUTCFullYear</a></td> 
+								<td width='70%'>This method is used to change the year or entire date stored in the value of a Date object. The calculation is conducted based on Universal Time Coordinated (UTC).</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_setUTCHours.html'>setUTCHours</a></td> 
+								<td width='70%'>This method is used to change the hour or entire date stored in the value of a Date object. The calculation is conducted based on Universal Time Coordinated (UTC).</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_setUTCMilliseconds.html'>setUTCMilliseconds</a></td> 
+								<td width='70%'>This method is used to change the millisecond stored in the value of a Date object. The calculation is conducted based on Universal Time Coordinated (UTC).</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_setUTCMinutes.html'>setUTCMinutes</a></td> 
+								<td width='70%'>This method is used to change the minute stored in the value of a Date object. The calculation is conducted based on Universal Time Coordinated (UTC).</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_setUTCMonth.html'>setUTCMonth</a></td> 
+								<td width='70%'>This method is used to change the month in the value of a Date object. The calculation is conducted based on Universal Time Coordinated (UTC).
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_setUTCSeconds.html'>setUTCSeconds</a></td> 
+								<td width='70%'>This method is used to change the second stored in the value of a Date object. The calculation is conducted based on Universal Time Coordinated (UTC).</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_setYear.html'>setYear</a></td> 
+								<td width='70%'>This method is used to change the year in the value of a Date object.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_toDateString.html'>toDateString</a></td> 
+								<td width='70%'>This method is used to return the date drawn from the value of a Date object. The date will be returned in the form of a string.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_toGMTString.html'>toGMTString</a></td> 
+								<td width='70%'>This method is used to return the date and time drawn from value of a Date object in the form of a string. The calculation is conducted based on Greenwich Mean Time (GMT).</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_toLocaleDateString.html'>toLocaleDateString</a></td> 
+								<td width='70%'>This method is used to return the date drawn from the value of a Date object. The date will be returned in the form of the string formatted according to a certain locale.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_toLocaleString.html'>toLocaleString</a></td> 
+								<td width='70%'>This method is used to return the date and time drawn from the value of a Date object. The date and time will be returned in the form of the string formatted according to a certain locale.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_toLocaleTimeString.html'>toLocaleTimeString</a></td> 
+								<td width='70%'>This method is used to return the time drawn from the value of a Date object. The time will be returned in the form of the string formatted according to a certain locale.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_toString.html'>toString</a></td> 
+								<td width='70%'>This method is used to return the date and time values saved in a Date object in the form of a string.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_toTimeString.html'>toTimeString</a></td> 
+								<td width='70%'>This method is used to return the time drawn from the value of a Date object. The date will be returned in the form of a string.
+</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_toUTCString.html'>toUTCString</a></td> 
+								<td width='70%'>This method is used to return the date and time drawn from value of a Date object in the form of a string. The calculation is conducted based on Universal Time Coordinated (UTC).</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_UTC.html'>UTC</a></td> 
+								<td width='70%'>This method is used to returns the number of milliseconds between a date specified as an argument and midnight January 1 1970. The calculation is conducted based on Universal Time Coordinated (UTC) or Greenwich Mean Time (GMT).</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Script_Nexacro Objects_Date_Method_valueOf.html'>valueOf</a></td> 
+								<td width='70%'>This method is used to return the date and time values saved in a Date object in the form of a string.</td> 
+							</tr> 
+						</table> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+			</table> 
+ 
+		</td> 
+	</tr> 
+	<tr	class='list'> 
+		<td colspan='2'	valign='top'> 
+			<table width='98%' border='0' align='center' cellpadding='0' cellspacing='0' style='table-layout: fixed; word-wrap:break-word;'>  
+				<tr><td	height='1' bgcolor='#c5c5c6'></td></tr> 
+			</table> 
+		</td> 
+	</tr> 
+	<tr	class='list'> 
+		<td	width='75' height='35' align='right'></td> 
+		<td> 
+			<table width='180' border='0'	align='right'	cellpadding='0'	cellspacing='0'> 
+				<tr> 
+					<td	width='15'><img	src='../../bottom_update.gif'	width='15' height='9'	/></td> 
+					<td	width='185'	class='bottom_update'>LAST UPDATED Jan. 2024	</td> 
+				</tr> 
+			</table> 
+		</td> 
+	</tr> 
+</table> 
+</body> 
+</html> 

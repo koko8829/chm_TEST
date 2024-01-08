@@ -1,0 +1,66 @@
+/* ./XP/help.css */
+
+.title {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 16px;
+	COLOR: #9e0b0f;
+	FONT-FAMILY:  Microsoft YaHei, PingFang SC, Noto Sans CJK SC, SF Pro SC, SF Pro Text, Helvetica, Arial, sans-serif;
+}
+.bottom_update {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 11px;
+	COLOR: #ababab;
+	FONT-FAMILY: Microsoft YaHei, PingFang SC, Noto Sans CJK SC, SF Pro SC, SF Pro Text, Helvetica, Arial, sans-serif;
+}
+.list_title {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 16px;
+	COLOR: #cc0000;
+	FONT-FAMILY: Microsoft YaHei, PingFang SC, Noto Sans CJK SC, SF Pro SC, SF Pro Text, Helvetica, Arial, sans-serif;
+}
+.main_title {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 30px;
+	COLOR: #fcb040;
+	FONT-FAMILY: Microsoft YaHei, PingFang SC, Noto Sans CJK SC, SF Pro SC, SF Pro Text, Helvetica, Arial, sans-serif;
+	ALIGN : CENTER;
+}
+.main_update {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 11px;
+	COLOR: #ffffff;
+	FONT-FAMILY: Microsoft YaHei, PingFang SC, Noto Sans CJK SC, SF Pro SC, SF Pro Text, Helvetica, Arial, sans-serif;
+}
+.sub_title {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+	COLOR: #a2a2a2;
+	FONT-FAMILY: Microsoft YaHei, PingFang SC, Noto Sans CJK SC, SF Pro SC, SF Pro Text, Helvetica, Arial, sans-serif;
+}
+.top_navi {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 11px;
+	COLOR: #3f3f42;
+	FONT-FAMILY: Microsoft YaHei, PingFang SC, Noto Sans CJK SC, SF Pro SC, SF Pro Text, Helvetica, Arial, sans-serif;
+}
+.list {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 12px;
+	COLOR: #000000;
+	LINE-HEIGHT: normal;
+	FONT-FAMILY: Microsoft YaHei, PingFang SC, Noto Sans CJK SC, SF Pro SC, SF Pro Text, Helvetica, Arial, sans-serif;
+}
+pre.list {
+	word-wrap: break-word;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-break:break-all;
+}
+.table_title {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+	COLOR: #000000;
+	FONT-FAMILY: Microsoft YaHei, PingFang SC, Noto Sans CJK SC, SF Pro SC, SF Pro Text, Helvetica, Arial, sans-serif;
+}
