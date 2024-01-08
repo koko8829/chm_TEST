@@ -1,0 +1,367 @@
+<!DOCTYPE	html PUBLIC	'-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>  
+<html	xmlns='http://www.w3.org/1999/xhtml'> 
+<head> 
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" /> 
+<meta	http-equiv='Content-Type' content='text/html; charset=utf-8'/> 
+<title>nexacro_config.xml</title> 
+<style type='text/css'> 
+</style> 
+<link	href='../../help_Eng.css' rel='stylesheet' type='text/css' /> 
+</head> 
+ 
+<body> 
+<table width='100%' border='0' cellpadding='0' cellspacing='0' bgcolor='#FFFFFF'> 
+	<tr> 
+		<td	height='44'	colspan='2'	background='../../top_bg1.gif'> 
+			<table width='100%' border='0' cellspacing='0' cellpadding='0'  bgcolor='#ffffff'> 
+				<tr> 
+					<td><img src='../../logo1.gif' width='134' height='44' /></td> 
+					<td width='100%' bgcolor='#FFFFFF'> </td>
+					<td style='padding-right:6px;'><img src='../../logo4.gif' width='110' height='28' /></td> 
+				</tr> 
+			</table> 
+		</td> 
+	</tr> 
+	<tr> 
+		<td	height='28'	colspan='2' bgcolor='#eeeeee'> 
+			<table width='500' border='0' cellspacing='0' cellpadding='0'>  
+				<tr> 
+					<td	width='107'><img src='../../logo2.gif' width='107' height='28' /></td>  
+					<td	class='top_navi'> </td> 
+				</tr> 
+			</table> 
+		</td> 
+	</tr> 
+	<tr> 
+		<td	height='20'	colspan='2'	valign='top'> 
+			<table width='82'	border='0' cellspacing='0' cellpadding='0'> 
+				<tr> 
+					<td></td> 
+				 </tr> 
+			</table> 
+		</td> 
+	</tr> 
+ 
+	<tr	class='list'> 
+		<td	colspan='2'	valign='top'> 
+ 
+			<table width='98%' border='0' align='center' cellpadding='0' cellspacing='0' style='table-layout: fixed; word-wrap:break-word;'>  
+				<tr> 
+					<td	colspan='2' width='24'></td> 
+					<td></td> 
+				</tr> 
+				<tr><td	colspan='3' class='title'>nexacro_config.xml</td></tr> 
+				<tr><td colspan='3' height='5'></td></tr> 
+				<tr><td colspan='3' height='1' bgcolor='#c5c5c6'></td></tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif' width='14' height='8' /></td> 
+					<td	class='sub_title'>Overview</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'><pre class=list>The nexacro_config.xml file sets the operation option to be used in the NRE environment.
+The options that can be set may differ according to the OS environment of the app.</pre></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif' width='14' height='8' /></td> 
+					<td	class='sub_title'>File Creation and Path</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'><pre class=list><p>The basic file path by OS is as follows.&nbsp;</p><ul><li>Windows :&nbsp;<span style="font-family: &quot;courier new&quot;;">%USERAPP%\Config\[Key]\nexacro_config.xml</span></li><li>Android : <span style="font-family: &quot;courier new&quot;;">\res\xml\nexacro_config.xml</span></li><li>iOS/iPadOS : <span style="font-family: &quot;courier new&quot;;">{asset}/data/nexacro_config.xml</span></li><li>macOS : <span style="font-family: &quot;courier new&quot;;">{asset(project)}/data/nexacro_config.xml</span></li></ul><div>- When building Android, iOS/iPadOS, macOS NRE apps using App Builder, nexacro_config.xml file is automatically created and applied according to App Builder&nbsp; settings.</div><div>- Xcode, When creating a project directly in the Android Studio, the nexacro_config.xml file needs to be added manually.</div><div>- In the Windows NRE, it is applied only when the file location is specified with the -NC execution option.</div></pre></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif' width='14' height='8' /></td> 
+					<td	class='sub_title'>File Structure</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'><pre class=list>In the table below, NRE by OS is abbreviated.
+- W(Windows NRE), A(Android NRE), I(iOS/iPad NRE), M(macOS NRE)
+<table width='90%' border='1' cellpadding='7' cellspacing='0' bordercolor='#c6c6c6' bordercolorlight='#C6C6C6' bordercolordark='#C6C6C6' style='table-layout:fixed; border-collapse:collapse; word-wrap:break-word; width='80%';'>	<tr class='table_title' bgcolor='#F6F6F6'>
+		<td align='center' width='15%'>group</td>
+		<td align='center' width='15%'>name</td>
+		<td align='center' width='5%'>W</td>
+		<td align='center' width='5%'>A</td>
+		<td align='center' width='5%'>I</td>
+		<td align='center' width='5%'>M</td>
+		<td align='center' width='50%'>Description</td>
+	</tr>
+
+	<tr>
+		<td align='Left' rowspan='1'><pre style='margin: 0;'>nexacro-config</pre></td>
+		<td align='Left'><pre style='margin: 0;'>os</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Left'><pre style='margin: 0;'>Attribute to manage each OS
+"windows" | "Android" | "osx"
+The OS attribute item can be omitted.</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left' rowspan='7'><pre style='margin: 0;'>application</pre></td>
+		<td align='Left'><pre style='margin: 0;'>style</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Left'><pre style='margin: 0;'>Updates app UI style
+"old" | "default"</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>dialog-position</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Left'><pre style='margin: 0;'>Location of the pop-up output for displaying the progress of the app update
+"top" | "center" | "bottom" (Default: "center")</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>file-logging</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Left'><pre style='margin: 0;'>Whether to save loading error information file or not
+"true" | "false" (Default: "true")</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>quiet</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Left'><pre style='margin: 0;'>Whether to display the app execution dialogue or not
+"true" | "false"</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>loglevel </pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Left'><pre style='margin: 0;'>Log output level
+"fatal" | "error" | "warn" | "info" | "debug" (Default: "debug")
+- Higher priority than environment.loglevel attribute value</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>tracemode </pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Left'><pre style='margin: 0;'>Method of creating log files
+"none" | "new" | "append" (Default: "none")
+- Higher priority than the environment.tracemode attribute value</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>traceduration</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Left'><pre style='margin: 0;'>Option to create log files by day
+"-1" | nDate (Default -1)
+- The user can create log files by day by adding _yyyymmdd.log after the filepath name selected.
+- Higher priority than the environment.traceduration attribute value.</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left' rowspan='5'><pre style='margin: 0;'>updator</pre></td>
+		<td align='Left'><pre style='margin: 0;'>force</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Left'><pre style='margin: 0;'>Whether to force update processing without pop-up window when there is an update file in start_[OS].json.
+"true" | "false"</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>cancelable</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Left'><pre style='margin: 0;'>Whether to display the cancel button when the update pop-up window is displayed
+"true" | "false"</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>errormsg</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Left'><pre style='margin: 0;'>Whether to display the error information pop-up window when failing to operate during initial loading
+"true" | "false"</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>quiet</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Left'><pre style='margin: 0;'>Whether to process update without displaying the update pop-up window
+"true" | "false"
+- Progress is still displayed even with “true” setting</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>failpass</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Left'><pre style='margin: 0;'>Whether to ignore update errors
+"true" | "false"</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left' rowspan='2'><pre style='margin: 0;'>notification</pre></td>
+		<td align='Left'><pre style='margin: 0;'>enable</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Left'><pre style='margin: 0;'>Whether to use the notification function or not
+"true" | "false"</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>handler</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Left'><pre style='margin: 0;'>Class that implements a handler to process received notifications
+(Default)
+- Android: com.nexacro.notification.DefaultHandler
+- iOS/iPad: DefaultNotificationManagerHandler</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left' rowspan='1'><pre style='margin: 0;'>xpush-server</pre></td>
+		<td align='Left'><pre style='margin: 0;'>request-missing-message</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Left'><pre style='margin: 0;'>Whether to automatically request reliable messages that could not be received when using the X-PUSH server
+"true" | "false"</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left' rowspan='3'><pre style='margin: 0;'>log</pre></td>
+		<td align='Left'><pre style='margin: 0;'>filepath</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Left'><pre style='margin: 0;'>Assign including the location and name of the file to record the log
+(Default)
+- Windows: %USERAPP%/
+- macOS: %USERAPP%/Log/</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>filesize</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Left'><pre style='margin: 0;'>Maximum file size for log recording
+Default: 204,800 byte</pre></td>
+	</tr>
+
+	<tr>
+		<td align='Left'><pre style='margin: 0;'>backupfilecount</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Center'><pre style='margin: 0;'>X</pre></td>
+		<td align='Center'><pre style='margin: 0;'>O</pre></td>
+		<td align='Left'><pre style='margin: 0;'>Maximum file number for log recording
+Default: 5
+- The number of files to backup when the log file size is bigger than the set filesize value</pre></td>
+	</tr>
+</table></pre></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif' width='14' height='8'	/></td> 
+					<td	class='sub_title'>See Also</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'> 
+			<a href='Environment_Property_loglevel.html'>Environment.loglevel</a><br> 
+			<a href='Environment_Property_tracemode.html'>Environment.tracemode</a><br> 
+			<a href='Environment_Property_traceduration.html'>Environment.traceduration</a><br> 
+			<a href='Misc. Objects_System_Method_execNexacro.html'>System.execNexacro</a><br> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+			</table> 
+ 
+		</td> 
+	</tr> 
+	<tr	class='list'> 
+	<td colspan='2'	valign='top'> 
+	<table width='98%' border='0' align='center' cellpadding='0' cellspacing='0' style='table-layout: fixed; word-wrap:break-word;'>  
+		<tr><td	height='1' bgcolor='#c5c5c6'></td></tr> 
+	</table> 
+	</td> 
+	</tr> 
+	<tr	class='list'> 
+		<td	width='75' height='35' align='right'></td> 
+		<td> 
+			<table width='180' border='0'	align='right'	cellpadding='0'	cellspacing='0'> 
+				<tr> 
+					<td	width='15'><img	src='../../bottom_update.gif'	width='15' height='9'	/></td> 
+					<td	width='185'	class='bottom_update'>LAST UPDATED Jan. 2024	</td> 
+				</tr> 
+			</table> 
+		</td> 
+	</tr> 
+</table> 
+</body> 
+</html> 
