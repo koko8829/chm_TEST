@@ -1,0 +1,1972 @@
+<!DOCTYPE	html PUBLIC	'-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>  
+<html	xmlns='http://www.w3.org/1999/xhtml'> 
+<head> 
+<meta	http-equiv='Content-Type' content='text/html; charset=utf-8'/> 
+<title>Calendar</title> 
+<style type='text/css'> 
+</style> 
+<link	href='../../help.css' rel='stylesheet' type='text/css' /> 
+</head> 
+ 
+<body> 
+<table width='100%' border='0' cellpadding='0' cellspacing='0' bgcolor='#FFFFFF'> 
+	<tr> 
+		<td	height='44'	colspan='2'	background='../../top_bg1.gif'> 
+			<table width='100%' border='0' cellspacing='0' cellpadding='0'  bgcolor='#ffffff'> 
+				<tr> 
+					<td><img src='../../logo1.gif' width='134' height='44' /></td> 
+					<td width='100%' bgcolor='#FFFFFF'> 
+					<td style='padding-right:6px;'><img src='../../logo4.gif' width='110' height='28' /></td> 
+				</tr> 
+			</table> 
+		</td> 
+	</tr> 
+	<tr> 
+		<td	height='28'	colspan='2' bgcolor='#eeeeee'> 
+			<table width='500' border='0' cellspacing='0' cellpadding='0'>  
+				<tr> 
+					<td	width='107'><img src='../../logo2.gif' width='107' height='28' /></td>  
+					<td	class='top_navi'>Components > Component > Calendar</td> 
+				</tr> 
+			</table> 
+		</td> 
+	</tr> 
+	<tr> 
+		<td	height='20'	colspan='2'	valign='top'> 
+			<table width='82'	border='0' cellspacing='0' cellpadding='0'> 
+				<tr> 
+					<td></td> 
+				 </tr> 
+			</table> 
+		</td> 
+	</tr> 
+	<tr	class='list'> 
+		<td	colspan='2'	valign='top'> 
+<table width='98%' border='0' align='center' cellpadding='0' cellspacing='0' style='table-layout: fixed; border-collapse:collapse; word-wrap:break-word;'>  
+				<tr> 
+					<td	colspan='2' width='24'></td> 
+					<td></td> 
+				</tr> 
+				<tr><td	colspan='3' class='title'>Calendar</td></tr> 
+				<tr><td colspan='3' height='5'></td></tr> 
+				<tr><td colspan='3' height='1' bgcolor='#c5c5c6'></td></tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif' width='14' height='8' /></td> 
+					<td	class='sub_title'>Supported Environments</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2' width='24'></td> 
+					<td	>				<table border ='0' width='100%'> 
+					<tr> 
+						<td colspan='20'>[Desktop]</td>
+						<td align='right' valign='middle'><img src='../../support_legend1_2.gif' /></td> 
+					</tr>
+					<tr>
+						<td colspan='21'>Nexacro Runtime Environment (NRE)</td>
+					</tr>
+					<tr>
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td colspan='7' style='white-space:nowrap;'>Windows</td>
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td colspan='12' style='white-space:nowrap;'>macOS</td>
+					</tr>
+					<tr>
+						<td colspan='21'>Web Runtime Environment (WRE)</td>
+					</tr>
+					<tr> 
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td width='30'>Edge</td>
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td width='46'>Chrome</td>
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td width='40'>Safari</td>
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td width='45'>Firefox</td>
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td colspan='8' width='40'>Opera</td>
+					</tr> 
+					<tr>
+						<td colspan='21' height='10'></td>
+					</tr> 
+					<tr>
+						<td colspan='21' height='18'>[Mobile]</td>
+					</tr> 
+					<tr>
+						<td colspan='21'>Nexacro Runtime Environment (NRE)</td>
+					</tr>
+					<tr> 
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td colspan='7' style='white-space:nowrap;'>Android</td>
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td colspan='12' style='white-space:nowrap;'>iOS/iPadOS</td>
+					</tr> 
+					<tr>
+						<td colspan='21'>Web Runtime Environment (WRE)</td>
+					</tr>
+					<tr> 
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td colspan='7' style='white-space:nowrap;'>Android Default Web Browser</td>
+						<td width='16'><img src='../../support01.gif' width='16' height='17'/></td>
+						<td colspan='12' style='white-space:nowrap;'>iOS/iPadOS Default Web Browser</td>
+					</tr> 
+				</table> 
+</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif' width='14' height='8' /></td> 
+					<td	class='sub_title'>Description</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'><pre class=list>Calendar 는 날짜와 시간을 입력 받기 위한 컴포넌트입니다.</pre></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif' width='14' height='8' /></td> 
+					<td	class='sub_title'>Remark</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'><pre class=list>- 날짜와 시간의 화면출력보다 입력과 관련된 기능을 많이 제공합니다.
+
+- 입력영역과 팝업달력 형식, 월단위 달력 형식, 입력영역과 스핀버튼 형식을 type 속성값을 사용하여 선택할 수 있습니다.
+
+- 입력된 날짜의 정합성을 검사하는 기능이 내장되어 있습니다.
+
+- innerdataset 속성을 사용하여 특정날짜에 효과를 줄 수 있습니다.
+
+- 입력되는 날짜의 형식을 editformat 속성값을 사용하여 설정할 수 있습니다.
+   표시되는 날짜의 형식을 dateformat 속성값을 사용하여 설정할 수 있습니다.
+   editformat, dateformat 속성에 "LONGDATE", "SHORTDATE" 설정 시 국가별로 다른 형식의 날짜를 설정할 수 있습니다.
+
+- 화면에 제공되는 스핀버튼 또는 키보드의 Up/Down Key 를 이용해 편리하게 입력할 수 있습니다.
+   Calendar 와 팝업달력에 표시되는 스핀버튼에 LButtonDown 상태를 유지할 경우 날짜값이 연속적으로 변경됩니다.
+
+- Calendar 의 팝업달력에서 날짜선택은 마우스 왼쪽 버튼으로 Down&Up 을 수행하여야 합니다.
+
+- Calendar 의 dropbutton 과 팝업달력이 겹쳐질 경우 팝업달력이 열린 후 곧바로 닫히는 현상이 나타날 수 있습니다.
+   클릭위치가 중첩되어 나타나는 문제로 버그가 아니므로 dropbutton 과 팝업달력이 중첩되지 않도록 설정값을 변경하여야 합니다.
+
+- editformat 속성값에 시간관련 마스크 문자를 설정한 경우 시간은 편집영역에서 직접 입력하여야 합니다.
+   시간은 입력 시 24시간 형식으로 입력하여야 하며 표시는 12시간 형식을 사용할 수 있습니다.
+
+- calendaredit 영역에 직접 날짜값을 입력하는 경우 유효하지 않은 값이 입력됐을 때 아래와 같은 규칙으로 정합성을 검사하고 날짜값을 반영합니다.
+
+(1) 기존값이 윤일(閏日)인 경우
+기존값이 윤일인 경우 윤년이 아닌 년도값을 입력하면 2월 28일로 날짜값을 반영합니다.
+예를 들어 기존값이 "2020-02-29"인 경우 년도값으로 "2025"를 입력하면 "2025-02-28"로 날짜값을 반영합니다.
+
+(2) 일의 자리 입력 시 유효하지 않은 숫자 처리
+월 또는 일 편집 영역에 일의 자리를 입력할 때 유효하지 않은 숫자가 입력되면 십의 자리는 "0"으로 처리하고 일의 자리만 유지합니다.
+월 편집 영역에 13에서 19 사이의 숫자를 입력하거나 일 편집 영역에 maxday보다 큰 숫자를 입력하는 경우가 해당합니다.
+예를 들어 월 편집 영역에 "13"을 입력하면 십의 자리를 "0"으로 처리해서 "03"으로 날짜값을 반영합니다. 그리고 캐럿은 일 편집 영역 십의 자리 앞으로 이동합니다.
+일 편집 영역에 "32"를 입력하면 십의 자리를 "0"으로 처리해서 "02"으로 날짜값을 반영합니다(2월인 경우에는 십의 자리에 3을 입력할 때 유효하지 않은 숫자로 처리됩니다). 그리고 캐럿은 일 편집 영역 일의 자리 뒤로 이동합니다.
+
+(3) 십의 자리 입력 시 유효하지 않는 숫자 처리
+월 또는 일 편집 영역에 십의 자리를 입력할 때 유효하지 않은 숫자가 입력되면 십의 자리는 "0"으로 처리하고 일의 자리에 반영합니다.
+예를 들어 기존값이 "2020-11-11"인 경우 월 편집 영역 십의 자리에 "2"를 입력하면 "2020-02-11"로 날짜값을 반영합니다. 그리고 캐럿은 일 편집 영역 십의 자리 앞으로 이동합니다.
+일 편집 영역 십의 자리에 "4"를 입력하면 "2020-11-04"로 날짜값을 반영합니다. 그리고 캐럿은 일 편집 영역 일의 자리 뒤로 이동합니다.
+
+<b>◆ Mobile 제약</b>
+
+- 모바일 환경에서는 기능상의 문제로 스핀버튼에 터치를 유지하여도 날짜값이 연속적으로 변경되지 않습니다.</pre></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif' width='14' height='8' /></td> 
+					<td	class='sub_title'>Structure</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'><pre class=list><img src='../nexacro17_02_Calendar4.png' border='0'></pre></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif'	width='14' height='8'	/></td> 
+					<td	class='sub_title'>Contents Sizing</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'><pre class='list'>Calendar 컴포넌트와 내부 컨텐츠 크기를 결정하는 기준입니다.
+
+- Calendar 컴포넌트의 type 속성값이 "normal" 일 경우 기준입니다.</pre> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'> 
+						<table width='100%' border='1' cellpadding='7' cellspacing='0' bordercolorlight='#C6C6C6' bordercolordark='#C6C6C6' style='table-layout: fixed; border-collapse:collapse; word-wrap:break-word;' > 
+							<colgroup> 
+								<col width='15%'></col> 
+								<col width='85%'></col> 
+							</colgroup> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td colspan='2'><pre style='margin: 0;'>Calendar Component</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Width</td> 
+								<td><pre style='margin: 0;'>Calendar 컴포넌트의 width 속성값이 적용됩니다.
+내부 컨텐츠의 Width 보다 작을 경우 내부 컨텐츠가 잘려서 표시됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Height</td> 
+								<td><pre style='margin: 0;'>Calendar 컴포넌트의 height 속성값이 적용됩니다.
+내부 컨텐츠의 Height 보다 작을 경우 내부 컨텐츠가 잘려서 표시됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td colspan='2'><pre style='margin: 0;'>calendaredit Control</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Left</td> 
+								<td><pre style='margin: 0;'>0 으로 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Top</td> 
+								<td><pre style='margin: 0;'>0 으로 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Width</td> 
+								<td><pre style='margin: 0;'>Calendar 컴포넌트의 Width 에서 dropbutton 컨트롤의 Width 를 뺀 값이 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Height</td> 
+								<td><pre style='margin: 0;'>Calendar 컴포넌트의 Height 가 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td colspan='2'><pre style='margin: 0;'>dropbutton Control</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Left</td> 
+								<td><pre style='margin: 0;'>Calendar 컴포넌트의 Width 에서 dropbutton 컨트롤의 Width 를 뺀 값이 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Top</td> 
+								<td><pre style='margin: 0;'>0 으로 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Width</td> 
+								<td><pre style='margin: 0;'>buttonsize 속성값이 적용됩니다.
+buttonsize 속성값이 없으면 Calendar 컴포넌트의 Height 가 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Height</td> 
+								<td><pre style='margin: 0;'>Calendar 컴포넌트의 Height 가 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td colspan='2'><pre style='margin: 0;'>datepicker Control</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Left</td> 
+								<td><pre style='margin: 0;'>Calendar 컴포넌트의 left 속성값이 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Top</td> 
+								<td><pre style='margin: 0;'>Calendar 컴포넌트의 bottom 속성값이 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Width</td> 
+								<td><pre style='margin: 0;'>popupsize 속성값의 <strWidth> 값이 적용됩니다.
+popupsize 속성값이 없으면 220 으로 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Height</td> 
+								<td><pre style='margin: 0;'>popupsize 속성값의 <strHeight> 값이 적용됩니다.
+popupsize 속성값이 없으면 200 으로 적용됩니다.</pre></td> 
+							</tr> 
+						</table> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'><pre class='list'>- Calendar 컴포넌트의 type 속성값이 "spin" 일 경우 기준입니다.</pre> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'> 
+						<table width='100%' border='1' cellpadding='7' cellspacing='0' bordercolorlight='#C6C6C6' bordercolordark='#C6C6C6' style='table-layout: fixed; border-collapse:collapse; word-wrap:break-word;' > 
+							<colgroup> 
+								<col width='15%'></col> 
+								<col width='85%'></col> 
+							</colgroup> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td colspan='2'><pre style='margin: 0;'>Calendar Component</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Width</td> 
+								<td><pre style='margin: 0;'>Calendar 컴포넌트의 width 속성값이 적용됩니다.
+내부 컨텐츠의 Width 보다 작을 경우 내부 컨텐츠가 잘려서 표시됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Height</td> 
+								<td><pre style='margin: 0;'>Calendar 컴포넌트의 height 속성값이 적용됩니다.
+내부 컨텐츠의 Height 보다 작을 경우 내부 컨텐츠가 잘려서 표시됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td colspan='2'><pre style='margin: 0;'>calendaredit Control</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Left</td> 
+								<td><pre style='margin: 0;'>0 으로 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Top</td> 
+								<td><pre style='margin: 0;'>0 으로 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Width</td> 
+								<td><pre style='margin: 0;'>Calendar 컴포넌트의 Width 에서 spinupbutton 컨트롤의 Width 를 뺀 값이 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Height</td> 
+								<td><pre style='margin: 0;'>Calendar 컴포넌트의 Height 가 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td colspan='2'><pre style='margin: 0;'>spinupbutton Control</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Left</td> 
+								<td><pre style='margin: 0;'>Calendar 컴포넌트의 Width 에서 spinupbutton 컨트롤의 Width 를 뺀 값이 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Top</td> 
+								<td><pre style='margin: 0;'>0 으로 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Width</td> 
+								<td><pre style='margin: 0;'>buttonsize 속성값이 적용됩니다.
+buttonsize 속성값이 없으면 Calendar 컴포넌트의 Height 가 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Height</td> 
+								<td><pre style='margin: 0;'>Calendar 컴포넌트의 Height 를 2로 나눈 몫이 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td colspan='2'><pre style='margin: 0;'>spindownbutton Control</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Left</td> 
+								<td><pre style='margin: 0;'>Calendar 컴포넌트의 Width 에서 spinupbutton 컨트롤의 Width 를 뺀 값이 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Top</td> 
+								<td><pre style='margin: 0;'>Calendar 컴포넌트의 Height 에서 spinupbutton 컨트롤의 Height 를 뺀 값이 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Width</td> 
+								<td><pre style='margin: 0;'>buttonsize 속성값이 적용됩니다.
+buttonsize 속성값이 없으면 Calendar 컴포넌트의 Height 가 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Height</td> 
+								<td><pre style='margin: 0;'>Calendar 컴포넌트의 Height 를 2로 나눈 몫이 적용됩니다.</pre></td> 
+							</tr> 
+						</table> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'><pre class='list'>- Calendar 컴포넌트의 type 속성값이 "monthonly" 일 경우 기준입니다.</pre> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'> 
+						<table width='100%' border='1' cellpadding='7' cellspacing='0' bordercolorlight='#C6C6C6' bordercolordark='#C6C6C6' style='table-layout: fixed; border-collapse:collapse; word-wrap:break-word;' > 
+							<colgroup> 
+								<col width='15%'></col> 
+								<col width='85%'></col> 
+							</colgroup> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td colspan='2'><pre style='margin: 0;'>Calendar Component</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Width</td> 
+								<td><pre style='margin: 0;'>Calendar 컴포넌트의 width 속성값이 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Height</td> 
+								<td><pre style='margin: 0;'>Calendar 컴포넌트의 height 속성값이 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td colspan='2'><pre style='margin: 0;'>head Control</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Left</td> 
+								<td><pre style='margin: 0;'>0 으로 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Top</td> 
+								<td><pre style='margin: 0;'>0 으로 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Width</td> 
+								<td><pre style='margin: 0;'>Calendar 컴포넌트의 Width 가 적용됩니다.
+내부 컨텐츠의 Width 보다 작을 경우 내부 컨텐츠가 잘려서 표시됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Height</td> 
+								<td><pre style='margin: 0;'>headheight 속성값이 적용됩니다.
+headheight 속성값이 없으면 Calendar 컴포넌트의 Height 를 8 로 나눈 값이 적용됩니다.
+내부 컨텐츠의 Height 보다 작을 경우 내부 컨텐츠가 잘려서 표시됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td colspan='2'><pre style='margin: 0;'>prevbutton Control</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Left</td> 
+								<td><pre style='margin: 0;'>0 으로 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Top</td> 
+								<td><pre style='margin: 0;'>0 으로 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Width</td> 
+								<td><pre style='margin: 0;'>head 컨트롤의 Height 가 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Height</td> 
+								<td><pre style='margin: 0;'>head 컨트롤의 Height 가 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td colspan='2'><pre style='margin: 0;'>nextbutton Control</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Left</td> 
+								<td><pre style='margin: 0;'>0 으로 적용됩니다. (오른쪽으로 정렬합니다.)</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Top</td> 
+								<td><pre style='margin: 0;'>0 으로 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Width</td> 
+								<td><pre style='margin: 0;'>head 컨트롤의 Height 가 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Height</td> 
+								<td><pre style='margin: 0;'>head 컨트롤의 Height 가 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td colspan='2'><pre style='margin: 0;'>yearstatic Control</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Left</td> 
+								<td><pre style='margin: 0;'>monthstatic 컨트롤의 Width 와 합하여 head 컨트롤에 가운데 정렬되게 계산되어 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Top</td> 
+								<td><pre style='margin: 0;'>monthstatic 컨트롤의 Height 와 합하여 head 컨트롤에 가운데 정렬되게 계산되어 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Width</td> 
+								<td><pre style='margin: 0;'>텍스트 길이에 맞게 계산된 값이 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Height</td> 
+								<td><pre style='margin: 0;'>텍스트 크기에 맞게 계산된 값이 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td colspan='2'><pre style='margin: 0;'>monthstatic Control</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Left</td> 
+								<td><pre style='margin: 0;'>yearstatic 컨트롤의 Width 와 합하여 head 컨트롤에 가운데 정렬되게 계산되어 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Top</td> 
+								<td><pre style='margin: 0;'>yearstatic 컨트롤의 Height 와 합하여 head 컨트롤에 가운데 정렬되게 계산되어 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Width</td> 
+								<td><pre style='margin: 0;'>텍스트 길이에 맞게 계산된 값이 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Height</td> 
+								<td><pre style='margin: 0;'>텍스트 크기에 맞게 계산된 값이 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td colspan='2'><pre style='margin: 0;'>body Control</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Left</td> 
+								<td><pre style='margin: 0;'>0 으로 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Top</td> 
+								<td><pre style='margin: 0;'>head 컨트롤의 Height 값이 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Width</td> 
+								<td><pre style='margin: 0;'>Calendar 컴포넌트의 Width 가 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Height</td> 
+								<td><pre style='margin: 0;'>Calendar 컴포넌트의 Height 에서 head 컨트롤의 Height 를 뺀 값이 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td colspan='2'><pre style='margin: 0;'>weekband Control</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Left</td> 
+								<td><pre style='margin: 0;'>0 으로 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Top</td> 
+								<td><pre style='margin: 0;'>0 으로 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Width</td> 
+								<td><pre style='margin: 0;'>body 컨트롤의 Width 가 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Height</td> 
+								<td><pre style='margin: 0;'>daysize 속성값의 <strHeight> 값이 적용됩니다.
+daysize 속성값이 없으면 body 컨트롤의 Height 를 7 로 나눈 값이 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td colspan='2'><pre style='margin: 0;'>weekitem Control</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Left</td> 
+								<td><pre style='margin: 0;'>아이템별로 요일에 맞게 계산되어 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Top</td> 
+								<td><pre style='margin: 0;'>0 으로 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Width</td> 
+								<td><pre style='margin: 0;'>daysize 속성값의 <strWidth> 값이 적용됩니다.
+daysize 속성값이 없으면 weekband 컨트롤의 Width 를 7로 나눈 값이 적용됩니다.
+내부 컨텐츠의 Width 보다 작을 경우 내부 컨텐츠가 잘려서 표시됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Height</td> 
+								<td><pre style='margin: 0;'>weekband 컨트롤의 Height 값이 적용됩니다.
+내부 컨텐츠의 Height 보다 작을 경우 내부 컨텐츠가 잘려서 표시됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td colspan='2'><pre style='margin: 0;'>dayitem Control</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Left</td> 
+								<td><pre style='margin: 0;'>아이템별로 요일에 맞게 계산되어 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Top</td> 
+								<td><pre style='margin: 0;'>아이템별로 주에 맞게 계산되어 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Width</td> 
+								<td><pre style='margin: 0;'>daysize 속성값의 <strWidth> 값이 적용됩니다.
+daysize 속성값이 없으면 weekband 컨트롤의 Width 를 7로 나눈 값이 적용됩니다.
+내부 컨텐츠의 Width 보다 작을 경우 내부 컨텐츠가 잘려서 표시됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Height</td> 
+								<td><pre style='margin: 0;'>daysize 속성값의 <strHeight> 값이 적용됩니다.
+daysize 속성값이 없으면 body 컨트롤의 Height 를 7 로 나눈 값이 적용됩니다.
+내부 컨텐츠의 Height 보다 작을 경우 내부 컨텐츠가 잘려서 표시됩니다.</pre></td> 
+							</tr> 
+						</table> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'><pre class='list'>- Calendar 컴포넌트의 datepickerchangetype 속성값이 "button"(또는 "normal"이고 Mobile 환경에서 실행)인 경우 기준입니다.</pre> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'> 
+						<table width='100%' border='1' cellpadding='7' cellspacing='0' bordercolorlight='#C6C6C6' bordercolordark='#C6C6C6' style='table-layout: fixed; border-collapse:collapse; word-wrap:break-word;' > 
+							<colgroup> 
+								<col width='15%'></col> 
+								<col width='85%'></col> 
+							</colgroup> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td colspan='2'><pre style='margin: 0;'>Calendar Component</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Width</td> 
+								<td><pre style='margin: 0;'>Calendar 컴포넌트의 width 속성값이 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Height</td> 
+								<td><pre style='margin: 0;'>Calendar 컴포넌트의 height 속성값이 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td colspan='2'><pre style='margin: 0;'>DatePickerHeadControl</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Left</td> 
+								<td><pre style='margin: 0;'>calendarpopup 컨트롤 위치에 맞게 계산된 값이 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Top</td> 
+								<td><pre style='margin: 0;'>calendarpopup 컨트롤 위치에 맞게 계산된 값이 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Width</td> 
+								<td><pre style='margin: 0;'>popupsize로 지정한 Width 값이 적용됩니다. 
+해당 값 미설정 시 calendarpopup 컨트롤 Width 와 동일한 값이 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Height</td> 
+								<td><pre style='margin: 0;'>popupsize로 지정한 Height 값이 적용됩니다.
+해당 값 미설정 시 Calendar 컴포넌트의 headheight 속성 값이 적용됩니다. 해당 값 미설정 시 기본 값(27.5px)이 적용됩니다. </pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td colspan='2'><pre style='margin: 0;'>DatePickerBodyControl</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Left</td> 
+								<td><pre style='margin: 0;'>calendarpopup 컨트롤 위치에 맞게 계산된 값이 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Top</td> 
+								<td><pre style='margin: 0;'>calendarpopup 컨트롤 위치에 맞게 계산된 값에 DatePickerHeadControl의 height를 추가한 값이 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Width</td> 
+								<td><pre style='margin: 0;'>popupsize로 지정한 Width 값이 적용됩니다. 
+해당 값 미설정 시 calendarpopup 컨트롤 Width 와 동일한 값이 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Height</td> 
+								<td><pre style='margin: 0;'>popupsize로 지정한 Height 값이 적용됩니다.
+해당 값 미설정 시 calendarpopup에서 DatePickerHeadControl의 height를 제외한 값이 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td colspan='2'><pre style='margin: 0;'>dayitem</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Left</td> 
+								<td><pre style='margin: 0;'>아이템별로 요일에 맞게 계산되어 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Top</td> 
+								<td><pre style='margin: 0;'>아이템별로 주에 맞게 계산되어 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Width</td> 
+								<td><pre style='margin: 0;'>daysize 속성값의  값이 적용됩니다.
+daysize 속성값이 없으면 weekband 컨트롤의 Width 를 7로 나눈 값이 적용됩니다.
+내부 컨텐츠의 Width 보다 작을 경우 내부 컨텐츠가 잘려서 표시됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Height</td> 
+								<td><pre style='margin: 0;'>daysize 속성값의  값이 적용됩니다.
+daysize 속성값이 없으면 body 컨트롤의 Height 를 7 로 나눈 값이 적용됩니다.
+내부 콘텐츠의 Height 보다 작을 경우 내부 콘텐츠가 잘려서 표시됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td colspan='2'><pre style='margin: 0;'>monthitem</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Left</td> 
+								<td><pre style='margin: 0;'>아이템별로 월에 맞게 4개 단위로 나누어 계산되어 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Top</td> 
+								<td><pre style='margin: 0;'>head 컨트롤의 Height와 weekband 컨트롤의 Height를 더한 값을 시작으로 
+아이템별로 월에 맞게 4개 단위로 계산되어 적용됩니다. </pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Width</td> 
+								<td><pre style='margin: 0;'>body 컨트롤의 Width를 4로 나눈 값이 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Height</td> 
+								<td><pre style='margin: 0;'>body 컨트롤의 Height를 4로 나눈 값이 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td colspan='2'><pre style='margin: 0;'>yearitem</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Left</td> 
+								<td><pre style='margin: 0;'>아이템별로 년에 맞게 4개 단위로 나누어 계산되어 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Top</td> 
+								<td><pre style='margin: 0;'>head 컨트롤의 Height와 weekband 컨트롤의 Height를 더한 값을 시작으로 
+아이템별로 년에 맞게 4개 단위로 계산되어 적용됩니다. </pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Width</td> 
+								<td><pre style='margin: 0;'>body 컨트롤의 Width를 4로 나눈 값이 적용됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>Height</td> 
+								<td><pre style='margin: 0;'>body 컨트롤의 Height를 4로 나눈 값이 적용됩니다.</pre></td> 
+							</tr> 
+						</table> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif'	width='14' height='8'	/></td> 
+					<td	class='sub_title'>Basic Key Action</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'> 
+						<table width='100%' border='1' cellpadding='7' cellspacing='0' bordercolorlight='#C6C6C6' bordercolordark='#C6C6C6' style='table-layout: fixed; border-collapse:collapse; word-wrap:break-word;' > 
+							<tr class='table_title' bgcolor='#F6F6F6' bordercolor='#c6c6c6'> 
+								<td width='20%' align='center'>Action</td> 
+								<td width='20%' align='center'>Key</td> 
+								<td width='60%' align='center'>Description</td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>포커스 이동</td> 
+								<td>Tab</td> 
+								<td><pre style='margin: 0;'>Tab 이동 순서에 따라 다음 컴포넌트로 포커스가 이동합니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>DatePicker 열기</td> 
+								<td>Alt + 아래방향키 또는 Option + 아래방향키</td> 
+								<td><pre style='margin: 0;'>type 속성값이 "normal" 일 때 팝업달력(DatePicker)이 표시됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>DatePicker 닫기</td> 
+								<td>ESC</td> 
+								<td><pre style='margin: 0;'>type 속성값이 "normal" 일 때 열려있는 팝업달력(DatePicker)을 닫습니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>날짜 변경</td> 
+								<td>상하방향키</td> 
+								<td><pre style='margin: 0;'>type 속성값이 "spin" 일 때 캐럿위치의 년/월/일 값을 변경합니다.
+
+년/월/일 이 가질 수 있는 최저/최고값에 도달하면 반대값(최저면 최고값, 최고면 최저값)으로 변경됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>날짜 결정</td> 
+								<td>Enter</td> 
+								<td><pre style='margin: 0;'>type 속성값이 "normal" 또는 "monthonly" 일 때 팝업달력(DatePIcker)에 선택된 날짜를 value 속성에 반영합니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>DatePicker 날짜이동</td> 
+								<td>상하좌우방향키</td> 
+								<td><pre style='margin: 0;'>DatePicker 에서 날짜가 이동됩니다.
+선택된 날짜를 결정하려면 Enter 를 입력하여야 합니다.
+
+첫 날짜에서 상/좌 방향키 또는 마지막 날짜에서 하/우 방향키 입력 시 월이 전환됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>DatePicker 날짜이동</td> 
+								<td>Ctrl + 좌우방향키</td> 
+								<td><pre style='margin: 0;'>DatePicker 의 월이 이동됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>DatePicker 날짜이동</td> 
+								<td>Ctrl + 상하방향키</td> 
+								<td><pre style='margin: 0;'>DatePicker 의 연도가 이동됩니다.</pre></td> 
+							</tr> 
+						</table> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif'	width='14' height='8'	/></td> 
+					<td	class='sub_title'>Accessibility Key Action</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'><pre class=list>접근성 기능이 활성화 되어 있을 때 적용되는 키 액션입니다.</pre></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'> 
+						<table width='100%' border='1' cellpadding='7' cellspacing='0' bordercolorlight='#C6C6C6' bordercolordark='#C6C6C6' style='table-layout: fixed; border-collapse:collapse; word-wrap:break-word;' > 
+							<tr class='table_title' bgcolor='#F6F6F6' bordercolor='#c6c6c6'> 
+								<td width='20%' align='center'>Action</td> 
+								<td width='20%' align='center'>Key</td> 
+								<td width='60%' align='center'>Description</td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>포커스 이동</td> 
+								<td>Tab</td> 
+								<td><pre style='margin: 0;'>Tab 이동 순서에 따라 다음 컴포넌트로 포커스가 이동합니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>선택상자 이동</td> 
+								<td>상하방향키</td> 
+								<td><pre style='margin: 0;'>Tab Order 가 이전/다음인 컴포넌트로 선택상자가 이동합니다.
+
+type 속성값이 "normal" 일 때 표시된 팝업달력(DatePicker) 에서는 아무런 액션도 발생하지 않습니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>DatePicker 열기</td> 
+								<td>Alt + 아래방향키 또는 Option + 아래방향키</td> 
+								<td><pre style='margin: 0;'>type 속성값이 "normal" 일 때 팝업달력(DatePicker)이 표시됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>DatePicker 닫기</td> 
+								<td>ESC</td> 
+								<td><pre style='margin: 0;'>type 속성값이 "normal" 일 때 열려있는 팝업달력(DatePicker)을 닫습니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>날짜 변경</td> 
+								<td>Ctrl + 상하방향키</td> 
+								<td><pre style='margin: 0;'>type 속성값이 "spin" 일 때 캐럿위치의 년/월/일 값을 변경합니다.
+
+년/월/일 이 가질 수 있는 최저/최고값에 도달하면 반대값(최저면 최고값, 최고면 최저값)으로 변경됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>날짜 결정</td> 
+								<td>Enter</td> 
+								<td><pre style='margin: 0;'>type 속성값이 "normal" 또는 "monthonly" 일 때 팝업달력(DatePIcker)에 선택된 날짜를 value 속성에 반영합니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>DatePicker 날짜이동</td> 
+								<td>좌우방향키</td> 
+								<td><pre style='margin: 0;'>DatePicker 에서 날짜가 이동됩니다.
+선택된 날짜를 결정하려면 Enter 를 입력하여야 합니다.
+
+첫 날짜에서 좌측방향키 또는 마지막 날짜에서 우측방향키 입력 시 월이 전환됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>DatePicker 날짜이동</td> 
+								<td>Ctrl + 좌우방향키</td> 
+								<td><pre style='margin: 0;'>DatePicker 의 월이 이동됩니다.</pre></td> 
+							</tr> 
+							<tr bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>DatePicker 날짜이동</td> 
+								<td>Ctrl + 상하방향키</td> 
+								<td><pre style='margin: 0;'>DatePicker 의 연도가 이동됩니다.</pre></td> 
+							</tr> 
+						</table> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif' width='14' height='8' /></td> 
+					<td	class='sub_title'>Constructor</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'><pre class='list'>Calendar.init( strName, vLeft, vTop , vWidth, vHeight [, vRight, vBottom, [vMinWidth, [vMaxWidth, [vMinHeight, [vMaxHeight]]]]] )</pre> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'> 
+						<table width='100%' border='1' cellpadding='7' cellspacing='0' bordercolorlight='#C6C6C6' bordercolordark='#C6C6C6' style='table-layout: fixed; border-collapse:collapse; word-wrap:break-word;'> 
+							<tr class='table_title' bgcolor='#F6F6F6' bordercolor='#c6c6c6'> 
+								<td width='20%' align='center'>Parameters</td> 
+								<td width='15%' align='center'>Type</td> 
+								<td width='65%' align='center'>Description</td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>strName</td> 
+								<td>String</td> 
+								<td><pre>Calendar 의 ID를 문자열로 설정합니다.</pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>vLeft</td> 
+								<td>String, Number</td> 
+								<td><pre>Calendar 의 left 속성값을 pixel 또는 비율("%") 단위의 숫자로 설정합니다.
+
+* 값에 기준 컴포넌트를 포함하여 설정했을 때 :
+pixel 단위로 설정 시 기준 컴포넌트의 right 속성값을 기준으로 Calendar 의 left 가 결정됩니다.
+비율("%") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 Calendar 의 left 가 결정됩니다.</pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>vTop</td> 
+								<td>String, Number</td> 
+								<td><pre>Calendar 의 top 속성값을 pixel 또는 비율("%") 단위의 숫자로 설정합니다.
+
+* 값에 기준 컴포넌트를 포함하여 설정했을 때 :
+pixel 단위로 설정 시 기준 컴포넌트의 bottom 속성값을 기준으로 Calendar 의 top 이 결정됩니다.
+비율("%") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 Calendar 의 top 이 결정됩니다.</pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>vWidth</td> 
+								<td>String, Number</td> 
+								<td><pre>Calendar 의 width 속성값을 pixel 또는 비율("%") 단위의 숫자로 설정합니다.
+
+* 값에 기준 컴포넌트를 포함하여 설정했을 때 :
+pixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 Calendar 의 width 가 결정됩니다.
+비율("%") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 Calendar 의 width 가 결정됩니다.</pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>vHeight</td> 
+								<td>String, Number</td> 
+								<td><pre>Calendar 의 height 속성값을 pixel 또는 비율("%") 단위의 숫자로 설정합니다.
+
+* 값에 기준 컴포넌트를 포함하여 설정했을 때 :
+pixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 Calendar 의 height 가 결정됩니다.
+비율("%") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 Calendar 의 height 가 결정됩니다.</pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>vRight</td> 
+								<td>String, Number</td> 
+								<td><pre>Calendar 의 right 속성값을 pixel 또는 비율("%") 단위의 숫자로 설정합니다.
+
+vLeft, vWidth 값을 모두 설정했을 경우 vRight 값은 무시됩니다.
+
+* 값에 기준 컴포넌트를 포함하여 설정했을 때 :
+pixel 단위로 설정 시 기준 컴포넌트의 left 속성값을 기준으로 Calendar 의 right 가 결정됩니다.
+비율("%") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 Calendar 의 right 가 결정됩니다.</pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>vBottom</td> 
+								<td>String, Number</td> 
+								<td><pre>Calendar 의 bottom 속성값을 pixel 또는 비율("%") 단위의 숫자로 설정합니다.
+
+vTop, vHeight 값을 모두 설정했을 경우 vBottom 값은 무시됩니다.
+
+* 값에 기준 컴포넌트를 포함하여 설정했을 때 :
+pixel 단위로 설정 시 기준 컴포넌트의 top 속성값을 기준으로 Calendar 의 bottom 이 결정됩니다.
+비율("%") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 Calendar 의 bottom 이 결정됩니다.</pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>vMinWidth</td> 
+								<td>String, Number</td> 
+								<td><pre>Calendar 이(가) 화면에 표시되는 최소 너비값을 pixel 단위의 숫자로 설정합니다.</pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>vMaxWidth</td> 
+								<td>String, Number</td> 
+								<td><pre>Calendar 이(가) 화면에 표시되는 최대 너비값을 pixel 단위의 숫자로 설정합니다.
+
+vMinWidth 보다 작은 값을 설정하면 vMinWidth 값으로 설정됩니다.</pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>vMinHeight</td> 
+								<td>String, Number</td> 
+								<td><pre>Calendar 이(가) 화면에 표시되는 최소 높이값을 pixel 단위의 숫자로 설정합니다.</pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td>vMaxHeight</td> 
+								<td>String, Number</td> 
+								<td><pre>Calendar 이(가) 화면에 표시되는 최대 높이값을 pixel 단위의 숫자로 설정합니다.
+
+vMinHeight 보다 작은 값을 설정하면 vMinHeight 값으로 설정됩니다.</pre></td> 
+							</tr> 
+							<tr class='list' bgcolor='#FFFFFF' bordercolor='#c6c6c6'> 
+								<td colspan='3'>Sample Call:<br><pre class='list'>var objComp = new Calendar();
+
+objComp.init( "Calendar00", 30, 120, 196, 46 );
+objComp.init( "Calendar00", 30, 120, 196, 46, null, null );
+objComp.init( "Calendar00", null, null, 300, "400px", "80%", 300 );
+objComp.init( "Calendar00", 0, 0, 200, 100, null, null, 300, 500, 200, 500 );
+objComp.init( "Calendar00", "Calendar22:10", 300, null, null, "Calendar33:10", "20%", 300, 500, 200, 500 );</pre></td> 
+							</tr> 
+						</table> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'>
+						<table width='100%' border='1' cellpadding='7' cellspacing='0' bordercolorlight=#C6C6C6 bordercolordark='#C6C6C6' style='table-layout: fixed; word-wrap:break-word; border-collapse:collapse; margin-top:0; margin-bottom:0;'> 
+							<tr class='list' bgcolor='#F6F6F6' bordercolor='#c6c6c6'> 
+								<td> 
+									<pre class='list'><font color='#008000'>// Create Object</font>  
+var objCalendar = new Calendar();  
+objCalendar.init("Calendar", 30, 120, 196, 46, null, null);
+objCalendar.init("Calendar", null, null, 300, "400px", "80%", 300);
+or
+var objCalendar = new Calendar("Calendar", 30, 120, 196, 46, null, null);
+var objCalendar = new Calendar("Calendar", null, null, 300, "400px", "80%", 300);
+ 
+<font color='#008000'>// Add Object to Parent Form</font>  
+this.addChild("Calendar", objCalendar); 
+ 
+<font color='#008000'>// Insert Object to Parent Form</font>  
+this.insertChild(1, "Calendar", objCalendar); 
+ 
+<font color='#008000'>// Remove Object form Parent Form</font>  
+this.removeChild("Calendar"); 
+ 
+<font color='#008000'>// Show Object</font>  
+objCalendar.show(); 
+ 
+<font color='#008000'>// Destroy Object</font>  
+objCalendar.destroy(); 
+objCalendar = null;
+</pre> 
+								</td> 
+							</tr> 
+						</table> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif'	width='14' height='8'	/></td> 
+					<td	class='sub_title'>Property</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'> 
+						<table width='100%' border='1' cellpadding='7' cellspacing='0' bordercolorlight='#C6C6C6' bordercolordark='#C6C6C6' style='table-layout: fixed; border-collapse:collapse; word-wrap:break-word;' > 
+							<colgroup> 
+								<col width='10%'></col> 
+								<col width='20%'></col> 
+								<col width='70%'></col> 
+							</colgroup> 
+							<tr class='table_title' bgcolor='#F6F6F6' bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2' align='center'>Name</td> 
+								<td width='70%' align='center'>Description</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_accessibilityaction.html'>accessibilityaction</a></td> 
+								<td width='70%'>Calendar에 선택상자 이동 시 accessibilitydescreadtype 속성에 따라 스크린 리더의 음성 출력 대상으로 포함할 action 정보를 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_accessibilitydesclevel.html'>accessibilitydesclevel</a></td> 
+								<td width='70%'>Calendar 에 선택상자 이동 시 하위 컴포넌트의 접근성 출력여부를 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_accessibilitydescription.html'>accessibilitydescription</a></td> 
+								<td width='70%'>Calendar에 선택상자 이동 시 accessibilitydescreadtype 속성에 따라 스크린 리더의 음성 출력 대상으로 포함할 description 정보를 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_accessibilityenable.html'>accessibilityenable</a></td> 
+								<td width='70%'>Calendar 에 선택상자 이동 시 접근성 관련 속성값 출력여부를 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_accessibilitylabel.html'>accessibilitylabel</a></td> 
+								<td width='70%'>Calendar에 선택상자 이동 시 accessibilitydescreadtype 속성에 따라 스크린 리더의 음성 출력 대상으로 포함할 label 정보를 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_accessibilityrole.html'>accessibilityrole</a></td> 
+								<td width='70%'>Calendar에 선택상자 이동 시 스크린 리더가 읽어주는 Role 정보를 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_autoselect.html'>autoselect</a></td> 
+								<td width='70%'>Calendar 의 편집영역이 활성화 될 때 텍스트를 전체선택 할지 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_autoskip.html'>autoskip</a></td> 
+								<td width='70%'>Calendar 에 날짜가 모두 입력 되었을 때 포커스를 자동으로 이동시킬지 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_background.html'>background</a></td> 
+								<td width='70%'>Calendar 의 배경 영역을 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_backgroundcolumn.html'>backgroundcolumn</a></td> 
+								<td width='70%'>Calendar 의 특정날짜에 배경색을 표시하기 위해 innerdataset 속성에 설정된 DataSet의 Column을 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_bordercolumn.html'>bordercolumn</a></td> 
+								<td width='70%'>Calendar 의 특정날짜에 테두리을 표시하기 위해 innerdataset 속성에 설정된 DataSet의 Column을 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_border-radius.html'>border-radius</a></td> 
+								<td width='70%'>Calendar 의 모서리 모양을 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_bottom.html'>bottom</a></td> 
+								<td width='70%'>Calendar 을(를) 표시하기 위한 하단 좌표값을 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_box-shadow.html'>box-shadow</a></td> 
+								<td width='70%'>Calendar 에 그림자 효과를 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_buttonsize.html'>buttonsize</a></td> 
+								<td width='70%'>Calendar 의 드롭다운 버튼이나 스핀 버튼의 크기를 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_calendaredit.html'>calendaredit</a></td> 
+								<td width='70%'>Calendar 의 서브컨트롤인 편집영역(calendaredit) 오브젝트를 갖는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_calendarspindownbutton.html'>calendarspindownbutton</a></td> 
+								<td width='70%'>Calendar 의 서브컨트롤인 스핀다운버튼(SpinDown Button) 오브젝트를 갖는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_calendarspinupbutton.html'>calendarspinupbutton</a></td> 
+								<td width='70%'>Calendar 의 서브컨트롤인 스핀업버튼(SpinUp Button) 오브젝트를 갖는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_color.html'>color</a></td> 
+								<td width='70%'>Calendar 에 표시되는 텍스트의 색상을 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_cssclass.html'>cssclass</a></td> 
+								<td width='70%'>Calendar 의 Style 을 XCSS 파일에 정의된 class 로 설정하는 속성입니다. </td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_cursor.html'>cursor</a></td> 
+								<td width='70%'>Calendar 영역에서 표시될 마우스 포인터의 종류를 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_datecolumn.html'>datecolumn</a></td> 
+								<td width='70%'>Calendar 에 특정날짜를 표시하기 위해 innerdataset 속성에 설정된 DataSet의 Column을 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_dateformat.html'>dateformat</a></td> 
+								<td width='70%'>Calendar 에 포커스가 없을 때 화면에 표시되는 날짜의 형식을 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_datepicker.html'>datepicker</a></td> 
+								<td width='70%'>Calendar 의 서브컨트롤인 팝업달력(DatePicker) 오브젝트를 갖는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_datepickerchangetype.html'>datepickerchangetype</a></td> 
+								<td width='70%'>Calendar 컴포넌트의 팝업달력(DatePicker)에서 년/월 탐색 방식을 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_daysize.html'>daysize</a></td> 
+								<td width='70%'>Calendar 의 팝업달력(DatePicker)에서 각 날짜영역의 크기를 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_displayinvalidtext.html'>displayinvalidtext</a></td> 
+								<td width='70%'>Calendar 의 value 속성값이 유효하지 않은 값일 때 표시될 대체 문자열을 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_displaynulltext.html'>displaynulltext</a></td> 
+								<td width='70%'>Calendar 의 value 속성값이 null 또는 undefined 일 때 Calendar 에 표시될 대체 문자열을 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_dropbutton.html'>dropbutton</a></td> 
+								<td width='70%'>Calendar 의 서브컨트롤인 드롭버튼(DropButton) 오브젝트를 갖는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_editformat.html'>editformat</a></td> 
+								<td width='70%'>Calendar 에 포커스가 있을 때 편집창에 표시되는 날짜의 형식을 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_enable.html'>enable</a></td> 
+								<td width='70%'>Calendar 의 사용가능 여부를 설정하는 속성입니다.  </td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_enableevent.html'>enableevent</a></td> 
+								<td width='70%'>Calendar 에서 이벤트를 발생시킬지 여부를 설정하는 속성입니다.  </td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_expr.html'>expr</a></td> 
+								<td width='70%'>Calendar 에 표시될 날짜를 동적으로 생성하는 수식을 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_flexgrow.html'>flexgrow</a></td> 
+								<td width='70%'>Layout 컨테이너 내 Main Axis(type 속성값이 "horizontal"이면 수평축, type 속성값이 "vertical"이면 수직축) 여백을 설정한 비율만큼 나누어 컴포넌트의 크기를 재조정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_flexshrink.html'>flexshrink</a></td> 
+								<td width='70%'>Layout 컨테이너 내 Main Axis(type 속성값이 "horizontal"이면 수평축, type 속성값이 "vertical"이면 수직축)에 컴포넌트가 배치되는 영역이 컨테이너 영역을 초과하지 않도록 설정한 비율만큼 나누어 컴포넌트의 크기를 재조정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_font.html'>font</a></td> 
+								<td width='70%'>Calendar 에서 사용하는 폰트를 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_headformat.html'>headformat</a></td> 
+								<td width='70%'>Calendar 의 팝업달력(DatePicker)에서 상단에 표시되는 년/월의 순서를 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_headheight.html'>headheight</a></td> 
+								<td width='70%'>Calendar 의 팝업달력(DatePicker)에서 년/월이 표시되는 Head 영역의 높이를 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_height.html'>height</a></td> 
+								<td width='70%'>Calendar 을(를) 표시하기 위한 높이를 설정하는 속성입니다.  </td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_hotkey.html'>hotkey</a></td> 
+								<td width='70%'>Calendar 의 기본 액션을 수행하기 위한 단축키를 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_id.html'>id</a></td> 
+								<td width='70%'>Calendar의 고유 식별자를 설정하는 속성입니다. </td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_initvalueid.html'>initvalueid</a></td> 
+								<td width='70%'>Calendar 에 적용될 InitValue 의 ID 를 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_innerdataset.html'>innerdataset</a></td> 
+								<td width='70%'>Calendar 에 특정날짜를 표시하기 위해 DataSet 컴포넌트를 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_layoutorder.html'>layoutorder</a></td> 
+								<td width='70%'>Layout 컨테이너 내 Main Axis(type 속성값이 "horizontal"이면 수평축, type 속성값이 "vertical"이면 수직축)에 컴포넌트가 배치되는 순서를 설정합니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_left.html'>left</a></td> 
+								<td width='70%'>Calendar 을(를) 표시하기 위한 좌측 좌표값을 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_letter-spacing.html'>letter-spacing</a></td> 
+								<td width='70%'>Calendar 에 표시되는 문자의 간격(자간)을 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_locale.html'>locale</a></td> 
+								<td width='70%'>Calendar 에 적용될 국가 및 언어(locale)를 설정하는 속성입니다. </td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_maxheight.html'>maxheight</a></td> 
+								<td width='70%'>Calendar 이(가) 화면에 표시되는 최대 높이를 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_maxwidth.html'>maxwidth</a></td> 
+								<td width='70%'>Calendar 이(가) 화면에 표시되는 최대 너비를 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_minheight.html'>minheight</a></td> 
+								<td width='70%'>Calendar 이(가) 화면에 표시되는 최소 높이를 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_minwidth.html'>minwidth</a></td> 
+								<td width='70%'>Calendar 이(가) 화면에 표시되는 최소 너비를 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_name.html'>name</a></td> 
+								<td width='70%'>Calendar 의 이름을 설정하는 속성입니다. </td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_-nexa-border.html'>-nexa-border</a></td> 
+								<td width='70%'>Calendar 의 테두리를 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_-nexa-edge.html'>-nexa-edge</a></td> 
+								<td width='70%'>Calendar 의 테두리(Border) 안쪽에 표시될 Edge 이미지를 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_-nexa-padding.html'>-nexa-padding</a></td> 
+								<td width='70%'>Calendar 영역의 안쪽 여백을 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_-nexa-rtl-background-image.html'>-nexa-rtl-background-image</a></td> 
+								<td width='70%'>Calendar 의 rtl 속성이 true 로 적용될 때 배경에 표시될 이미지를 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_-nexa-rtl-edge-image.html'>-nexa-rtl-edge-image</a></td> 
+								<td width='70%'>Calendar 의 rtl 속성이 true 로 적용될 때 테두리(Border) 안쪽에 표시될 Edge 이미지를 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_opacity.html'>opacity</a></td> 
+								<td width='70%'>Calendar 영역의 투명도를 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_parent.html'>parent</a></td> 
+								<td width='70%'>Calendar 의 부모 오브젝트를 갖는 읽기전용 속성입니다. </td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_popupsize.html'>popupsize</a></td> 
+								<td width='70%'>type 속성값이 "normal" 일 때 Calendar 의 팝업달력(DatePicker)이 표시되는 크기를 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_popuptype.html'>popuptype</a></td> 
+								<td width='70%'>type 속성값이 "normal" 일 때 Calendar 의 팝업달력(DatePicker)이 표시되는 방식을 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_positionstep.html'>positionstep</a></td> 
+								<td width='70%'>부모 오브젝트가 화면분할기능을 사용할 때 Calendar 이(가) 표시될 화면의 인덱스를 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_readonly.html'>readonly</a></td> 
+								<td width='70%'>Calendar 에서 편집을 허용할 지 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_right.html'>right</a></td> 
+								<td width='70%'>Calendar 를 표시하기 위한 우측 좌표값을 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_rtl.html'>rtl</a></td> 
+								<td width='70%'>Calendar 에서 내부 컨텐츠 또는 컴포넌트의 표시 기준을 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_showmonthspin.html'>showmonthspin</a></td> 
+								<td width='70%'>Calendar 의 팝업달력(DatePicker)에서 월 변경버튼을 표시할 지 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_showyearspin.html'>showyearspin</a></td> 
+								<td width='70%'>Calendar 의 팝업달력(DatePicker)에서 연도 변경버튼을 표시할 지 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_tablecellarea.html'>tablecellarea</a></td> 
+								<td width='70%'>Layout 컨테이너 내 가상의 Table Cell 영역 내에서 컴포넌트가 배치되는 영역을 설정합니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_taborder.html'>taborder</a></td> 
+								<td width='70%'>탭키 입력으로 컴포넌트간 포커스를 이동할 때 Calendar 의 순서를 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_tabstop.html'>tabstop</a></td> 
+								<td width='70%'>탭키 입력으로 컴포넌트간 포커스를 이동할 때 Calendar 이(가) 포커스를 받을 지 여부를 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_text.html'>text</a></td> 
+								<td width='70%'>dateformat 속성에 정의된 형식에 맞게 value 값이 변환되어 저장된 읽기전용 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_textcolorcolumn.html'>textcolorcolumn</a></td> 
+								<td width='70%'>Calendar 의 특정날짜에 날짜색을 표시하기 위해 innerdataset 속성에 설정된 DataSet의 Column을 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_tooltiptext.html'>tooltiptext</a></td> 
+								<td width='70%'>Calendar 에 마우스 포인터를 올려 놓았을 때 표시되는 풍선도움말을 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_tooltiptype.html'>tooltiptype</a></td> 
+								<td width='70%'>Calendar 에서 풍선도움말이 표시될 위치와 방식을 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_top.html'>top</a></td> 
+								<td width='70%'>Calendar 을(를) 표시하기 위한 상단 좌표값을 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_type.html'>type</a></td> 
+								<td width='70%'>Calendar 가 화면에 표시되는 형식을 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_usecontextmenu.html'>usecontextmenu</a></td> 
+								<td width='70%'>Calendar 의 편집영역에서 오른쪽 마우스 클릭 시 기본팝업메뉴의 표시 여부를 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_usesoftkeyboard.html'>usesoftkeyboard</a></td> 
+								<td width='70%'>Calendar 가 포커스를 가질 때 키패드의 표시 여부를 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_usetrailingday.html'>usetrailingday</a></td> 
+								<td width='70%'>팝업달력(DatePicker)에서 달력의 시작/끝 여백에 전/후 달의 날짜를 표시할지 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_value.html'>value</a></td> 
+								<td width='70%'>Calendar 에 표시되는 날짜의 원본값을 갖는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_visible.html'>visible</a></td> 
+								<td width='70%'>Calendar 이(가) 화면에 표시될지 여부를 설정하는 속성입니다.  </td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_weekformat.html'>weekformat</a></td> 
+								<td width='70%'>Calendar 의 팝업달력(DatePicker) 에서 요일이 표시되는 형식을 설정하는 속성입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_width.html'>width</a></td> 
+								<td width='70%'>Calendar 을(를) 표시하기 위한 너비를 설정하는 속성입니다.  </td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Property_word-spacing.html'>word-spacing</a></td> 
+								<td width='70%'>Calendar 에 표시되는 텍스트의 단어 사이 간격을 설정하는 속성입니다.</td> 
+							</tr> 
+						</table> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif'	width='14' height='8'	/></td> 
+					<td	class='sub_title'>Method</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'> 
+						<table width='100%' border='1' cellpadding='7' cellspacing='0' bordercolorlight='#C6C6C6' bordercolordark='#C6C6C6' style='table-layout: fixed; border-collapse:collapse; word-wrap:break-word;'> 
+							<colgroup> 
+								<col width='10%'></col> 
+								<col width='20%'></col> 
+								<col width='70%'></col> 
+							</colgroup> 
+							<tr class='table_title' bgcolor='#F6F6F6' bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2' align='center'>Name</td> 
+								<td width='70%' align='center'>Description</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_addEvent.html'>addEvent</a></td> 
+								<td width='70%'>Calendar 에 특정 이벤트를 선언하여 추가하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_addEventHandler.html'>addEventHandler</a></td> 
+								<td width='70%'>Calendar 의 특정 이벤트에 핸들러 함수를 추가하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_addEventHandlerLookup.html'>addEventHandlerLookup</a></td> 
+								<td width='70%'>함수를 검색하여 Calendar 의 특정 이벤트에 핸들러 함수로 추가하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_bringToFront.html'>bringToFront</a></td> 
+								<td width='70%'>부모가 동일한 컴포넌트 중 Calendar 이(가) 화면의 제일 앞에 표시되게 합니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_bringToPrev.html'>bringToPrev</a></td> 
+								<td width='70%'>부모가 동일한 컴포넌트 중 Calendar 이(가) 화면에 한단계 앞에 표시되게 합니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_clearEventHandler.html'>clearEventHandler</a></td> 
+								<td width='70%'>특정 이벤트에 등록된 핸들러 함수를 모두 제거하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_destroy.html'>destroy</a></td> 
+								<td width='70%'>스크립트에서 동적으로 생성한 Calendar 을(를) 삭제하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_dropdown.html'>dropdown</a></td> 
+								<td width='70%'>화면에 팝업달력을 표시하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_findEventHandler.html'>findEventHandler</a></td> 
+								<td width='70%'>Calendar 의 특정 이벤트에서 핸들러 함수를 찾아 인덱스를 반환하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_getCaretPos.html'>getCaretPos</a></td> 
+								<td width='70%'>Calendar 의 편집영역에서 캐럿이 위치한 인덱스를 반환하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_getDay.html'>getDay</a></td> 
+								<td width='70%'>Calendar 의 value 속성값에서 연/월/일 중 일(Day)의 값을 반환하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_getDayOfWeek.html'>getDayOfWeek</a></td> 
+								<td width='70%'>Calendar 의 value 속성에 저장된 날짜에서 요일에 해당하는 숫자값을 반환하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_getDisplayText.html'>getDisplayText</a></td> 
+								<td width='70%'>Calendar 에 표시된 텍스트값을 반환하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_getEventHandler.html'>getEventHandler</a></td> 
+								<td width='70%'>Calendar 의 특정 이벤트에서 지정된 인덱스에 해당하는 핸들러 함수를 반환하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_getInnerDataset.html'>getInnerDataset</a></td> 
+								<td width='70%'>Calendar 의 innerdataset 속성에 설정되어 있는 DataSet 오브젝트를 반환하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_getMonth.html'>getMonth</a></td> 
+								<td width='70%'>Calendar 의 value 속성값에서 연/월/일 중 월(Month)의 값을 반환하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_getOffsetBottom.html'>getOffsetBottom</a></td> 
+								<td width='70%'>부모 컴포넌트의 Top 위치를 기준으로 Calendar 의 bottom 값을 픽셀단위의 숫자로 반환하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_getOffsetHeight.html'>getOffsetHeight</a></td> 
+								<td width='70%'>Calendar 의 높이를 픽셀단위의 숫자로 반환하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_getOffsetLeft.html'>getOffsetLeft</a></td> 
+								<td width='70%'>부모 컴포넌트의 Left 위치를 기준으로 Calendar 의 left 값을 픽셀단위의 숫자로 반환하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_getOffsetRight.html'>getOffsetRight</a></td> 
+								<td width='70%'>부모 컴포넌트의 Left 위치를 기준으로 Calendar 의 right 값을 픽셀단위의 숫자로 반환하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_getOffsetTop.html'>getOffsetTop</a></td> 
+								<td width='70%'>부모 컴포넌트의 Top 위치를 기준으로 Calendar 의 top 값을 픽셀단위의 숫자로 반환하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_getOffsetWidth.html'>getOffsetWidth</a></td> 
+								<td width='70%'>Calendar 의 너비를 픽셀단위의 숫자로 반환하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_getPixelBottom.html'>getPixelBottom</a></td> 
+								<td width='70%'>Calendar 의 bottom 속성값을 픽셀단위로 반환하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_getPixelHeight.html'>getPixelHeight</a></td> 
+								<td width='70%'>Calendar 의 height 속성값을 픽셀단위로 반환하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_getPixelLeft.html'>getPixelLeft</a></td> 
+								<td width='70%'>Calendar 의 left 속성값을 픽셀단위로 반환하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_getPixelRight.html'>getPixelRight</a></td> 
+								<td width='70%'>Calendar 의 right 속성값을 픽셀단위로 반환하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_getPixelTop.html'>getPixelTop</a></td> 
+								<td width='70%'>Calendar 의 top 속성값을 픽셀단위로 반환하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_getPixelWidth.html'>getPixelWidth</a></td> 
+								<td width='70%'>Calendar 의 width 속성값을 픽셀단위로 반환하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_getSelect.html'>getSelect</a></td> 
+								<td width='70%'>Calendar 에서 현재 선택된 텍스트의 인덱스를 배열로 반환하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_getSelectedText.html'>getSelectedText</a></td> 
+								<td width='70%'>Calendar 의 편집영역에서 현재 선택된 텍스트를 반환하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_getYear.html'>getYear</a></td> 
+								<td width='70%'>Calendar 의 value 속성값에서 연/월/일 중 연도(Year) 값을 반환하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_init.html'>init</a></td> 
+								<td width='70%'>스크립트로 Calendar 을(를) 동적 생성한 후에 초기화하는 메소드입니다. </td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_insertEventHandler.html'>insertEventHandler</a></td> 
+								<td width='70%'>Calendar 의 특정 이벤트에 핸들러 함수를 지정한 위치에 삽입하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_isDropdown.html'>isDropdown</a></td> 
+								<td width='70%'>Calendar 의 팝업달력이 현재 화면에 표시되어 있는지 여부를 반환하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_move.html'>move</a></td> 
+								<td width='70%'>Calendar 의 위치와 크기를 변경하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_moveToNext.html'>moveToNext</a></td> 
+								<td width='70%'>부모가 동일한 컴포넌트 중 인수로 전달된 컴포넌트보다 Calendar 이(가) 화면에 한단계 뒤에 표시되게 합니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_moveToPrev.html'>moveToPrev</a></td> 
+								<td width='70%'>부모가 동일한 컴포넌트 중 인수로 전달된 컴포넌트보다 Calendar 이(가) 화면에 한단계 앞에 표시되게 합니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_removeEvent.html'>removeEvent</a></td> 
+								<td width='70%'>Calendar 에 선언된 특정 이벤트를 삭제하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_removeEventHandler.html'>removeEventHandler</a></td> 
+								<td width='70%'>Calendar 의 특정 이벤트에서 핸들러 함수를 제거하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_removeEventHandlerLookup.html'>removeEventHandlerLookup</a></td> 
+								<td width='70%'>Calendar 의 특정 이벤트에서 검색된 함수와 동일한 핸들러 함수를 제거하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_resize.html'>resize</a></td> 
+								<td width='70%'>Calendar 의 크기를 변경하는 메소드입니다.  </td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_sendToBack.html'>sendToBack</a></td> 
+								<td width='70%'>부모가 동일한 컴포넌트 중 Calendar 이(가) 화면의 제일 뒤에 표시되게 합니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_sendToNext.html'>sendToNext</a></td> 
+								<td width='70%'>부모가 동일한 컴포넌트 중 Calendar 이(가) 화면에 한단계 뒤에 표시되게 합니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_setCaretPos.html'>setCaretPos</a></td> 
+								<td width='70%'>Calendar 의 편집영역에서 캐럿의 위치를 인덱스로 설정하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_setEventHandler.html'>setEventHandler</a></td> 
+								<td width='70%'>Calendar 의 특정 이벤트에서 첫번째 핸들러 함수를 변경하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_setEventHandlerLookup.html'>setEventHandlerLookup</a></td> 
+								<td width='70%'>Calendar 의 특정 이벤트에서 첫번째 핸들러 함수를 검색된 함수로 변경하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_setFocus.html'>setFocus</a></td> 
+								<td width='70%'>Calendar 에 포커스를 주는 메소드입니다. </td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_setInnerDataset.html'>setInnerDataset</a></td> 
+								<td width='70%'>Calendar 의 innerdataset 속성에 인수로 전달된 DataSet 오브젝트를 설정하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_setOffsetBottom.html'>setOffsetBottom</a></td> 
+								<td width='70%'>부모 컴포넌트의 Top 위치를 기준으로 Calendar 의 bottom 값을 픽셀단위로 설정하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_setOffsetHeight.html'>setOffsetHeight</a></td> 
+								<td width='70%'>Calendar 의 높이를 픽셀단위로 설정하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_setOffsetLeft.html'>setOffsetLeft</a></td> 
+								<td width='70%'>부모 컴포넌트의 Left 위치를 기준으로 Calendar 의 left 값을 픽셀단위로 설정하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_setOffsetRight.html'>setOffsetRight</a></td> 
+								<td width='70%'>부모 컴포넌트의 Left 위치를 기준으로 Calendar 의 right 값을 픽셀단위로 설정하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_setOffsetTop.html'>setOffsetTop</a></td> 
+								<td width='70%'>부모 컴포넌트의 Top 위치를 기준으로 Calendar 의 top 값을 픽셀단위로 설정하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_setOffsetWidth.html'>setOffsetWidth</a></td> 
+								<td width='70%'>Calendar 의 너비를 픽셀단위로 설정하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_setSelect.html'>setSelect</a></td> 
+								<td width='70%'>Calendar 의 에디트 영역에 포커스가 있을 때 인수로 지정된 영역을 선택하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_show.html'>show</a></td> 
+								<td width='70%'>스크립트로 동적 생성한 Calendar 을(를) 화면에 표시하는 메소드입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Method_updateToDataset.html'>updateToDataset</a></td> 
+								<td width='70%'>Calendar 의 value 속성값을 바인딩 되어 있는 DataSet 에 즉시 반영시키는 메소드입니다.</td> 
+							</tr> 
+						</table> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif'	width='14' height='8'	/></td> 
+					<td	class='sub_title'>Event</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'> 
+						<table width='100%' border='1' cellpadding='7' cellspacing='0' bordercolorlight='#C6C6C6' bordercolordark='#C6C6C6' style='table-layout: fixed; border-collapse:collapse; word-wrap:break-word;'> 
+							<colgroup> 
+								<col width='10%'></col> 
+								<col width='20%'></col> 
+								<col width='70%'></col> 
+							</colgroup> 
+							<tr class='table_title' bgcolor='#F6F6F6' bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2' align='center'>Name</td> 
+								<td width='70%' align='center'>Description</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Event_canchange.html'>canchange</a></td> 
+								<td width='70%'>Calendar에서 선택된 날짜와 value 속성값이 다를 때 발생하는 이벤트입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Event_onchanged.html'>onchanged</a></td> 
+								<td width='70%'>Calendar 의 날짜가 변경된 후 발생하는 이벤트입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Event_oncloseup.html'>oncloseup</a></td> 
+								<td width='70%'>화면에 표시된 팝업달력이 닫힐 때 발생하는 이벤트입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Event_oncontextmenu.html'>oncontextmenu</a></td> 
+								<td width='70%'>Calendar 영역에서 오른쪽 마우스 버튼을 클릭하거나 터치를 일정시간 유지할 때 발생하는 이벤트입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Event_ondayclick.html'>ondayclick</a></td> 
+								<td width='70%'>Calendar의 날짜를 클릭할 때 발생하는 이벤트입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Event_ondevicebuttonup.html'>ondevicebuttonup</a></td> 
+								<td width='70%'>모바일 에서 디바이스 버튼을 눌렀을 때 발생하는 이벤트입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Event_ondrag.html'>ondrag</a></td> 
+								<td width='70%'>Calendar 영역 내에서 마우스 왼쪽버튼으로 드래그를 수행했을 때 발생하는 이벤트입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Event_ondragenter.html'>ondragenter</a></td> 
+								<td width='70%'>Calendar 영역 내로 드래그 상태의 마우스 포인터가 들어왔을 때 발생하는 이벤트입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Event_ondragleave.html'>ondragleave</a></td> 
+								<td width='70%'>Calendar 영역 밖으로 드래그 상태의 마우스 포인터가 나갈 때 발생하는 이벤트입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Event_ondragmove.html'>ondragmove</a></td> 
+								<td width='70%'>Calendar 영역 내에서 드래그 상태의 마우스 포인터가 움직일 때 발생하는 이벤트입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Event_ondrop.html'>ondrop</a></td> 
+								<td width='70%'>Calendar 영역 내에서 드래그 상태의 마우스 버튼을 떼었을 때 발생하는 이벤트입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Event_ondropdown.html'>ondropdown</a></td> 
+								<td width='70%'>Calendar 의 달력버튼을 클릭하여 팝업달력이 화면에 표시될 때 발생하는 이벤트입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Event_oneditclick.html'>oneditclick</a></td> 
+								<td width='70%'>Calendar 의 편집 영역에서 마우스 왼쪽버튼을 클릭했을 때 발생하는 이벤트입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Event_oninnerdatachanged.html'>oninnerdatachanged</a></td> 
+								<td width='70%'>Calendar 의 innerdataset 속성에 바인딩된 DataSet 에서 데이터 변경이 된 후 발생하는 이벤트입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Event_oninput.html'>oninput</a></td> 
+								<td width='70%'>Calendar 에서 입력을 시도할 때 발생하는 이벤트 입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Event_onkeydown.html'>onkeydown</a></td> 
+								<td width='70%'>Calendar 에 포커스가 있는 상태에서 키보드의 키가 눌렸을 때 발생하는 이벤트입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Event_onkeyup.html'>onkeyup</a></td> 
+								<td width='70%'>Calendar 에 포커스가 있는 상태에서 눌렸던 키보드가 떼어질 때 발생하는 이벤트입니다.  </td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Event_onkillfocus.html'>onkillfocus</a></td> 
+								<td width='70%'>Calendar 에서 포커스가 나갈  때 발생하는 이벤트입니다. </td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Event_onlbuttondown.html'>onlbuttondown</a></td> 
+								<td width='70%'>Calendar 영역 내에서 마우스 왼쪽버튼을 눌렀을 때 발생하는 이벤트입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Event_onlbuttonup.html'>onlbuttonup</a></td> 
+								<td width='70%'>Calendar 영역 내에서 눌렸던 마우스 왼쪽버튼을 떼었을 때 발생하는 이벤트입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Event_onmouseenter.html'>onmouseenter</a></td> 
+								<td width='70%'>Calendar 영역 내로 마우스 포인터가 들어왔을 때 발생하는 이벤트입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Event_onmouseleave.html'>onmouseleave</a></td> 
+								<td width='70%'>Calendar 영역 밖으로 마우스 포인터가 나갈 때 발생하는 이벤트입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Event_onmousemove.html'>onmousemove</a></td> 
+								<td width='70%'>Calendar 영역 내에서 마우스 포인터가 움직일 때 발생하는 이벤트입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Event_onmove.html'>onmove</a></td> 
+								<td width='70%'>Calendar 의 위치가 이동했을 때 발생하는 이벤트입니다.  </td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Event_onrbuttondown.html'>onrbuttondown</a></td> 
+								<td width='70%'>Calendar 영역 내에서 마우스 오른쪽버튼을 눌렀을 때 발생하는 이벤트입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Event_onrbuttonup.html'>onrbuttonup</a></td> 
+								<td width='70%'>Calendar 영역 내에서 마우스 오른쪽버튼을 떼었을 때 발생하는 이벤트입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Event_onsetfocus.html'>onsetfocus</a></td> 
+								<td width='70%'>Calendar 에 포커스가 들어올 때 발생하는 이벤트입니다. </td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Event_onsize.html'>onsize</a></td> 
+								<td width='70%'>Calendar 의 크기가 변경됐을 때 발생하는 이벤트입니다.  </td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Event_onspin.html'>onspin</a></td> 
+								<td width='70%'>type속성값이 "spin"인 Calendar의 스핀버튼을 클릭할때 발생하는 이벤트입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Event_ontouchend.html'>ontouchend</a></td> 
+								<td width='70%'>Calendar 영역 내에서 터치를 떼었을 때 발생하는 이벤트입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Event_ontouchmove.html'>ontouchmove</a></td> 
+								<td width='70%'>Calendar 영역 내에서 터치 상태를 유지하며 움직일 때 발생하는 이벤트입니다.</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'><a href='Components_Component_Calendar_Event_ontouchstart.html'>ontouchstart</a></td> 
+								<td width='70%'>Calendar 영역 내에서 터치가 시작될 때 발생하는 이벤트입니다.</td> 
+							</tr> 
+						</table> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif'	width='14' height='8'	/></td> 
+					<td	class='sub_title'>Status</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'> 
+						<table width='100%' border='1' cellpadding='7' cellspacing='0' bordercolorlight='#C6C6C6' bordercolordark='#C6C6C6' style='table-layout: fixed; border-collapse:collapse; word-wrap:break-word;'> 
+							<colgroup> 
+								<col width='15%'></col> 
+								<col width='15%'></col> 
+								<col width='70%'></col> 
+							</colgroup> 
+							<tr class='table_title' bgcolor='#F6F6F6' bordercolor='#c6c6c6'> 
+								<td width='15%' align='center'>Name</td> 
+								<td width='15%' align='center'>Type</td> 
+								<td width='70%' align='center'>Description</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='15%'>disabled</td> 
+								<td width='15%'>status</td> 
+								<td width='70%'><pre class=list>컴포넌트가 비활성화된 상태</pre></td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='15%'>invalidtext</td> 
+								<td width='15%'>userstatus</td> 
+								<td width='70%'><pre class=list>유효하지 않은 값이 바인드 되거나 설정된 상태</pre></td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='15%'>readonly</td> 
+								<td width='15%'>status</td> 
+								<td width='70%'><pre class=list>컴포넌트가 읽기 전용인 상태</pre></td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='15%'>mouseover</td> 
+								<td width='15%'>status</td> 
+								<td width='70%'><pre class=list>마우스 커서가 컴포넌트 또는 컴포넌트의 특정 아이템 위에 있는 상태</pre></td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='15%'>focused</td> 
+								<td width='15%'>status</td> 
+								<td width='70%'><pre class=list>컴포넌트가 포커스를 받은 상태</pre></td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='15%'>enabled</td> 
+								<td width='15%'>status</td> 
+								<td width='70%'><pre class=list>컴포넌트가 활성화된 상태</pre></td> 
+							</tr> 
+						</table> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	width='10'></td> 
+					<td	width='14'><img	src='../../subtitle_icon.gif'	width='14' height='8'	/></td> 
+					<td	class='sub_title'>Control</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+				<tr> 
+					<td	colspan='2'></td> 
+					<td	class='list'> 
+						<table width='100%' border='1' cellpadding='7' cellspacing='0' bordercolorlight='#C6C6C6' bordercolordark='#C6C6C6' style='table-layout: fixed; border-collapse:collapse; word-wrap:break-word;'> 
+							<colgroup> 
+								<col width='10%'></col> 
+								<col width='20%'></col> 
+								<col width='70%'></col> 
+							</colgroup> 
+							<tr class='table_title' bgcolor='#F6F6F6' bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2' align='center'>Name</td> 
+								<td width='70%' align='center'>TypeName</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'>dropbutton</td> 
+								<td width='70%'>nexacro.Button</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'>calendarspinupbutton</td> 
+								<td width='70%'>nexacro.Button</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'>calendarspindownbutton</td> 
+								<td width='70%'>nexacro.Button</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'>datepicker</td> 
+								<td width='70%'>nexacro.DatePickerControl</td> 
+							</tr> 
+							<tr bordercolor='#c6c6c6'> 
+								<td width='30%' colspan='2'>calendaredit</td> 
+								<td width='70%'>nexacro.MaskEdit</td> 
+							</tr> 
+						</table> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td	colspan='3' height='10'></td> 
+				</tr> 
+			</table> 
+ 
+		</td> 
+	</tr> 
+	<tr	class='list'> 
+		<td colspan='2'	valign='top'> 
+			<table width='98%' border='0' align='center' cellpadding='0' cellspacing='0' style='table-layout: fixed; word-wrap:break-word;'>  
+				<tr><td	height='1' bgcolor='#c5c5c6'></td></tr> 
+			</table> 
+		</td> 
+	</tr> 
+	<tr	class='list'> 
+		<td	width='75' height='35' align='right'></td> 
+		<td> 
+			<table width='180' border='0'	align='right'	cellpadding='0'	cellspacing='0'> 
+				<tr> 
+					<td	width='15'><img	src='../../bottom_update.gif'	width='15' height='9'	/></td> 
+					<td	width='185'	class='bottom_update'>LAST UPDATED Feb. 2024	</td> 
+				</tr> 
+			</table> 
+		</td> 
+	</tr> 
+</table> 
+</body> 
+</html> 
